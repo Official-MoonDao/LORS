@@ -34,4 +34,20 @@ LORS is an open initiative. Ways to contribute:
 - **Technical Expertise**: Share knowledge on rover standards or lunar operations
 - **Community Outreach**: Help spread awareness of LORS
 
-Join [MoonDAO Discord](https://discord.com/invite/moondao) 
+Join [MoonDAO Discord](https://discord.com/invite/moondao)
+
+### Suggested workflow
+
+If you want to contribute we suggest to follow the proposed workflow and tools.
+
+IMPORTANT: DO NOT COMMIT PURE AI-GENERATED TEXT!
+It's easy to generate tons of pages of text with AI, that actually are pretty useless and hard to read. Try to commit less but very valuable text
+
+1. Install git on your machine
+2. Setup git to work with remove repositories (via ssh key)
+3. (Optional) Use AI-assisted text editors: VSCode + cline, VSCode + Copilot, Cursor, Antigravity
+4. (Optional) Use [Git Graph Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) to navigate repository
+5. Make a fork of this repo
+6. Clone the fork to your computer and do the edits
+7. Commit and push changes to your repo
+8. Make pull request from your forked repo into this one
