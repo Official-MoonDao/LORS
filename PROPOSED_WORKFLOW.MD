@@ -1,1 +1,0 @@
-1. We should do things in AI-native manner, meaning that on top of all the docs we should have scripts that will download all the relevant docs for AI processing

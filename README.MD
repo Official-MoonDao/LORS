@@ -1,5 +1,15 @@
 # Lunar Open-source Rover Standard (LORS)
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Problem](#problem)
+- [Benefits](#benefits)
+- [Getting Involved](#getting-involved)
+- [Standards and Documents](STANDARDS_AND_DOCS.MD)
+- [Lunar Rovers](LUNAR_ROVERS.MD)
+- [Lunar Landers](LUNAR_LANDERS.MD)
+
 ## Overview
 
 The **Lunar Open-source Rover Standard (LORS)** aims to create a shared framework for designing, building, and operating lunar rovers, similar to how CubeSat standards unified satellite development. 
@@ -43,11 +53,12 @@ If you want to contribute we suggest to follow the proposed workflow and tools.
 IMPORTANT: DO NOT COMMIT PURE AI-GENERATED TEXT!
 It's easy to generate tons of pages of text with AI, that actually are pretty useless and hard to read. Try to commit less but very valuable text
 
-1. Install git on your machine
-2. Setup git to work with remove repositories (via ssh key)
-3. (Optional) Use AI-assisted text editors: VSCode + cline, VSCode + Copilot, Cursor, Antigravity
-4. (Optional) Use [Git Graph Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) to navigate repository
-5. Make a fork of this repo
-6. Clone the fork to your computer and do the edits
-7. Commit and push changes to your repo
-8. Make pull request from your forked repo into this one
+1. We should do things in AI-native manner, meaning that we have to make all the docs available for the AI, having scripts that will download data
+2. Install git on your machine
+3. Setup git to work with remove repositories (via ssh key)
+4. (Optional) Use AI-assisted text editors: VSCode + cline, VSCode + Copilot, Cursor, Antigravity
+5. (Optional) Use [Git Graph Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) to navigate repository
+6. Make a fork of this repo
+7. Clone the fork to your computer and do the edits
+8. Commit and push changes to your repo
+9. Make pull request from your forked repo into this one
