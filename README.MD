@@ -7,6 +7,8 @@
 - [Benefits](#benefits)
 - [Getting Involved](#getting-involved)
 - [Standards and Documents](STANDARDS_AND_DOCS.MD)
+- [Rover Software Proposal](ROVER_SOFTWARE_PROPOSAL.MD)
+- [Rover Commands](ROVER_COMMANDS.MD)
 - [Lunar Rovers](LUNAR_ROVERS.MD)
 - [Lunar Landers](LUNAR_LANDERS.MD)
 
