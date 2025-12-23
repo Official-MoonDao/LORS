@@ -10,3 +10,6 @@ This documents will contain list of relevant standards and documents
 5.2 XTCE
 6. [DiskSat](https://www.nasa.gov/smallspacecraft/disksat/) - A plate-shaped spacecraft design that maintains CubeSat containerization while offering more surface area for power and instruments.
 
+## NASA Solicitations & Guidelines
+*   **[NASA PRISM Solicitation](https://nspires.nasaprs.com/external/solicitations/summary!init.do?solId={7D2A1FB4-62A6-7691-D879-8E06168F12EF}&path=open):** Research announcement for payloads on lunar missions.
+
