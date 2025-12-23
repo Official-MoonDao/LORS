@@ -8,3 +8,5 @@ This documents will contain list of relevant standards and documents
 5. CCSDS
 5.1 SOIS
 5.2 XTCE
+6. [DiskSat](https://www.nasa.gov/smallspacecraft/disksat/) - A plate-shaped spacecraft design that maintains CubeSat containerization while offering more surface area for power and instruments.
+
