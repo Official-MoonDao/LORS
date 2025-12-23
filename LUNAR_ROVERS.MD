@@ -55,6 +55,7 @@ Small lunar rovers (<10 kg) are a growing field in lunar exploration, often focu
 | **Iris (CubeRover)** | Carnegie Mellon | Shoebox size, 2 kg | **Standardized**. CubeSat-style rover standards. |
 | **Colmena** | UNAM (Mexico) | <1 inch tall, <60 g | **Micro-swarm**. 5 tiny robots studying lunar dust. |
 | **Yaoki** | Dymon | 15x15 cm, 0.5 kg | **All-Terrain**. Two-wheeled, durable. |
+| **CHERI** | M. East Technical University / Zhejiang University / Star Vision | 5kg, shoebox size | 2 rovers conducting 3D mapping, measure temperature and radiation levels, & share navigational data |
 
 **Key Characteristics:**
 - **Mass:** Typically under 10 kg.
@@ -65,3 +66,15 @@ Small lunar rovers (<10 kg) are a growing field in lunar exploration, often focu
 ## Human Scale
 
 ### Lunar Terrain Vehicle by Lunar Outpost
+
+## Open Source & Educational Platforms
+
+These projects are terrestrial open-source or educational platforms inspired by space rovers, suitable for research, education, and hobbyist development.
+
+| Rover | Origin/Developer | Size/Mass | Description |
+| :--- | :--- | :--- | :--- |
+| **JPL Open Source Rover** | NASA JPL | Scaled-down Curiosity | 6-wheel Rocker-Bogie, Ackermann steering, RPi based. Education/Hobbyist. |
+| **Sawppy Rover** | Roger Cheng | Low cost (~$500) | OSR alternative using standard aluminum extrusions & bus servos. |
+| **ExoMy** | ESA | 2.5kg, 42cm height | 3D-printable, triple-bogie, RPi based. Inspired by Rosalind Franklin. |
+| **Leo Rover** | Fictionlab | 6.5kg, 43cm length | Commercial rugged 4x4, IP66 watertight, ROS-ready dev platform. |
+| **Turtle Rover** | Fictionlab | Legacy | Predecessor to Leo Rover. |
