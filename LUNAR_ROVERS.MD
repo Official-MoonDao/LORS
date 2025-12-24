@@ -56,6 +56,7 @@ Small lunar rovers (<10 kg) are a growing field in lunar exploration, often focu
 | **Colmena** | UNAM (Mexico) | <1 inch tall, <60 g | **Micro-swarm**. 5 tiny robots studying lunar dust. |
 | **Yaoki** | Dymon | 15x15 cm, 0.5 kg | **All-Terrain**. Two-wheeled, durable. |
 | **CHERI** | M. East Technical University / Zhejiang University / Star Vision | 5kg, shoebox size | 2 rovers conducting 3D mapping, measure temperature and radiation levels, & share navigational data |
+| **TENACIOUS** | ispace-EUROPE (Luxembourg) | 26x31.5x54 cm, 5 kg | **Micro-rover**. CFRP frame, HD camera. Collecting regolith for NASA. Mission 2 (Resilience). |
 
 **Key Characteristics:**
 - **Mass:** Typically under 10 kg.
