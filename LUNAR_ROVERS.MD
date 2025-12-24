@@ -99,7 +99,11 @@ Small lunar rovers (<10 kg) are a growing field in lunar exploration, often focu
 | **Colmena** | UNAM (Mexico) | <1 inch tall, <60 g | **Micro-swarm**. 5 tiny robots studying lunar dust. |
 | **Yaoki** | Dymon | 15x15 cm, 0.5 kg | **All-Terrain**. Two-wheeled, durable. |
 | **CHERI** | M. East Technical University / Zhejiang University / Star Vision | 5kg, shoebox size | 2 rovers conducting 3D mapping, measure temperature and radiation levels, & share navigational data |
+| **Asagumo** | Spacebit (UK) | 1.3 kg, 1U CubeSat size | **Walking Rover**. Spider-like 4-legged micro-rover. Lidar/HD Cam. |
+| **MoonRanger** | CMU / NASA | 18 kg (Earth), Suitcase | **Autonomous**. South Pole ice seeker. Fast (1km/day). Precursor to VIPER. |
+| **PitRanger** | CMU / Astrobotic | Micro-class | **Pit Explorer**. Autonomous, fast, solar-powered for lunar pits. |
 | **TENACIOUS** | ispace-EUROPE (Luxembourg) | 26x31.5x54 cm, 5 kg | **Micro-rover**. CFRP frame, HD camera. Collecting regolith for NASA. Mission 2 (Resilience). |
+
 
 **Key Characteristics:**
 - **Mass:** Typically under 10 kg.
@@ -107,6 +111,15 @@ Small lunar rovers (<10 kg) are a growing field in lunar exploration, often focu
 - **Autonomy:** Heavy reliance on autonomy due to communication latency and swarm operations.
 
 
+
+## Other Small & Research Rovers
+
+These projects represent the cutting edge of university and research institute micro-rover development.
+
+- **Colmena (UNAM):** 5 tiny (60g) autonomous robots for swarm testing.
+- **Lunar Zebro (TU Delft):** C-shaped legged rover for difficult terrain.
+- **SAMLER-KI (DFKI/FH Aachen):** AI-driven semi-autonomous micro-rover for lunar night survival.
+- **Micro Nova Hopper (Intuitive Machines):** Propulsive "hopper" (Grace) for extreme terrain/craters.
 
 ## Open Source, Educational & Community Projects
 
@@ -118,6 +131,5 @@ These projects are terrestrial open-source, educational, or community-driven pla
 | **Sawppy Rover** | Roger Cheng | Low cost (~$500) OSR alternative using standard aluminum extrusions. |
 | **ExoMy** | ESA | 3D-printable, triple-bogie, RPi based. Inspired by Rosalind Franklin. |
 | **Leo Rover** | Fictionlab | Commercial rugged 4x4, IP66 watertight, ROS-ready dev platform. |
-| **LunCoSim** | Rod Mamin (0xIonRod) | Open-source lunar rover simulator. Web3-enabled designs, global prototyping. |
 | **Exo Stellar Pulse Fusion** | S. Nagarshi | Prototype rover for helium-3 extraction and fusion propulsion. |
 | **Simplified Designs** | Ali (robotsailor) | Simplified mechanical designs for lunar rovers (Purdue alum). |
