@@ -9,6 +9,9 @@ Lunar rovers are robotic vehicles designed for exploration and surface operation
 The following lunar rovers were presented at the Space Tech Expo in Bremen, showcasing diverse approaches to lunar mobility:
 
 ### The Roo-ver by Australian Space Agency
+- **Partners:** Lunar Outpost (contributing MAPP heritage/platform)
+- **Status:** In development
+- **Description:** Australia's first lunar rover.
 
 ### ispace
 - Status: In development
@@ -35,12 +38,28 @@ The following lunar rovers were presented at the Space Tech Expo in Bremen, show
 - Notes: Student-led research team from Technical University Berlin focusing on astronautics
 
 
-## General rovers
+## Commercial & Utility Rovers
 
 ### Astrolab FLEX Rover
+- **Developer:** Venturi Astrolab
+- **Type:** Multi-purpose (Crew/Cargo)
+- **Status:** Planned (Mid-2026 via Starship)
+- **Description:** Versatile rover for crewed and robotic mobility, LTV competitor.
 
-### Yaoki
-[Link](https://dymon.co.jp/en/)
+### GITAI R1
+- **Developer:** GITAI
+- **Type:** Robotic Rover
+- **Description:** Developed for mining, inspection, and infrastructure tasks (e.g., solar panel assembly).
+
+### Venturi
+- **Rovers:** MONA-LUNA, FLEX (Partner)
+- **Specialization:** Extreme terrain vehicles for lunar missions. MONA-LUNA is a European mobility partnership.
+
+## Software & Autonomy
+
+### Mission Control Space Services
+- **Focus:** Autonomy software for lunar rovers.
+- **Projects:** Canadian lunar utility rover program.
 
 
 ## Planned & Recent Missions (2025-2026)
@@ -61,7 +80,7 @@ The following lunar rovers were presented at the Space Tech Expo in Bremen, show
 
 NASA's **Lunar Terrain Vehicle (LTV)** services contract is being competed for by three primary teams. These unpressurized rovers will support Artemis astronauts.
 
-1.  **Lunar Outpost** - "Eagle" LTV (Team: Lockheed Martin, MDA, GM, Goodyear)
+1.  **Lunar Outpost** - "Lunar Dawn" Team (LTV Name: Eagle) (Partners: Lockheed Martin, MDA Space, GM, Goodyear)
 2.  **Venturi Astrolab** - "FLEX" LTV (Team: Axiom Space, Odyssey Space Research)
 3.  **Intuitive Machines** - "Moon RACER" (Team: AVL, Boeing, Michelin, Northrop Grumman) 
 
@@ -88,18 +107,17 @@ Small lunar rovers (<10 kg) are a growing field in lunar exploration, often focu
 - **Autonomy:** Heavy reliance on autonomy due to communication latency and swarm operations.
 
 
-## Human Scale
 
-### Lunar Terrain Vehicle by Lunar Outpost
+## Open Source, Educational & Community Projects
 
-## Open Source & Educational Platforms
+These projects are terrestrial open-source, educational, or community-driven platforms inspired by space rovers.
 
-These projects are terrestrial open-source or educational platforms inspired by space rovers, suitable for research, education, and hobbyist development.
-
-| Rover | Origin/Developer | Size/Mass | Description |
-| :--- | :--- | :--- | :--- |
-| **JPL Open Source Rover** | NASA JPL | Scaled-down Curiosity | 6-wheel Rocker-Bogie, Ackermann steering, RPi based. Education/Hobbyist. |
-| **Sawppy Rover** | Roger Cheng | Low cost (~$500) | OSR alternative using standard aluminum extrusions & bus servos. |
-| **ExoMy** | ESA | 2.5kg, 42cm height | 3D-printable, triple-bogie, RPi based. Inspired by Rosalind Franklin. |
-| **Leo Rover** | Fictionlab | 6.5kg, 43cm length | Commercial rugged 4x4, IP66 watertight, ROS-ready dev platform. |
-| **Turtle Rover** | Fictionlab | Legacy | Predecessor to Leo Rover. |
+| Rover / Project | Origin/Developer | Description |
+| :--- | :--- | :--- |
+| **JPL Open Source Rover** | NASA JPL | Scaled-down Curiosity. 6-wheel Rocker-Bogie, Ackermann steering. |
+| **Sawppy Rover** | Roger Cheng | Low cost (~$500) OSR alternative using standard aluminum extrusions. |
+| **ExoMy** | ESA | 3D-printable, triple-bogie, RPi based. Inspired by Rosalind Franklin. |
+| **Leo Rover** | Fictionlab | Commercial rugged 4x4, IP66 watertight, ROS-ready dev platform. |
+| **LunCoSim** | Rod Mamin (0xIonRod) | Open-source lunar rover simulator. Web3-enabled designs, global prototyping. |
+| **Exo Stellar Pulse Fusion** | S. Nagarshi | Prototype rover for helium-3 extraction and fusion propulsion. |
+| **Simplified Designs** | Ali (robotsailor) | Simplified mechanical designs for lunar rovers (Purdue alum). |
