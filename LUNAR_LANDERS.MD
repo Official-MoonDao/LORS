@@ -1,17 +1,30 @@
-# Lunar Landers
+# Lunar Landers and Payload Specifications
 
-This document contains known lunar landers that should be considered for rover delivery options.
+This document catalogs upcoming lunar landers from commercial providers (CLPS) and international space agencies, focusing on their payload capacities and interface specifications.
 
-## Lander Overview
+## commercial Lunar Payload Services (CLPS) & US Commercial
 
-| Lander Name       | Provider             | Payload Information                        | Link                                                                 |
-|-------------------|----------------------|---------------------------------------------|----------------------------------------------------------------------|
-| Peregrine        | Astrobotic          | Public full Payload User Guide             | [Peregrine PUG](https://www.astrobotic.com/wp-content/uploads/2021/01/Peregrine-Payload-Users-Guide.pdf) |
-| Griffin          | Astrobotic          | Covered in Astrobotic Lunar Landers PUG    | [Astrobotic PUG](https://www.astrobotic.com/wp-content/uploads/2022/01/PUGLanders_011222.pdf) |
-| NOVA-C           | Intuitive Machines  | Lunar Access / payload integration docs    | [Intuitive Machines Rideshare](https://www.intuitivemachines.com/rideshare) |
-| NOVA-D           | Intuitive Machines  | Similar payload info to NOVA-C; detailed PUG on request | [NOVA-D](https://www.intuitivemachines.com/nova-d) |
-| Blue Ghost       | Firefly Aerospace   | Payload guide/datasheet available          | [Blue Ghost PUG](https://www.scribd.com/document/907250112/Blue-Ghost-PUG) |
-| XL-1             | Masten Space Systems | Lunar Delivery Payload User Guide          | [Masten Space Systems](https://www.masten.aero) |
-| McCandless       | Lockheed Martin     | Lunar Lander User's Guide                  | [Lockheed Martin](https://www.lockheedmartin.com) |
-| HAKUTO-R         | ispace              | Snapshot PUGs / mission payload documents  | [ispace](https://ispace-inc.com) |
-| Moon Express Lander | Moon Express       | Capability briefs published                | [Moon Express](https://moonexpress.com) |
+| Lander | Provider | Launch / Status | Payload Capacity | Power (Surface) | Data Rate (Downlink) | Key Features / Notes | PUG / Source |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Blue Ghost** | Firefly Aerospace | 2025 (Mission 1) <br> 2026 (Mission 2) | ~150 kg (Surface) | ~300 W (Avg) <br> 400 W (Peak) | > 10 Mbps (Surface) | 2m height x 3.5m width. 14 Earth day survival (Mission 1). Mission 2 targets Far Side (LuSEE-Night). | [User Guide 2021](https://fireflyspace.com/wp-content/uploads/2021/02/Blue_Ghost_Payload_User_Guide_v1.0.pdf) |
+| **Nova-C** | Intuitive Machines | Active (IM-1 Success)<br>IM-2, IM-3 (2025-26) | 100 - 130 kg | Provided (Bus) | Encrypted, varying rates | 14-day surface life. IM-3 targets Reiner Gamma. | [Rideshare Info](https://www.intuitivemachines.com/rideshare) |
+| **Griffin** | Astrobotic | 2025 (Mission 1) | ~625 kg | 150 W (Avg) | 200 kbps (Payload Data) | Medium-class lander. Designed for rovers (originally VIPER). High-precision landing (100m). | [Landers User Guide](https://www.astrobotic.com/wp-content/uploads/2021/01/Peregrine-Payload-Users-Guide.pdf) |
+| **Peregrine** | Astrobotic | Flown (2024 - Loss) | ~90-100 kg | N/A | N/A | First mission suffered anomaly. Architecture informs Griffin. | [Peregrine PUG](https://www.astrobotic.com/wp-content/uploads/2021/01/Peregrine-Payload-Users-Guide.pdf) |
+| **Blue Moon MK1** | Blue Origin | ~2025 (Pathfinder) | ~3,000 kg | High Capability | Direct-to-Earth (DTE) | Cargo variant. Uses New Glenn 7m fairing. Precision landing. | [Payload Page](https://www.blueorigin.com/blue-moon) |
+| **APEX 1.0** | ispace US / Draper | 2026 (Series-2) | 300 kg (up to 500 kg) | TBD | TBD | 3.1m tall. Far side mission (Schrödinger Basin). Relay satellite support. | [ispace Service](https://ispace-inc.com/service/) |
+
+## International Commercial
+
+| Lander | Provider | Country | Launch | Payload Capacity | Notes |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **HAKUTO-R** | ispace | Japan | Mission 2 (2025)<br>Mission 3 (2026) | ~30 kg (Mission 1) | Series 1 lander. Mission 2 ("Resilience") includes micro-rover. |
+| **Beresheet 2** | SpaceIL | Israel | ~2025 | TBD | Dual lander configuration + Orbiter. |
+
+## Agency / Institutional Landers
+
+| Lander | Agency | Launch | Payload | Key Instruments / Mission Goals |
+| :--- | :--- | :--- | :--- | :--- |
+| **Argonaut (EL3)** | ESA | ~2030 | ~1,500 - 2,100 kg | Logistics lander. Cargo delivery, infrastructure support. Precision landing. |
+| **LUPEX Lander** | ISRO (with JAXA) | ~2025/26 | ~350 kg (Lander Payload) | **Polar Exploration.** Carries JAXA/ISRO rover (~350kg). Investigating water ice. |
+| **Chang'e 7** | CNSA | ~2026 | 18-23 Instruments | **South Pole Survey.** Orbiter, Lander, Rover, Hopper. Water ice detection, VI, seismometer. |
+| **Chang'e 8** | CNSA | ~2028 | TBD | Technology testbed for ILRS (International Lunar Research Station). In-situ resource utilization. |
