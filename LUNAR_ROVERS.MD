@@ -8,6 +8,8 @@ Lunar rovers are robotic vehicles designed for exploration and surface operation
 
 The following lunar rovers were presented at the Space Tech Expo in Bremen, showcasing diverse approaches to lunar mobility:
 
+### The Roo-ver by Australian Space Agency
+
 ### ispace
 - Status: In development
 - Notes: Japanese company developing lunar exploration technologies and services
@@ -40,7 +42,29 @@ The following lunar rovers were presented at the Space Tech Expo in Bremen, show
 ### Yaoki
 [Link](https://dymon.co.jp/en/)
 
-### The Roo-ver by Australian Space Agency
+
+## Planned & Recent Missions (2025-2026)
+
+| Rover | Developer | Mission / Launch | Status | Details |
+| :--- | :--- | :--- | :--- | :--- |
+| **MAPP** | Lunar Outpost (USA) | IM-2 (Athena) | Landed (Mar 2025) | **Mobile Autonomous Prospecting Platform**. Successful south pole landing. |
+| **TENACIOUS** | ispace-EUROPE | HAKUTO-R M2 | Landed/Deployed (2025) | Micro-rover collecting regolith for NASA. |
+| **Power Supplier** | STELLS SPACE (Canada) | Nova-C (IM) | Planned (2025) | Wireless charging rover for crater exploration. |
+| **CubeRover** | Astrobotic | Griffin M1 | Planned (Late 2025) | Deployed to Nobile crater. (Replaced VIPER). |
+| **Lunar Vertex** | JHU APL / Intuitive Machines | IM-3 (Nova-C) | Planned (Oct 2025) | Studying magnetic anomaly at Reiner Gamma. |
+| **CADRE** | NASA JPL | IM-3 (Nova-C) | Planned (Oct 2025) | **Distributed Autonomy**. Trio of shoebox-sized rovers. |
+| **Chang'e 7 Rover** | CNSA (China) | Chang'e 7 | Planned (2026) | South pole exploration, water ice detection. Larger than Yutu-2. |
+| **Canadian Lunar Rover** | Canadensys | - | Planned (2026) | First Canadian rover. 14-day survival. Carries NASA/CSA payloads. |
+| **FLEX** | Astrolab | Starship | Planned (Mid-2026) | Large multi-purpose rover (cargo/crew). LTV competitor. |
+
+## Human Scale & LTV Candidates
+
+NASA's **Lunar Terrain Vehicle (LTV)** services contract is being competed for by three primary teams. These unpressurized rovers will support Artemis astronauts.
+
+1.  **Lunar Outpost** - "Eagle" LTV (Team: Lockheed Martin, MDA, GM, Goodyear)
+2.  **Venturi Astrolab** - "FLEX" LTV (Team: Axiom Space, Odyssey Space Research)
+3.  **Intuitive Machines** - "Moon RACER" (Team: AVL, Boeing, Michelin, Northrop Grumman) 
+
 
 
 ## Small Lunar Rovers & Micro-Rovers
