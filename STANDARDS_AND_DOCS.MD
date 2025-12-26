@@ -12,8 +12,14 @@ This documents will contain list of relevant standards and documents
 6. [DiskSat](https://www.nasa.gov/smallspacecraft/disksat/) - A plate-shaped spacecraft design that maintains CubeSat containerization while offering more surface area for power and instruments.
 
 ## Lunar Interoperability Standards
-*   **[LunaNet Interoperability Specification (LNIS)](https://www.nasa.gov/lunanet):** Core framework for lunar communications, navigation, and timing services (Draft v5). Relies on Bundle Protocol (DTN).
+*   **[LunaNet Interoperability Specification (LNIS)](https://www.nasa.gov/lunanet):** Core framework for lunar communications, navigation, and timing services (Draft v5). Relies on **Bundle Protocol (DTN v7)** for guaranteed delivery.
 *   **[ESA Moonlight](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Moonlight):** Satellite constellation initiative fully adopting LNIS standards.
+*   **Lunar Surface Connectivity:** Usage of **4G/LTE** for proximity communications (Nokia/Lunar Outpost/Intuitive Machines).
+
+## Environmental & Testing Standards
+*   **ISO 10788:** Lunar Simulants (standard lunar soil analogues for mobility testing).
+*   **ISO 2631-1:** Vibration exposure standards (crucial for human-rated rovers like LTV).
+*   **ISO 14624:** Materials safety and comparability (dust and outgassing in lunar environment).
 
 ## NASA Solicitations & Guidelines
 *   **[NASA PRISM Solicitation](https://nspires.nasaprs.com/external/solicitations/summary!init.do?solId={7D2A1FB4-62A6-7691-D879-8E06168F12EF}&path=open):** Research announcement for payloads on lunar missions.

@@ -11,7 +11,7 @@ The following lunar rovers were presented at the Space Tech Expo in Bremen, show
 ### The Roo-ver by Australian Space Agency
 - **Partners:** Lunar Outpost (contributing MAPP heritage/platform)
 - **Status:** In development
-- **Description:** Australia's first lunar rover.
+- **Description:** Australia's first lunar rover. Usage of **4G/LTE** for surface communications.
 
 ### ispace
 - Status: In development
@@ -66,15 +66,16 @@ The following lunar rovers were presented at the Space Tech Expo in Bremen, show
 
 | Rover | Developer | Mission / Launch | Status | Details |
 | :--- | :--- | :--- | :--- | :--- |
-| **MAPP** | Lunar Outpost (USA) | IM-2 (Athena) | Landed (Mar 2025) | **Mobile Autonomous Prospecting Platform**. Successful south pole landing. |
-| **TENACIOUS** | ispace-EUROPE | HAKUTO-R M2 | Landed/Deployed (2025) | Micro-rover collecting regolith for NASA. |
+| **MAPP** | Lunar Outpost (USA) | IM-2 (Athena) | Landed (Mar 2025) | **Mobile Autonomous Prospecting Platform**. Successful south pole landing. First LTE-enabled rover. |
+| **TENACIOUS** | ispace-EUROPE | HAKUTO-R M2 | Landed/Deployed (2025) | Micro-rover (26x31.5x54 cm, 5kg). CFRP frame. |
 | **Power Supplier** | STELLS SPACE (Canada) | Nova-C (IM) | Planned (2025) | Wireless charging rover for crater exploration. |
 | **CubeRover** | Astrobotic | Griffin M1 | Planned (Late 2025) | Deployed to Nobile crater. (Replaced VIPER). |
 | **Lunar Vertex** | JHU APL / Intuitive Machines | IM-3 (Nova-C) | Planned (Oct 2025) | Studying magnetic anomaly at Reiner Gamma. |
 | **CADRE** | NASA JPL | IM-3 (Nova-C) | Planned (Oct 2025) | **Distributed Autonomy**. Trio of shoebox-sized rovers. |
-| **Chang'e 7 Rover** | CNSA (China) | Chang'e 7 | Planned (2026) | South pole exploration, water ice detection. Larger than Yutu-2. |
+| **Chang'e 7 Rover** | CNSA (China) | Chang'e 7 | Planned (2026) | South pole exploration, water ice detection. Includes a **Hopping Vehicle**. |
+| **Rashid 2** | MBRSC (UAE) | Blue Ghost 2 | Planned (2026) | Far-side explorer studying dust adhesion and plasma. |
 | **Canadian Lunar Rover** | Canadensys | - | Planned (2026) | First Canadian rover. 14-day survival. Carries NASA/CSA payloads. |
-| **FLEX** | Astrolab | Starship | Planned (Mid-2026) | Large multi-purpose rover (cargo/crew). LTV competitor. |
+| **FLEX** | Astrolab | Starship | Planned (Mid-2026) | 1,600 kg cargo capacity. Modular payload interface. LTV competitor. |
 
 ## Human Scale & LTV Candidates
 

@@ -24,7 +24,7 @@ This document catalogs upcoming lunar landers from commercial providers (CLPS) a
 
 | Lander | Agency | Launch | Payload | Key Instruments / Mission Goals |
 | :--- | :--- | :--- | :--- | :--- |
-| **Argonaut (EL3)** | ESA | ~2030 | ~1,500 - 2,100 kg | Logistics lander. Cargo delivery, infrastructure support. Precision landing. |
+| **Argonaut (EL3)** | ESA | ~2030 | ~1,500 - 2,100 kg | Logistics lander. Uses **Cargo Platform Element (CPE)** and MANUS robotic arm for deployment. |
 | **LUPEX Lander** | ISRO (with JAXA) | ~2025/26 | ~350 kg (Lander Payload) | **Polar Exploration.** Carries JAXA/ISRO rover (~350kg). Investigating water ice. |
-| **Chang'e 7** | CNSA | ~2026 | 18-23 Instruments | **South Pole Survey.** Orbiter, Lander, Rover, Hopper. Water ice detection, VI, seismometer. |
-| **Chang'e 8** | CNSA | ~2028 | TBD | Technology testbed for ILRS (International Lunar Research Station). In-situ resource utilization. |
+| **Chang'e 7** | CNSA | ~2026 | 18-23 Instruments | **South Pole Survey.** Orbiter, Lander, Rover, Hopper. International payloads (≤10kg lander, ≤15kg orbiter). |
+| **Chang'e 8** | CNSA | ~2028 | ~200 kg Piggyback | **ILRS Testbed.** In-situ resource utilization. International payload modules up to 100kg/50W. |
