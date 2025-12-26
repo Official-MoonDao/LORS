@@ -18,8 +18,6 @@ This documents will contain list of relevant standards and documents
 
 ## Environmental & Testing Standards
 *   **ISO 10788:** Lunar Simulants (standard lunar soil analogues for mobility testing).
-*   **ISO 2631-1:** Vibration exposure standards (crucial for human-rated rovers like LTV).
-*   **ISO 14624:** Materials safety and comparability (dust and outgassing in lunar environment).
 
 ## NASA Solicitations & Guidelines
 *   **[NASA PRISM Solicitation](https://nspires.nasaprs.com/external/solicitations/summary!init.do?solId={7D2A1FB4-62A6-7691-D879-8E06168F12EF}&path=open):** Research announcement for payloads on lunar missions.
