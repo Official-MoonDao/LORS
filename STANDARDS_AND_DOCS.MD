@@ -54,3 +54,16 @@ Most overloads happens during launches, so it's important to understand the laun
 *   **[CGWIC Long March 3A Series User's Manual](http://www.cgwic.com/LaunchService/LM3A.html):** Covers LM-3A, LM-3B, and LM-3C. (Note: Specific PDF links often require direct request or portal access).
 *   **[CGWIC Long March 2D User's Manual Reference](http://www.cgwic.com/LaunchService/LM2D.html):** Overview of the two-stage LEO/SSO launcher.
 
+### Lunar Landers
+Technical specifications for landing systems, payload mounting, power, and data interfaces on the lunar surface.
+
+#### Commercial (CLPS & International)
+*   **[Astrobotic Peregrine & Griffin PUGs](https://www.astrobotic.com/lunar-delivery/landers/):** Detailed manuals for small (Peregrine) and medium (Griffin) class landers. Standard 28V power and transponder-based data relay.
+*   **[Intuitive Machines Nova-C](https://www.intuitivemachines.com/lunar-services):** (CLPS) 130-150kg capacity. Supports 28V, 12V, or 5V power and 8Mbps data transfer.
+*   **[Firefly Blue Ghost](https://fireflyspace.com/missions/blue-ghost-mission-1/):** Support for up to 155kg. Full technical PUG available to customers under NDA.
+*   **[ispace / Draper APEX 1.0](https://ispace-inc.com/news-release/20230928/):** Based on ispace Series 2. Modular design with 500kg surface delivery capacity. Full PUG available upon request.
+
+#### Institutional & International
+*   **[ESA Argonaut (EL3)](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/Argonaut):** European Large Logistics Lander. Design capacity for 1,500kg - 2,100kg of cargo. Uses standardized Cargo Platform Element interface.
+*   **[ISRO Chandrayaan-3 (Vikram)](https://www.isro.gov.in/Chandrayaan3_Details.html):** Technical overview of lander/rover payloads (ChaSTE, ILSA, RAMBHA-LP).
+*   **[CNSA Chang'e 7 & 8 AO](http://www.cnsa.gov.cn/):** Announcements of Opportunity with rigid mass/power/volume constraints for international payloads (e.g., Chang'e-8: 100kg total, 200W total power, ≤50W per payload).
