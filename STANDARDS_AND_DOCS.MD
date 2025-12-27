@@ -26,6 +26,28 @@ This documents will contain list of relevant standards and documents
 *   **[ECSS-Q-ST-70-02C](https://ecss.nl/standard/ecss-q-st-70-02c-thermal-vacuum-outgassing-test-for-the-screening-of-space-materials/):** ESA's Thermal vacuum outgassing test for the screening of space materials.
 *   **ISO 14624-3:** Determination of offgassed products from materials and assembled articles for manned, pressurized spacecraft.
 
+## EMI/EMC (Electromagnetic Interference & Compatibility)
+Payload User Guides (PUGs) specify EMI/EMC standards to ensure that electronic equipment behaves correctly in the integrated spacecraft environment.
+
+### Primary Standards
+*   **[MIL-STD-461](https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=35634):** Requirements for the Control of Electromagnetic Interference Characteristics of Subsystems and Equipment. The most common standard for US and international missions.
+    *   **MIL-STD-461G:** Current version often used for CLPS missions.
+*   **[ECSS-E-ST-20-07C](https://ecss.nl/standard/ecss-e-st-20-07c-rev-1-electromagnetic-compatibility/):** ESA's detailed system requirements for electromagnetic compatibility.
+*   **[GJB 151B-2013](https://gjb151b.com/):** Chinese Military Standard for EMI/EMC, applicable to space systems and used for CNSA missions.
+*   **ISRO EMI/EMC Standard:** ISRO's internal standard (updated 2021), historically derived from MIL-STD-461C.
+
+### EMI Standards per Lander/PUG
+
+| Provider / Lander | Primary Standard | Key Tests / Notes |
+| :--- | :--- | :--- |
+| **Astrobotic (Peregrine/Griffin)** | **MIL-STD-461G** | Specifically: CE102, CS101, CS114, CS115, CS116, RE102, RS103. |
+| **Firefly (Blue Ghost)** | **MIL-STD-461** | Tailored requirements; requires NDA for full specification. Testing at JPL. |
+| **Intuitive Machines (Nova-C)** | **MIL-STD-461 / GEVS-SE** | Adheres to NASA Goddard GSFC-STD-7000 (GEVS) criteria. |
+| **ispace (APEX 1.0)** | **MIL-STD-461** | Compliance required for CLPS delivery and Falcon 9 compatibility. |
+| **ESA (Argonaut / EL3)** | **ECSS-E-ST-20-07C** | Mandatory for European payloads on the Argonaut lander. |
+| **CNSA (Chang'e 7 & 8)** | **GJB 151B-2013** | Standard for Chinese lunar exploration payloads. |
+| **ISRO (Chandrayaan-3)** | **ISRO tailored MIL-STD-461C** | Uses updated 2021 internal standards for lander/rover compatibility. |
+
 ### Outgassing Material Databases
 Searchable databases providing outgassing properties (TML, CVCM, RML) for thousands of aerospace materials.
 *   **[NASA Outgassing Database (GSFC)](https://outgassing.nasa.gov/):** Public database from Goddard Space Flight Center containing data obtained per ASTM E595.
