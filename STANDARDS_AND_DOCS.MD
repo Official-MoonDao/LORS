@@ -34,6 +34,7 @@ Payload User Guides (PUGs) specify EMI/EMC standards to ensure that electronic e
     *   **MIL-STD-461G:** Current version often used for CLPS missions.
 *   **[ECSS-E-ST-20-07C](https://ecss.nl/standard/ecss-e-st-20-07c-rev-1-electromagnetic-compatibility/):** ESA's detailed system requirements for electromagnetic compatibility.
 *   **[GJB 151B-2013](https://gjb151b.com/):** Chinese Military Standard for EMI/EMC, applicable to space systems and used for CNSA missions.
+*   **[GOST R 51317 (Series)](https://russiangost.com/):** Russian national standard for EMC, derived from IEC standards. Used by Roscosmos for space systems (e.g., GOST R 51317.4.2 for ESD).
 *   **ISRO EMI/EMC Standard:** ISRO's internal standard (updated 2021), historically derived from MIL-STD-461C.
 
 ### EMI Standards per Lander/PUG
@@ -46,6 +47,7 @@ Payload User Guides (PUGs) specify EMI/EMC standards to ensure that electronic e
 | **ispace (APEX 1.0)** | **MIL-STD-461** | Compliance required for CLPS delivery and Falcon 9 compatibility. |
 | **ESA (Argonaut / EL3)** | **ECSS-E-ST-20-07C** | Mandatory for European payloads on the Argonaut lander. |
 | **CNSA (Chang'e 7 & 8)** | **GJB 151B-2013** | Standard for Chinese lunar exploration payloads. |
+| **Roscosmos (Luna-25/27)** | **GOST R 51317** | Russian national standards for EMC; proprietary PUG tailoring. |
 | **ISRO (Chandrayaan-3)** | **ISRO tailored MIL-STD-461C** | Uses updated 2021 internal standards for lander/rover compatibility. |
 
 ### Outgassing Material Databases
