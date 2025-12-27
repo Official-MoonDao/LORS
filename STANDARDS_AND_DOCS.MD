@@ -26,5 +26,12 @@ This documents will contain list of relevant standards and documents
 *   **[ECSS-Q-ST-70-02C](https://ecss.nl/standard/ecss-q-st-70-02c-thermal-vacuum-outgassing-test-for-the-screening-of-space-materials/):** ESA's Thermal vacuum outgassing test for the screening of space materials.
 *   **ISO 14624-3:** Determination of offgassed products from materials and assembled articles for manned, pressurized spacecraft.
 
+### Outgassing Material Databases
+Searchable databases providing outgassing properties (TML, CVCM, RML) for thousands of aerospace materials.
+*   **[NASA Outgassing Database (GSFC)](https://outgassing.nasa.gov/):** Public database from Goddard Space Flight Center containing data obtained per ASTM E595.
+*   **[NASA MAPTIS](https://maptis.nasa.gov/):** NASA's primary database for materials and processes (registration required for full access).
+*   **[ESA MODESA](https://modesa.esa.int/):** ESA's outgassing database featuring micro-VCM test results per ECSS-Q-ST-70-02C.
+*   **[SPACEMATDB](https://www.spacematdb.com/):** Comprehensive space materials database integrating data from NASA and ESA.
+
 ## NASA Solicitations & Guidelines
 *   **[NASA PRISM Solicitation](https://nspires.nasaprs.com/external/solicitations/summary!init.do?solId={7D2A1FB4-62A6-7691-D879-8E06168F12EF}&path=open):** Research announcement for payloads on lunar missions.
