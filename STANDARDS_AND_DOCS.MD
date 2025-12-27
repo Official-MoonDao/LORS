@@ -33,5 +33,24 @@ Searchable databases providing outgassing properties (TML, CVCM, RML) for thousa
 *   **[ESA MODESA](https://modesa.esa.int/):** ESA's outgassing database featuring micro-VCM test results per ECSS-Q-ST-70-02C.
 *   **[SPACEMATDB](https://www.spacematdb.com/):** Comprehensive space materials database integrating data from NASA and ESA.
 
-## NASA Solicitations & Guidelines
-*   **[NASA PRISM Solicitation](https://nspires.nasaprs.com/external/solicitations/summary!init.do?solId={7D2A1FB4-62A6-7691-D879-8E06168F12EF}&path=open):** Research announcement for payloads on lunar missions.
+## Launch Vehicle Payload User Guides (PUGs)
+Detailed technical manuals providing specifications for payload integration, environmental conditions, and mission interfaces.
+
+## Payload User Guides (PUGs)
+
+
+### Launch Vehicles
+
+Most overloads happens during launches, so it's important to understand the launch vehicle's environment.
+
+> [!NOTE]
+> Detailed PUGs for Russian **Angara** and Chinese **Long March 5** are often restricted or proprietary. Public information is usually limited to general performance specifications and fairing dimensions found in institutional brochures.
+
+
+*   **[SpaceX Falcon Payload User's Guide](https://www.spacex.com/media/falcon_users_guide_082020.pdf):** Covers Falcon 9 and Falcon Heavy. Details mechanical interfaces, electrical interfaces, and environmental specifications.
+*   **[SpaceX Starship Users Guide](https://www.spacex.com/media/starship_users_guide_v1.pdf):** Preliminary guide for Starship payload accommodations, including the 9m fairing volume and vertical integration.
+*   **[Blue Origin New Glenn Payload User's Guide](https://www.blueorigin.com/assets/new-glenn-payload-users-guide.pdf):** (Revision C, 2018) provides an overview of the 7-meter fairing, payload interfaces, and launch environments.
+*   **[Arianespace Soyuz User's Manual](https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf):** Data for spacecraft compatibility with the Soyuz launch system (CSG version).
+*   **[CGWIC Long March 3A Series User's Manual](http://www.cgwic.com/LaunchService/LM3A.html):** Covers LM-3A, LM-3B, and LM-3C. (Note: Specific PDF links often require direct request or portal access).
+*   **[CGWIC Long March 2D User's Manual Reference](http://www.cgwic.com/LaunchService/LM2D.html):** Overview of the two-stage LEO/SSO launcher.
+
