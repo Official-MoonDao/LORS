@@ -70,16 +70,16 @@ This section tracks active and upcoming lunar rover missions through 2028, provi
 
 | Rover | Developer | Mission / Launch | Status | Details | Significance for LORS |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **MAPP** | Lunar Outpost (USA) | IM-2 (Athena) | Landed (Mar 2025) | **Mobile Autonomous Prospecting Platform**. First commercial rover at south pole. First **LTE-enabled** lunar rover. | Demonstrates commercial 4G/LTE surface communications—a potential standard for proximity networks. |
-| **TENACIOUS** | ispace-EUROPE | HAKUTO-R M2 | Landed/Deployed (Jan 2025) | Micro-rover (26x31.5x54 cm, 5kg). CFRP frame. Regolith extraction demo for NASA. | Micro-rover reference design; validates lightweight CFRP construction for lunar conditions. |
-| **Yaoki** | Dymon (Japan) | IM-2 (Athena) | Landed (Mar 2025) | Ultra-compact rover (15x15 cm, 498g). 200G shock resistance. | Demonstrates extreme miniaturization and ruggedization—relevant for swarm deployments. |
+| **[MAPP](https://www.lunaroutpost.com/mapp)** | Lunar Outpost (USA) | IM-2 (Athena) | Landed (Mar 2025) | **Mobile Autonomous Prospecting Platform**. First commercial rover at south pole. First **LTE-enabled** lunar rover. | Demonstrates commercial 4G/LTE surface communications—a potential standard for proximity networks. |
+| **[TENACIOUS](https://ispace-inc.com/wp-content/uploads/2024/07/EN_20240725_Rover-Completion.pdf)** | ispace-EUROPE | HAKUTO-R M2 | Landed/Deployed (Jan 2025) | Micro-rover (26x31.5x54 cm, 5kg). CFRP frame. Regolith extraction demo for NASA. | Micro-rover reference design; validates lightweight CFRP construction for lunar conditions. |
+| **[Yaoki](https://dymon.co.jp/en/)** | Dymon (Japan) | IM-2 (Athena) | Landed (Mar 2025) | Ultra-compact rover (15x15 cm, 498g). 200G shock resistance. | Demonstrates extreme miniaturization and ruggedization—relevant for swarm deployments. |
 
 ### 2026 Missions
 
 | Rover | Developer | Mission / Launch | Status | Details | Significance for LORS |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **CADRE** | NASA JPL | IM-3 (Nova-C) | Planned (2026) | **Distributed Autonomy**. Trio of shoebox-sized rovers with mesh networking. | Key reference for autonomous swarm coordination and cooperative mapping standards. |
-| **Lunar Vertex** | JHU APL / IM | IM-3 (Nova-C) | Planned (2026) | Studying magnetic anomaly at Reiner Gamma. Stationary lander + rover. | Science-focused mission architecture; payload integration reference. |
+| **[CADRE](https://d2pn8kiwq2w21t.cloudfront.net/documents/CADRE-Fact-Sheet.pdf)** | NASA JPL | IM-3 (Nova-C) | Planned (2026) | **Distributed Autonomy**. Trio of shoebox-sized rovers with mesh networking. | Key reference for autonomous swarm coordination and cooperative mapping standards. |
+| **[Lunar Vertex](https://www.jhuapl.edu/destinations/missions/lunar-vertex)** | JHU APL / IM | IM-3 (Nova-C) | Planned (2026) | Studying magnetic anomaly at Reiner Gamma. Stationary lander + rover. | Science-focused mission architecture; payload integration reference. |
 | **CubeRover** | Astrobotic | Griffin M1 | Planned (Jul 2026) | CubeSat-style modular rover to Nobile crater. | Directly validates CubeSat-derived design philosophy central to LORS. |
 | **FLIP** | Astrolab | Griffin M1 | Planned (Jul 2026) | Commercial utility rover with modular cargo. | Demonstrates modular payload interface designs. |
 | **Chang'e 7 Rover** | CNSA (China) | Chang'e 7 | Planned (2026) | South pole exploration, water ice detection. Includes a **Hopping Vehicle**. | Multi-modal locomotion (hopping + rolling); international payload accommodation. |
