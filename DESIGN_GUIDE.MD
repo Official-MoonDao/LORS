@@ -7,7 +7,7 @@
 A short overview of the LORS design guide and its scope.
 
 ## Purpose
-Below are a list of design concepts or principles we should consider for inclusion in the LORA standard, either directly or as guiding principles to measure success. 
+Below are a list of design concepts or principles we should consider for inclusion in the LORS standards, either directly or as guiding principles to measure success. 
 - Maximize innovation, acceleration from design to flight, and reliability.
 - Minimize cost, design/build/testing time, and barriers to entry.
 - Address the financial and cognitive limitations of designers constructively to remove barriers to entry for students and entry level team members. 
