@@ -1,133 +1,121 @@
-# Student Rover Teams Reference List (2024)
+# Student Rover Teams Reference List (2025)
 
-This document contains a compiled list of student rover teams that participated in major international rover challenges in 2024.
+This document contains a compiled list of student rover teams that participated in major international rover challenges in 2025.
 
-## University Rover Challenge (URC) 2024
+## University Rover Challenge (URC) 2025
 **Competition Location:** Mars Desert Research Station (MDRS), Utah, USA
+**Dates:** May 28-31, 2025
+**Participants:** 114 teams from 15 countries (38 finalists)
 
 **Top Teams:**
-*   **1st Pass:** AGH Space Systems (AGH University of Krakow, Poland)
+*   **1st Place:** Missouri S&T Mars Rover Design Team (Missouri University of Science and Technology, USA)
 *   **2nd Place:** Team Mountaineers (West Virginia University, USA)
-*   **3rd Place:** BYU Mars Rover (Brigham Young University, USA)
+*   **3rd Place:** Northeastern Mars Rover Team (Northeastern University, USA)
 
-**Other Finalists & Participants:**
+**Other Notable Finalists:**
 *   **USA:**
     *   ASTRA (University of Alabama in Huntsville)
     *   Team Robotic Space Exploration (RoSE) (University of Hawaii at Manoa)
     *   Cowboy Robotics (University of Wyoming)
     *   Domer Rover (University of Notre Dame)
-    *   GU Robotics (Gonzaga University)
-    *   Lehigh University Space Initiative (LUSI) (Lehigh University)
-    *   Liberty Vanguard Robotics (Liberty University)
     *   Mars Rover Team (Johns Hopkins University)
     *   Maverick Rover Team (University of Texas at Arlington)
-    *   Ohio University Rover Team
     *   Panther Robotics (University of Pittsburgh)
-    *   Rose-Hulman Rover Robotics Team
     *   Astrobotics @ Virginia Tech
-    *   Atl Rover (Georgia State University)
     *   Berkeley Engineered AI Rover (BEAR) (UC Berkeley)
-    *   BILL-EE (Cal Poly Pomona)
-    *   Binghamton University Rover Team
-    *   Black Bear Robotics (University of Maine)
-    *   Boston University Mars Rover Club
-    *   Cosmic Coogs (University of Houston)
     *   CU Rover Team (University of Colorado Boulder)
-    *   Exploration Robotics at Illinois (UIUC)
-    *   Mars Rover at Penn (UPenn)
 
 *   **Canada:**
     *   PolyOrbite (Polytechnique Montreal)
     *   WEMARS (University of Western Ontario)
     *   Carleton Planetary Robotics Team (Carleton University)
     *   McGill Robotics (McGill University)
-    *   Queen's Space Engineering Team (Queen's University)
-    *   Robotics for Space Exploration (University of Toronto)
     *   Space Concordia (Concordia University)
-    *   Space Exploration Alberta Robotics (SPEAR) (University of Alberta)
+
+*   **Poland:**
+    *   AGH Space Systems (AGH University of Krakow)
 
 *   **India:**
     *   Project Kratos (BITS Pilani Goa)
     *   Inferno DTU (Delhi Technological University)
-    *   KMC ROBOPHYSICIST (University of Delhi)
     *   Team Horizon (Cochin University of Science and Technology)
-    *   RUDRA SRM mars rover (SRM Institute of Science and Technology)
-
-*   **Bangladesh:**
-    *   AAUB Rover71 (Aviation and Aerospace University)
-    *   BRACU Mongol-Tori (BRAC University)
-    *   Green University Mars Rover Team
-    *   MIST MONGOL BAROTA (Military Institute of Science and Technology)
-    *   Project Altair (Islamic University of Technology)
-    *   Red Frontier (Multiple Universities)
-    *   Team Ogrodoot (RUET)
-    *   Team Zenith (RUET)
-    *   UIU Mars Rover (United International University)
-
-*   **Mexico:**
-    *   Arca Unity (UDG, CETI)
-    *   Eagle X (Tecnológico de Monterrey)
-    *   UNAM Space (UNAM, IPN)
 
 *   **Other International:**
     *   Monash Nova Rover (Monash University, Australia)
     *   ITU ROVER TEAM (Istanbul Technical University, Turkey)
-    *   SEBURA ROVER TEAM (Istnbul Okan University, Turkey)
-    *   SuRover (Sabanci University, Turkey)
     *   ARES Project (Tohoku/Keio/Tokyo, Japan)
-    *   KARURA (Japan/USA)
 
 ---
 
-## European Rover Challenge (ERC) 2024
-**Competition Location:** Krakow, Poland
+## European Rover Challenge (ERC) 2025
+**Competition Location:** AGH University of Science and Technology, Krakow, Poland
+**Dates:** August 29-31, 2025
+**Participants:** 25 teams in finals (100+ applications)
 
 **Top Teams:**
-*   **1st Place:** FHNW Rover Team (Switzerland)
-*   **2nd Place:** AGH Space Systems (Poland)
-*   **3rd Place:** ITU Rover Team (Turkey)
+*   **1st Place:** EPFL Xplore (Switzerland) – 2180.4 points
+*   **2nd Place:** STAR Dresden e.V. (Germany) – 2147.84 points
+*   **3rd Place:** AGH Space Systems (Poland) – 2048.05 points
 
-**Notable Participants:**
-*   Team Techno (Pakistan)
-*   UCL Rover (University College London, UK)
-*   IPRLxArgo (International)
-*   OzU Rover (Turkey)
-*   GTU ROVER (Turkey)
-*   Frankfurt Robotics Science Team (FRoST) (Germany)
-*   ASU ROAR (Ain Shams University, Egypt)
-*   STAR Dresden e.V. (TU Dresden, Germany)
-*   Team Srishti (India)
-*   EPFL Xplore (Switzerland)
-*   Bears (Germany)
+**Other Top 10 Finalists:**
+*   DIANA (Italy)
+*   FHNW Rover Team (Switzerland)
+*   Team Raptors PL (Poland)
+*   DJS Antariksh (India)
+*   SKA Robotics (Poland)
+*   KNR Rover Team (Poland)
+*   Mars Rover Manipal (India)
 
 ---
 
-## Canadian International Rover Challenge (CIRC) 2024
+## Canadian International Rover Challenge (CIRC) 2025
 **Competition Location:** Drumheller, Alberta, Canada
+**Dates:** August 8-11, 2025
+**Participants:** 26 finalists
 
-**Top Teams (Summer 2024):**
-1.  DAM Robotics Club (Oregon State University, USA)
-2.  Michigan Mars Rover Team (University of Michigan, USA)
-3.  Husky Robotics (University of Washington, USA)
+**Top Teams:**
+*   **1st Place:** DAM Robotics Club (Oregon State University, USA)
+*   **2nd Place:** MSU Rover Team (Russia) 
+*   **3rd Place:** Michigan Mars Rover Team (University of Michigan, USA)
 
 **Other Participants:**
-*   Rovus
+*   Husky Robotics (University of Washington)
 *   University of Windsor Rover Team
-*   Silesian Phoenix
 *   UVic Robotics
 *   York University Robotics Society
-*   University of Manitoba Robotics Team
-*   Robotics at Iowa
-*   Schulich Space Rover Team (SSRT)
-*   uORover
 *   McMaster Mars Rover Team
-*   University of Dayton Mars Rover Team
-*   CRATER
-*   Northeastern University Mars Rover (NUROVER) (Winter winner)
 
 ---
 
-## Australian Rover Challenge (ARC) 2024
+## International Rover Challenge (IRC) 2025
+**Competition Location:** BITS Pilani K K Birla Goa Campus, India
+**Dates:** January 28 - February 2, 2025
+**Participants:** 25 finalists
+
+**Notable Results:**
+*   **6th Place:** MSU Rover Team (Russia)
+*   **4th in Autonomous Field Mission:** MSU Rover Team
+*   **Individual Award:** MSU Rover Team - ROVER DEVELOPMENT (1 of 6 global awards among 300+ participants)
+
+---
+
+### Russian Rover Challenge (Rovers Cup)
+*   **Organizer:** "Volt Brothers" project + Lomonosov MSU Research Institute of Mechanics, with Roscosmos support
+*   **Website:** [roverchallenge.ru](https://roverchallenge.ru/)
+
+ **1st Place:** MSU Rover Team
+*   **Institutions:** Moscow State University, Moscow Power Engineering Institute (MPEI), Skolkovo Institute of Science and Technology (Skoltech), Moscow Institute of Physics and Technology (MIPT), Moscow Technical University of Communications and Informatics
+*   **Rovers:** EUREKA (2023), EUREKA 2.0 (2024), LANCER EVO I (2025)
+*   **Achievements (2025):**
+    *   2nd Place at CIRC 2025 (globally among 26 finalists)
+    *   6th Place at IRC 2025 (globally among 25 finalists)
+    *   4th in Autonomous Field Mission at IRC 2025
+    *   Individual Award for Rover Development at IRC 2025
+*   **Focus:** Autonomous navigation, robotic arm manipulation, geological/meteorological modules
+
+---
+
+## Australian Rover Challenge (ARC) 2025
 **Competition Location:** Adelaide, Australia
 
 **Notable Teams:**
@@ -136,12 +124,5 @@ This document contains a compiled list of student rover teams that participated 
 *   QUT Robotics Club (Queensland University of Technology)
 *   REV Team (UWA)
 *   RMIT Rover Team (RMIT University)
-*   Swinburne Rover Team
 *   UniMelb Rover Team (University of Melbourne)
-*   UOW Rover Team (University of Wollongong)
 *   UQ Space (University of Queensland)
-*   UTS Rover Team (University of Technology Sydney)
-*   Team Atlas (Bangladesh)
-*   AIUB Robotic Crew (Bangladesh)
-*   Project Scorpio (Poland)
-*   SHUNYA (India)

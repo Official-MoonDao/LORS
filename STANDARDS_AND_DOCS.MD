@@ -2,17 +2,23 @@ This documents will contain list of relevant standards and documents
 
 
 1. [CubeSat](https://www.cubesat.org/cubesatinfo)
-2. [Standards for international docking system for space stations](https://www.internationaldockingstandard.com/)
-3. [International deeps space interoperability standards](https://internationaldeepspacestandards.com/)
+2. [Standards for international docking system for space stations](https://www.internationaldockingstandard.com/download/IDSS_IDD_Revision_F.pdf)
+3. [International deep space interoperability standards](https://internationaldeepspacestandards.com/)
+   - [Software Baseline](https://internationaldeepspacestandards.com/wp-content/uploads/2024/02/software_baseline_final_9-2020.pdf)
+   - [Thermal Baseline](https://internationaldeepspacestandards.com/wp-content/uploads/2024/02/thermal_baseline_final_8-2019.pdf)
+   - [Robotic Baseline](https://internationaldeepspacestandards.com/wp-content/uploads/2024/02/robotic_baseline_final_3-2019.pdf)
+   - [Rendezvous Baseline](https://internationaldeepspacestandards.com/wp-content/uploads/2024/02/rendezvous_baseline_final_3-2019.pdf)
+   - [ISPSIS (Power System)](https://internationaldeepspacestandards.com/wp-content/uploads/2024/02/ISPSIS-RevA-20220727-2.pdf)
+   - [ICSIS (International Communication System Interoperability Standard)](https://internationaldeepspacestandards.com/wp-content/uploads/2025/03/M2M-30202-ICSIS_RevB_Final.pdf) - Defines interfaces for Cislunar platforms.
 4. [International External Robotic Interface Interoperability Standard](https://explorers.larc.nasa.gov/HPMIDEX/pdf_files/17C_Robotics-020918_R1.pdf)
-5. CCSDS
-5.1 SOIS
-5.2 XTCE
-5.3 [ICSIS (International Communication System Interoperability Standard)](https://public.ccsds.org/Pubs/880x1b1.pdf) - Defines interfaces for Cislunar platforms.
+5. [CCSDS (Consultative Committee for Space Data Systems)](https://public.ccsds.org/)
+   - **[SOIS (Spacecraft Onboard Interface Services)](https://public.ccsds.org/Pubs/850x0g2.pdf):** A suite of standards simplifying the interaction between flight software and hardware (e.g., sensors, actuators) using standardized services and Electronic Data Sheets (EDS).
+   - **[XTCE (XML Telemetric and Command Exchange)](https://public.ccsds.org/Pubs/660x0b2.pdf):** XML-based standard for exchanging telemetry and command databases between different mission phases and organizations, ensuring data definition consistency.
 6. [DiskSat](https://www.nasa.gov/smallspacecraft/disksat/) - A plate-shaped spacecraft design that maintains CubeSat containerization while offering more surface area for power and instruments.
 
 ## Lunar Interoperability Standards
-*   **[LunaNet Interoperability Specification (LNIS)](https://www.nasa.gov/lunanet):** Core framework for lunar communications, navigation, and timing services (Draft v5). Relies on **Bundle Protocol (DTN v7)** for guaranteed delivery.
+*   **[LunaNet Interoperability Specification (LNIS)](https://www.nasa.gov/wp-content/uploads/2025/02/lunanet-interoperability-specification-v5-baseline.pdf?emrc=606f95):** Core framework for lunar communications, navigation, and timing services (v5 Baseline). Relies on **Bundle Protocol (DTN v7)** for guaranteed delivery.
+*   **[LunaNet Signal-In-Space Recommended Standard - Augmented Forward Signal](https://www.nasa.gov/wp-content/uploads/2025/02/lunanet-signal-in-space-recommended-standard-augmented-forward-signal-vol-a.pdf?emrc=0f6993)**
 *   **[ESA Moonlight](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Moonlight):** Satellite constellation initiative fully adopting LNIS standards.
 *   **Lunar Surface Connectivity:** Usage of **4G/LTE** for proximity communications (Nokia/Lunar Outpost/Intuitive Machines).
 
@@ -58,25 +64,29 @@ Searchable databases providing outgassing properties (TML, CVCM, RML) for thousa
 *   **[SPACEMATDB](https://www.spacematdb.com/):** Comprehensive space materials database integrating data from NASA and ESA.
 
 ## Launch Vehicle Payload User Guides (PUGs)
+
 Detailed technical manuals providing specifications for payload integration, environmental conditions, and mission interfaces.
 
-## Payload User Guides (PUGs)
-
+> **Note:** Payload User Guides are updated periodically. Always verify you have the latest version from the provider's official website before mission planning.
 
 ### Launch Vehicles
 
-Most overloads happens during launches, so it's important to understand the launch vehicle's environment.
+Most overloads happen during launch, so understanding the launch vehicle's environment is critical for payload design.
 
-> [!NOTE]
-> Detailed PUGs for Russian **Angara** and Chinese **Long March 5** are often restricted or proprietary. Public information is usually limited to general performance specifications and fairing dimensions found in institutional brochures.
+| Vehicle | Provider | Latest Version | Official Link | Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **Falcon 9 / Heavy** | SpaceX | Mar 2025 | [SpaceX Falcon 9 Page](https://www.spacex.com/vehicles/falcon-9/) | Download via "User's Guide" button. Covers both vehicles. |
+| **Rideshare** | SpaceX | Sep 2024 (v10) | [SpaceX Rideshare Page](https://www.spacex.com/rideshare/) | Smallsat rideshare-specific requirements. |
+| **Starship** | SpaceX | v1 (Preliminary) | [SpaceX Starship Page](https://www.spacex.com/vehicles/starship/) | Preliminary guide; evolving specifications. |
+| **New Glenn** | Blue Origin | Oct 2018 (Rev C) | [Blue Origin New Glenn](https://www.blueorigin.com/new-glenn/) | 7m fairing; first flight completed Jan 2025. |
+| **Vulcan Centaur** | ULA | Oct 2023 | [ULA Payload User Guides](https://www.ulalaunch.com/resources/payload-user-guides) | Replaces Atlas V and Delta IV. |
+| **Ariane 6** | Arianespace | Issue 2 (2024) | [ArianeGroup Users Manual](https://www.ariane.group/en/our-operational-launch-systems/ariane-6/ariane-6-users-manual/) | First flight July 2024. |
+| **Electron** | Rocket Lab | v7.0 (Nov 2022) | [Rocket Lab Launch](https://www.rocketlabcorp.com/launch) | Contact for full PUG; 200-300 kg to SSO. |
+| **Long March 5** | CGWIC | Restricted | [CGWIC Service Page](http://www.cgwic.com/) | Detail PDFs require direct request. |
+| **Long March 3A Series** | CGWIC | Varies | [CGWIC LM-3A Page](http://www.cgwic.com/LaunchService/LM3A.html) | Covers LM-3A, LM-3B, LM-3C. |
+| **Angara** | Roscosmos | Restricted | Contact Roscosmos | Russian heavy-lift; limited public documentation. |
 
-
-*   **[SpaceX Falcon Payload User's Guide](https://www.spacex.com/assets/media/falcon-users-guide-2025-05-09.pdf):** Covers Falcon 9 and Falcon Heavy. Details mechanical interfaces, electrical interfaces, and environmental specifications.
-*   **[SpaceX Starship Users Guide](https://spacex.relayto.com/e/starship-users-guide-37uiuuepbks0x):** Preliminary guide for Starship payload accommodations, including the 9m fairing volume and vertical integration.
-*   **[Blue Origin New Glenn Payload User's Guide](https://www.blueorigin.com/assets/new-glenn-payload-users-guide.pdf):** (Revision C, 2018) provides an overview of the 7-meter fairing, payload interfaces, and launch environments.
-*   **[Arianespace Soyuz User's Manual](https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf):** Data for spacecraft compatibility with the Soyuz launch system (CSG version).
-*   **[CGWIC Long March 3A Series User's Manual](http://www.cgwic.com/LaunchService/LM3A.html):** Covers LM-3A, LM-3B, and LM-3C. (Note: Specific PDF links often require direct request or portal access).
-*   **[CGWIC Long March 2D User's Manual Reference](http://www.cgwic.com/LaunchService/LM2D.html):** Overview of the two-stage LEO/SSO launcher.
+> **Caution:** Detailed PUGs for Russian **Angara**, Chinese **Long March 5**, and some other vehicles are often restricted or proprietary. Public information is usually limited to general performance specifications found in institutional brochures.
 
 ### Lunar Landers
 Technical specifications for landing systems, payload mounting, power, and data interfaces on the lunar surface.

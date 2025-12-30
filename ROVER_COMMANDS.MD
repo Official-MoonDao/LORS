@@ -13,6 +13,18 @@ Due to communication latency, lunar rover control follows a **semi-autonomous ap
 
 ## Command Categories
 
+> **About This Standardization Approach**
+> 
+> The command categories defined below represent **ready-made solutions, not rigid standards requiring strict adoption**. They are designed to be practical templates that teams can adapt to their specific mission requirements.
+> 
+> **Why standardize now?** These foundational command structures will soon become the basic building blocks upon which more complex operations are layered:
+> - **In-Situ Resource Utilization (ISRU)**: Mineral mining, water ice extraction, and regolith processing
+> - **Additive Manufacturing**: 3D printing of habitats, spare parts, and infrastructure
+> - **Swarm Robotics**: Coordinated operation of multiple rovers for large-scale construction, exploration, and logistics
+> - **Autonomous Maintenance**: Self-repair and cross-servicing between rover systems
+> 
+> By establishing common command primitives today, we enable interoperability for tomorrow's complex lunar surface operations.
+
 ### 1. Motion Control Commands
 
 #### DRIVE_VELOCITY

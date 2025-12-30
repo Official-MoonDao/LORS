@@ -172,6 +172,59 @@ Rover → MAVLink Messages → XTCE Processing → Ground Station
 - [XTCE Specification](https://www.omg.org/spec/XTCE/)
 - [CCSDS Standards](https://public.ccsds.org/)
 
+### 8. Localization & SLAM for GPS-Denied Environments
+
+**Description**: The Moon lacks GPS infrastructure, requiring rovers to rely on onboard localization and Simultaneous Localization and Mapping (SLAM) for navigation. These open-source solutions address this critical challenge.
+
+**Key Open-Source Projects**:
+
+| Project | Type | Key Features |
+| :--- | :--- | :--- |
+| **ORB-SLAM3** | Visual SLAM | Monocular, stereo, RGB-D camera support. High accuracy in visually textured environments. |
+| **RTAB-Map** | Graph-Based SLAM | Long-term, large-scale 3D mapping. Loop closure detection. |
+| **Google Cartographer** | LiDAR/2D-3D SLAM | Real-time mapping with loop closure. Suitable for structured environments. |
+| **GMapping** | 2D SLAM | Laser-based particle filter SLAM. Lightweight for embedded systems. |
+| **Hector SLAM** | 2D SLAM | Does not require wheel odometry—useful when slip is high (lunar regolith). |
+| **OpenVSLAM** | Visual SLAM | Versatile framework supporting multiple camera models. |
+
+**Lunar-Specific Approaches**:
+- **Crater-based Localization**: Matching observed craters to orbital maps for global position fixing
+- **Cross-view Localization**: Registering rover imagery against orbital imagery
+- **Visual Odometry + IMU Fusion**: Combining camera motion estimation with inertial measurements
+
+**Resources**:
+- [ORB-SLAM3 GitHub](https://github.com/UZ-SLAMLab/ORB_SLAM3)
+- [RTAB-Map GitHub](https://github.com/introlab/rtabmap)
+- [Google Cartographer](https://github.com/cartographer-project/cartographer)
+
+### 9. Thermal Management Software
+
+**Description**: Lunar rovers face extreme temperature swings (-180°C to +120°C). Software for thermal monitoring and control is mission-critical.
+
+**Open-Source Components**:
+- **OpenTHERM**: Open protocol for thermal system communication
+- **ROS 2 Thermal Nodes**: Community packages for temperature monitoring/control
+- **Thermal Modeling**: Integration with open FEA tools (e.g., FreeCAD FEM, Elmer)
+
+**Relevance to LORS**:
+- Standardized thermal telemetry formats
+- Common interfaces for heater control and radiator positioning
+- Night survival mode coordination
+
+### 10. Power Management Systems
+
+**Description**: Battery management, solar array tracking, and power distribution for autonomous operation.
+
+**Open-Source Components**:
+- **BMS Libraries**: Open-source Battery Management System firmware (e.g., DieBieMS, ENNOID-BMS)
+- **MPPT Controllers**: Maximum Power Point Tracking for solar arrays
+- **ROS 2 Power Nodes**: Standardized interfaces for power state reporting
+
+**Relevance to LORS**:
+- Enable overnight survival strategies
+- Standardized power bus interfaces (28V common for CLPS payloads)
+- Load shedding and priority management for critical systems
+
 ## Integration Architecture
 
 The proposed software stack follows a layered architecture:

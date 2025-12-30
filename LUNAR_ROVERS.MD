@@ -101,7 +101,6 @@ This section tracks active and upcoming lunar rover missions through 2028, provi
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **LTV (Eagle/FLEX/Moon RACER)** | Lunar Outpost / Astrolab / IM | Artemis IV | Planned (Late 2028) | **Lunar Terrain Vehicle** for astronaut transport. 20 km range, 10+ year lifespan. Autonomous capable. | Primary crewed rover standard; human-machine interface reference. |
 | **Chang'e 8 Rover** | CNSA (China) | Chang'e 8 | Planned (~2028) | **ILRS Testbed**. In-situ resource utilization demos. 3D printing experiments. International payload modules (~100kg). | ISRU and additive manufacturing standards; international payload interfaces. |
-| **Luna-26** | Roscosmos (Russia) | TBD | Planned (2028) | Lunar orbiter mission. Precursor mapping for Luna-27/28 surface operations. | Orbital mapping data standards; Russian lunar program resumption. |
 
 ### Beyond 2028 (Russian Lunar Program & Others)
 
