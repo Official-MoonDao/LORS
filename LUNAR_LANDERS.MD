@@ -7,9 +7,9 @@ This document catalogs upcoming lunar landers from commercial providers (CLPS) a
 | Lander | Provider | Launch / Status | Payload Capacity | Power (Surface) | Data Rate (Downlink) | Key Features / Notes | PUG / Source |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Blue Ghost** | Firefly Aerospace | 2025 (Mission 1) <br> 2026 (Mission 2) | ~150 kg (Surface) | ~300 W (Avg) <br> 400 W (Peak) | > 10 Mbps (Surface) | 2m height x 3.5m width. 14 Earth day survival (Mission 1). Mission 2 targets Far Side (LuSEE-Night). | [Blue Ghost Page](https://fireflyspace.com/blue-ghost/) |
-| **Nova-C** | Intuitive Machines | Active (IM-1 Success)<br>IM-2, IM-3 (2025-26) | 100 - 130 kg | Provided (Bus) | Encrypted, varying rates | 14-day surface life. IM-3 targets Reiner Gamma. | [Lunar Access Services](https://www.intuitivemachines.com/lunar-services) |
+| **Nova-C** | Intuitive Machines | Active (IM-1 Success)<br>IM-2, IM-3 (2025-26) | 100 - 130 kg | Provided (Bus) | Encrypted, varying rates | 14-day surface life. IM-3 targets Reiner Gamma. | [Lunar Access Services](https://www.intuitivemachines.com/) |
 | **Griffin** | Astrobotic | 2025 (Mission 1) | ~625 kg | 150 W (Avg) | 200 kbps (Payload Data) | Medium-class lander. Designed for rovers (originally VIPER). High-precision landing (100m). | [Griffin Page](https://www.astrobotic.com/griffin/) |
-| **Peregrine** | Astrobotic | Flown (2024 - Loss) | ~90-100 kg | N/A | N/A | First mission suffered anomaly. Architecture informs Griffin. | [Peregrine Page](https://www.astrobotic.com/peregrine/) |
+| **Peregrine** | Astrobotic | Flown (2024 - Loss) | ~90-100 kg | N/A | N/A | First mission suffered anomaly. Architecture informs Griffin. | [Peregrine PUG](https://www.astrobotic.com/wp-content/uploads/2021/01/Peregrine-Payload-Users-Guide.pdf) |
 | **Blue Moon MK1** | Blue Origin | ~2025 (Pathfinder) | ~3,000 kg | High Capability | Direct-to-Earth (DTE) | Cargo variant. Uses New Glenn 7m fairing. Precision landing. | [Payload Page](https://www.blueorigin.com/blue-moon) |
 | **APEX 1.0** | ispace US / Draper | 2026 (Series-2) | 300 kg (up to 500 kg) | TBD | TBD | 3.1m tall. Far side mission (Schrödinger Basin). Relay satellite support. | [APEX Page](https://ispace-us.com/apex/) |
 
