@@ -71,8 +71,8 @@ Most overloads happens during launches, so it's important to understand the laun
 > Detailed PUGs for Russian **Angara** and Chinese **Long March 5** are often restricted or proprietary. Public information is usually limited to general performance specifications and fairing dimensions found in institutional brochures.
 
 
-*   **[SpaceX Falcon Payload User's Guide](https://www.spacex.com/media/falcon_users_guide_082020.pdf):** Covers Falcon 9 and Falcon Heavy. Details mechanical interfaces, electrical interfaces, and environmental specifications.
-*   **[SpaceX Starship Users Guide](https://www.spacex.com/media/starship_users_guide_v1.pdf):** Preliminary guide for Starship payload accommodations, including the 9m fairing volume and vertical integration.
+*   **[SpaceX Falcon Payload User's Guide](https://www.spacex.com/assets/media/falcon-users-guide-2025-05-09.pdf):** Covers Falcon 9 and Falcon Heavy. Details mechanical interfaces, electrical interfaces, and environmental specifications.
+*   **[SpaceX Starship Users Guide](https://spacex.relayto.com/e/starship-users-guide-37uiuuepbks0x):** Preliminary guide for Starship payload accommodations, including the 9m fairing volume and vertical integration.
 *   **[Blue Origin New Glenn Payload User's Guide](https://www.blueorigin.com/assets/new-glenn-payload-users-guide.pdf):** (Revision C, 2018) provides an overview of the 7-meter fairing, payload interfaces, and launch environments.
 *   **[Arianespace Soyuz User's Manual](https://www.arianespace.com/wp-content/uploads/2015/09/Soyuz-Users-Manual-March-2012.pdf):** Data for spacecraft compatibility with the Soyuz launch system (CSG version).
 *   **[CGWIC Long March 3A Series User's Manual](http://www.cgwic.com/LaunchService/LM3A.html):** Covers LM-3A, LM-3B, and LM-3C. (Note: Specific PDF links often require direct request or portal access).
