@@ -166,6 +166,20 @@ type: Government Agency
 specialization: Delivery, Mobility
 ```
 
+### FUTURA
+- **Country:** Argentina
+- **Type:** Commercial
+- **Specialization:** Infrastructure, Mobility (HEMIUNU-01)
+- **Status:** Active / Prototype Stage
+
+```yaml
+entity_id: futura
+name: FUTURA
+country: Argentina
+type: Commercial
+specialization: Infrastructure, Mobility
+```
+
 ### Carnegie Mellon University (CMU)
 - **Country:** USA
 - **Type:** Academic / Research

@@ -18,5 +18,6 @@ type: Collection
 *   **Mission Control Space Services:** Autonomy software for lunar rovers. Canadian lunar utility rover program.
 
 ## Concept & Prototype Projects
+*   **HEMIUNU-01:** FUTURA (Argentina). Focused on lunar infrastructure, cold resistance (-50°C), and robotic interaction.
 *   **Simplified Designs:** Ali (robotsailor), Purdue alum.
 *   **Exo Stellar Pulse Fusion:** S. Nagarshi. Helium-3 extraction concept.
