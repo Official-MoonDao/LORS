@@ -25,12 +25,14 @@ description: Expert skill for generating the LORS Ecosystem Mapping Document, pr
 2. **Rover Project Profiling**:
    - Profile 8-10 current lunar rover projects.
    - For each project, identify the developer, mission status, and key objectives.
-   - Cross-reference with `LUNAR_ROVERS.MD`, `STUDENT_ROVER_TEAMS.MD` and `LUNAR_MISSIONS.MD` for context.
+   - Cross-reference with the `rovers/` directory files. Use `LUNAR_ROVERS.MD` only as a quick index.
+   - Cross-reference with `STUDENT_ROVER_TEAMS.MD` and `LUNAR_MISSIONS.MD` for context.
 
 3. **Delivery Provider Assessment**:
    - Assess 3-5 lunar delivery providers (landers/transport).
    - Analyze their capabilities, payload capacity, and compatibility with rovers.
-   - Cross-reference with `LUNAR_LANDERS.MD`, `SPACE_ENTITIES.MD` and `LUNAR_MISSIONS.MD`.
+   - Cross-reference with the `landers/` directory files. Use `LUNAR_LANDERS.MD` only as a quick index.
+   - Cross-reference with `SPACE_ENTITIES.MD` and `LUNAR_MISSIONS.MD`.
 
 4. **High-Level System Approach**:
    - Describe the general approach for each profiled project.
