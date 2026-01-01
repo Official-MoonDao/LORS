@@ -48,19 +48,20 @@ LORS is an open initiative. Ways to contribute:
 
 Join [MoonDAO Discord](https://discord.com/invite/moondao)
 
-### Suggested workflow
+### How to Contribute
 
-If you want to contribute we suggest to follow the proposed workflow and tools.
+If you want to contribute, we suggest following this workflow. We've defined the tools and steps to help everyone work together effectively.
 
-IMPORTANT: DO NOT COMMIT PURE AI-GENERATED TEXT!
-It's easy to generate tons of pages of text with AI, that actually are pretty useless and hard to read. Try to commit less but very valuable text
+> [!IMPORTANT]
+> **DO NOT COMMIT PURE AI-GENERATED TEXT!**
+> It is easy to generate meaningless pages of text with AI that are hard to read. Please ensure your contributions are valuable, concise, and reviewed by a human.
 
-1. We should do things in AI-native manner, meaning that we have to make all the docs available for the AI, having scripts that will download data
-2. Install git on your machine
-3. Setup git to work with remove repositories (via ssh key)
-4. (Optional) Use AI-assisted text editors: VSCode + cline, VSCode + Copilot, Cursor, Antigravity
-5. (Optional) Use [Git Graph Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) to navigate repository
-6. Make a fork of this repo
-7. Clone the fork to your computer and do the edits
-8. Commit and push changes to your repo
-9. Make pull request from your forked repo into this one
+1.  **Work in an AI-Native Way**: Ensure all documentation is accessible to AI tools. This means keeping data structured and using scripts to download information, so AI assistants can help us build faster.
+2.  **Install Git**: Install `git` on your computer. This is the standard tool we use to track changes and collaborate on files.
+3.  **Setup Secure Access (SSH)**: Configure git to securely connect to remote repositories (GitHub) using an SSH key. This acts like a secure digital key for your computer.
+4.  **Use AI-Assisted Editors (Optional)**: We recommend using modern text editors that support AI features to speed up your work. Examples include VSCode (with plugins like Cline or Copilot), Cursor, or Antigravity.
+5.  **Visualize Changes (Optional)**: Use tools like the [Git Graph Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph). This helps you "see" the history of changes and how different versions relate to each other.
+6.  **Create Your Copy (Fork)**: "Fork" this repository on GitHub. This creates your own personal copy of the project where you can freely make changes without affecting the main project immediately.
+7.  **Download to Your Computer (Clone)**: "Clone" your forked copy to your local machine. This downloads the files so you can edit them directly on your computer.
+8.  **Save and Upload Changes (Commit & Push)**: "Commit" your edits (save a snapshot of your changes) and "Push" them (upload) back to your online copy (your fork).
+9.  **Propose Your Changes (Pull Request)**: Create a "Pull Request" from your forked repository to this original one. This allows us to review your work and merge it into the official project.
