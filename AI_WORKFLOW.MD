@@ -145,6 +145,27 @@ Use these when you want to:
 3. **The AI analyzes patterns** and creates insights
 4. **The report is saved** in the `reports/` folder
 
+### When Updating Skills with New Information
+
+Our skills evolve as we learn more! This is a common and important part of our workflow:
+
+1. **Start research** on a topic (e.g., researching rover specifications)
+2. **Discover new information** during the conversation (e.g., new data formats, additional specs to track)
+3. **Update the relevant skill** to include the new information we found
+4. **Continue using the improved skill** for future research
+
+**Example:**
+- You ask AI to research mission payloads
+- During research, you discover missions also list "technology demonstrations"
+- You update the `mission-payloads-researcher` skill to include technology demonstrations
+- Future payload research will now automatically include this information
+
+**Why this matters:**
+- Our skills get smarter over time
+- We capture lessons learned from each research session
+- Future work benefits from past discoveries
+- The quality and completeness of our data continuously improves
+
 ---
 
 ## What Are "Skills"?
