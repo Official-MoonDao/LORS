@@ -1,16 +1,35 @@
 # Lunar Open-source Rover Standard (LORS)
 
+> **🚀 Building a Lunar Rover? Start Here!**
+> 
+> This repository contains helpful materials for lunar rover builders, researchers, and space enthusiasts.
+> 
+> **New to the project? Ask your AI assistant:**
+> ```
+> Explain in ELI5 https://github.com/Official-MoonDao/LORS
+> ```
+
 ## Table of Contents
 
+**Getting Started:**
+- [Getting Involved](#getting-involved) - Ways to contribute
+- [How We Work](AI_WORKFLOW.MD) - Understanding our workflow
+- [Contributing Guide](CONTRIBUTING.MD) - Technical setup and instructions
+
+**Project Information:**
 - [Overview](#overview)
 - [Problem](#problem)
 - [Benefits](#benefits)
-- [Getting Involved](#getting-involved)
+
+**Documentation:**
 - [Standards and Documents](STANDARDS_AND_DOCS.MD)
 - [Rover Software Proposal](ROVER_SOFTWARE_PROPOSAL.MD)
 - [Rover Commands](ROVER_COMMANDS.MD)
 - [Lunar Rovers](LUNAR_ROVERS.MD)
 - [Lunar Landers](LUNAR_LANDERS.MD)
+- [Lunar Missions](LUNAR_MISSIONS.MD)
+- [Space Entities](SPACE_ENTITIES.MD)
+- [Skills](skills/) - AI research instructions
 
 ## Overview
 
@@ -48,19 +67,19 @@ LORS is an open initiative. Ways to contribute:
 
 Join [MoonDAO Discord](https://discord.com/invite/moondao)
 
-### Suggested workflow
+### How to Contribute
 
-If you want to contribute we suggest to follow the proposed workflow and tools.
+We welcome contributions from everyone! Whether you're a researcher, engineer, student, or space enthusiast, there are many ways to help.
 
-IMPORTANT: DO NOT COMMIT PURE AI-GENERATED TEXT!
-It's easy to generate tons of pages of text with AI, that actually are pretty useless and hard to read. Try to commit less but very valuable text
+📚 **Start here:**
+- [How We Work](AI_WORKFLOW.MD) - Understand our workflow and how we organize information
+- [Contributing Guide](CONTRIBUTING.MD) - Technical setup and step-by-step instructions
 
-1. We should do things in AI-native manner, meaning that we have to make all the docs available for the AI, having scripts that will download data
-2. Install git on your machine
-3. Setup git to work with remove repositories (via ssh key)
-4. (Optional) Use AI-assisted text editors: VSCode + cline, VSCode + Copilot, Cursor, Antigravity
-5. (Optional) Use [Git Graph Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) to navigate repository
-6. Make a fork of this repo
-7. Clone the fork to your computer and do the edits
-8. Commit and push changes to your repo
-9. Make pull request from your forked repo into this one
+**Quick ways to contribute:**
+- Review and provide feedback on research reports
+- Add or update information about rovers, landers, or missions
+- Connect us with lunar rover teams or delivery providers
+- Share technical expertise on rover standards
+- Help spread awareness of LORS
+
+Join [MoonDAO Discord](https://discord.com/invite/moondao) to get started!

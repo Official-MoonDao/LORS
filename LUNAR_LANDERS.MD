@@ -1,30 +1,44 @@
-# Lunar Landers and Payload Specifications
+# Lunar Landers Registry
 
-This document catalogs upcoming lunar landers from commercial providers (CLPS) and international space agencies, focusing on their payload capacities and interface specifications.
+## TL;DR
+The lunar lander market is rapidly shifting towards commercial providers (CLPS) offering regular "delivery services" to the lunar surface. The registry tracks these vehicles, focusing on payload capacity and power availability.
+*   **Light/Micro (<100kg):** Z-01, MX-1, Peregrine.
+*   **Utility/Medium (100kg-500kg):** Nova-C, Blue Ghost, APEX 1.0, ispace Series 3, B5.
+*   **Heavy/Logistics (>500kg):** Griffin, Nova-D, Blue Moon MK1, Argonaut, Starship.
 
-## Сommercial Lunar Payload Services (CLPS) & US Commercial
+## Lander Index
 
-| Lander | Provider | Launch / Status | Payload Capacity | Power (Surface) | Data Rate (Downlink) | Key Features / Notes | PUG / Source |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Blue Ghost** | Firefly Aerospace | 2025 (Mission 1) <br> 2026 (Mission 2) | ~150 kg (Surface) | ~300 W (Avg) <br> 400 W (Peak) | > 10 Mbps (Surface) | 2m height x 3.5m width. 14 Earth day survival (Mission 1). Mission 2 targets Far Side (LuSEE-Night). | [Blue Ghost Page](https://fireflyspace.com/blue-ghost/) |
-| **Nova-C** | Intuitive Machines | Active (IM-1 Success)<br>IM-2, IM-3 (2025-26) | 100 - 130 kg | Provided (Bus) | Encrypted, varying rates | 14-day surface life. IM-3 targets Reiner Gamma. | [Lunar Access Services](https://www.intuitivemachines.com/) |
-| **Griffin** | Astrobotic | 2025 (Mission 1) | ~625 kg | 150 W (Avg) | 200 kbps (Payload Data) | Medium-class lander. Designed for rovers (originally VIPER). High-precision landing (100m). | [Griffin Page](https://www.astrobotic.com/griffin/) |
-| **Peregrine** | Astrobotic | Flown (2024 - Loss) | ~90-100 kg | N/A | N/A | First mission suffered anomaly. Architecture informs Griffin. | [Peregrine PUG](https://www.astrobotic.com/wp-content/uploads/2021/01/Peregrine-Payload-Users-Guide.pdf) |
-| **Blue Moon MK1** | Blue Origin | ~2025 (Pathfinder) | ~3,000 kg | High Capability | Direct-to-Earth (DTE) | Cargo variant. Uses New Glenn 7m fairing. Precision landing. | [Payload Page](https://www.blueorigin.com/blue-moon) |
-| **APEX 1.0** | ispace US / Draper | 2026 (Series-2) | 300 kg (up to 500 kg) | TBD | TBD | 3.1m tall. Far side mission (Schrödinger Basin). Relay satellite support. | [APEX Page](https://ispace-us.com/apex/) |
+### Commercial Landers (US & International)
+*   **Active / Flight-Ready**
+    *   [Blue Ghost (Firefly)](landers/BLUE_GHOST.MD) - Active class, first fully successful commercial landing (Mission 1).
+    *   [Nova-C (Intuitive Machines)](landers/NOVA_C.MD) - Active class, first successful commercial landing (IM-1).
+    *   [HAKUTO-R (ispace)](landers/HAKUTO_R.MD) - Commercial lander from Japan.
+    *   [Peregrine (Astrobotic)](landers/PEREGRINE.MD) - First CLPS attempt (Legacy/Lost).
+    *   [Beresheet (SpaceIL)](landers/BERESHEET.MD) - The pioneer private mission.
 
-## International Commercial
+*   **Planned / In Development**
+    *   [Griffin (Astrobotic)](landers/GRIFFIN.MD) - Medium-class lander for large rovers.
+    *   [APEX 1.0 (ispace US)](landers/APEX_1.MD) - Far-side capable lander.
+    *   [Blue Moon MK1 (Blue Origin)](landers/BLUE_MOON_MK1.MD) - Heavy cargo lander.
+    *   [ispace Series 3](landers/ISPACE_SERIES_3.MD) - Enhanced utility lander (500kg capacity).
+    *   [Nova-D (Intuitive Machines)](landers/NOVA_D.MD) - Heavy infrastructure lander (2.5-ton capacity).
+    *   [Ceres-1 / B5 (Ceres Robotics)](landers/CERES_B5.MD) - 500kg class utility lander.
+    *   [MX-1 (Moon Express)](landers/MOON_EXPRESS_MX1.MD) - Micro-class delivery service.
+    *   [Starship HLS (SpaceX)](landers/STARSHIP_HLS.MD) - Largest human-rated lander (Artemis III/IV).
+    *   [Starship Cargo (SpaceX)](landers/STARSHIP_CARGO.MD) - Unprecedented 100-ton heavy logistics platform.
 
-| Lander | Provider | Country | Launch | Payload Capacity | Notes |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **HAKUTO-R** | ispace | Japan | Mission 2 (2025)<br>Mission 3 (2026) | ~30 kg (Mission 1) | Series 1 lander. Mission 2 ("Resilience") includes micro-rover. |
-| **Beresheet 2** | SpaceIL | Israel | ~2025 | TBD | Dual lander configuration + Orbiter. |
+### NASA CLPS Pool Partners (Design-Ready)
+Companies in the active CLPS vendor pool contributing specialized architectures:
+*   **Sierra Space:** Focus on LIFE habitats and LTV logistics.
+*   **Tyvak Nano-Satellite Systems:** Micro-lander concepts and pathfinder orbiters (CAPSTONE).
+*   **Deep Space Systems / Lockheed Martin:** Strategic partnership for deep space exploration vehicles.
 
-## Agency / Institutional Landers
+### Technical Heritage & Legacy Designs
+*   [XL-1 (Masten)](landers/MASTEN_XL1.MD) - Benchmarks for precision landing and VTOL operations.
+*   [Z-01 (Orbit Beyond)](landers/ORBIT_BEYOND_Z01.MD) - Micro-class heritage derived from Team Indus.
 
-| Lander | Agency | Launch | Payload | Key Instruments / Mission Goals |
-| :--- | :--- | :--- | :--- | :--- |
-| **Argonaut (EL3)** | ESA | ~2030 | ~1,500 - 2,100 kg | Logistics lander. Uses **Cargo Platform Element (CPE)** and MANUS robotic arm for deployment. |
-| **LUPEX Lander** | ISRO (with JAXA) | ~2025/26 | ~350 kg (Lander Payload) | **Polar Exploration.** Carries JAXA/ISRO rover (~350kg). Investigating water ice. |
-| **Chang'e 7** | CNSA | ~2026 | 18-23 Instruments | **South Pole Survey.** Orbiter, Lander, Rover, Hopper. International payloads (≤10kg lander, ≤15kg orbiter). |
-| **Chang'e 8** | CNSA | ~2028 | ~200 kg Piggyback | **ILRS Testbed.** In-situ resource utilization. International payload modules up to 100kg/50W. |
+### Agency & Institutional Landers
+*   [Chang'e 7 (CNSA)](landers/CHANGE_7.MD) - Complex South Pole mission (Orbiter/Lander/Rover/Hopper).
+*   [Chang'e 8 (CNSA)](landers/CHANGE_8.MD) - ILRS testbed and resource utilization.
+*   [LUPEX Lander (ISRO/JAXA)](landers/LUPEX_LANDER.MD) - Joint polar exploration lander.
+*   [Argonaut (ESA)](landers/ARGONAUT.MD) - European heavy logistics lander.
