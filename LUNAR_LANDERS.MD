@@ -2,9 +2,9 @@
 
 ## TL;DR
 The lunar lander market is rapidly shifting towards commercial providers (CLPS) offering regular "delivery services" to the lunar surface. The registry tracks these vehicles, focusing on payload capacity and power availability.
-*   **Commercial (Light):** Vehicles like Nova-C and Blue Ghost carrying ~100-150kg.
-*   **Commercial (Medium/Heavy):** Heavier lift vehicles like Griffin and Blue Moon.
-*   **Institutional:** National agency landers like Chang'e and Argonaut.
+*   **Light/Micro (<100kg):** Z-01, MX-1, Peregrine.
+*   **Utility/Medium (100kg-500kg):** Nova-C, Blue Ghost, APEX 1.0, ispace Series 3, B5.
+*   **Heavy/Logistics (>500kg):** Griffin, Nova-D, Blue Moon MK1, Argonaut, Starship.
 
 ## Lander Index
 
@@ -21,8 +21,21 @@ The lunar lander market is rapidly shifting towards commercial providers (CLPS) 
     *   [APEX 1.0 (ispace US)](landers/APEX_1.MD) - Far-side capable lander.
     *   [Blue Moon MK1 (Blue Origin)](landers/BLUE_MOON_MK1.MD) - Heavy cargo lander.
     *   [ispace Series 3](landers/ISPACE_SERIES_3.MD) - Enhanced utility lander (500kg capacity).
+    *   [Nova-D (Intuitive Machines)](landers/NOVA_D.MD) - Heavy infrastructure lander (2.5-ton capacity).
+    *   [Ceres-1 / B5 (Ceres Robotics)](landers/CERES_B5.MD) - 500kg class utility lander.
+    *   [MX-1 (Moon Express)](landers/MOON_EXPRESS_MX1.MD) - Micro-class delivery service.
     *   [Starship HLS (SpaceX)](landers/STARSHIP_HLS.MD) - Largest human-rated lander (Artemis III/IV).
     *   [Starship Cargo (SpaceX)](landers/STARSHIP_CARGO.MD) - Unprecedented 100-ton heavy logistics platform.
+
+### NASA CLPS Pool Partners (Design-Ready)
+Companies in the active CLPS vendor pool contributing specialized architectures:
+*   **Sierra Space:** Focus on LIFE habitats and LTV logistics.
+*   **Tyvak Nano-Satellite Systems:** Micro-lander concepts and pathfinder orbiters (CAPSTONE).
+*   **Deep Space Systems / Lockheed Martin:** Strategic partnership for deep space exploration vehicles.
+
+### Technical Heritage & Legacy Designs
+*   [XL-1 (Masten)](landers/MASTEN_XL1.MD) - Benchmarks for precision landing and VTOL operations.
+*   [Z-01 (Orbit Beyond)](landers/ORBIT_BEYOND_Z01.MD) - Micro-class heritage derived from Team Indus.
 
 ### Agency & Institutional Landers
 *   [Chang'e 7 (CNSA)](landers/CHANGE_7.MD) - Complex South Pole mission (Orbiter/Lander/Rover/Hopper).
