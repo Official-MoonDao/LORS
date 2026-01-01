@@ -25,6 +25,10 @@ First fully successful commercial soft landing.
 
 ## Details
 *   **Lander:** [Blue Ghost](../landers/BLUE_GHOST.MD)
+*   **Transfer Trajectory:** 46-day transit (Launch Jan 15, 2025; Landing Mar 2, 2025).
+*   **Connectivity:**
+    *   **Direct-to-Earth:** X-Band and S-Band links to the SSC network.
+    *   **Data Volume:** Transmitted over **119 GB** of data, including 51 GB of science/tech data.
 *   **Payloads:**
     1.  **SCALPSS** (Stereo CAmera for Lunar Plume-Surface Studies) - NASA
     2.  **LISTER** (Lunar Instrumentation for Subsurface Thermal Exploration with Rapidity) - Honeybee Robotics/NASA
@@ -36,4 +40,4 @@ First fully successful commercial soft landing.
     8.  **LEXI** (Lunar Environment heliospheric X-ray Imager) - Boston Univ/NASA
     9.  **LMS** (Lunar Magnetotelluric Sounder) - SwRI/NASA
     10. **LuGRE** (Lunar GNSS Receiver Experiment) - NASA
-*   **Status:** Landed (Mar 2025)
+*   **Status:** Success (Mar 16, 2025). Landed in Mare Crisium near Mons Latreille. Operated for a full lunar day (plus 5 hours into the lunar night). Confirmed as the first commercial company to achieve a fully successful, upright soft landing without major anomalies.

@@ -20,12 +20,18 @@ Distributed autonomy/swarm coordination and magnetic field investigation at Rein
 
 ## Details
 *   **Lander:** [Nova-C](../landers/NOVA_C.MD)
+*   **Transfer Trajectory:** ~7.5 Day Direct Transit.
+*   **Connectivity:**
+    *   **Direct-to-Earth:** S-Band (250 kbps - 6 Mbps).
+    *   **Security:** All science and telemetry data secured via **AES-256 encryption**.
+    *   **Surface Relay:** 802.11ac Wi-Fi for swarm coordination with CADRE rovers.
+*   **Secondary Relay:** Includes the **Khon2** data relay satellite for enhanced cislunar coverage.
 *   **Payloads:**
     *   **Lunar Vertex** (Magnetic Field Investigation) - NASA/JHUAPL
         *   Nova-C Lander: Magnetometer, Plasma Spectrometer
         *   **[Lunar Outpost Rover](../rovers/MAPP.MD)**: Magnetometer, Microscopic Imager
-    *   **[CADRE](../rovers/CADRE.MD)** (4 Autonomous Micro-rovers) - NASA JPL
+    *   **[CADRE](../rovers/CADRE.MD)** (3 Autonomous Micro-rovers) - NASA JPL (Swarm demo)
     *   **MPAc** (MoonLIGHT Pointing Actuator) - ESA (Laser Ranging)
     *   **LUSEM** (Lunar Space Environment Monitor) - KASI (Korea)
-    *   **Khon2** (Data Relay Satellite) - Intuitive Machines (Deployed to L2)
-*   **Status:** Planned. Targeting Reiner Gamma Swirl.
+    *   **Khon2** (Data Relay Satellite) - Intuitive Machines
+*   **Status:** Planned. Targeting Reiner Gamma (lunar swirl).
