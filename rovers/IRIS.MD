@@ -7,8 +7,13 @@ class: Educational / Science
 status: Flown (Lost)
 physical:
   mass_kg: 2
-  locomotion: 4-wheel
-  chassis: Carbon Fiber
+  mobility:
+  type: "4-wheel (Bottle cap wheels)"
+  performance: "Optimized for CMU student-led navigation"
+comms:
+  wireless:
+    type: "Lander Relay (S-Band)"
+    status: "Confirmed heartbeats in cislunar space"
 ---
 
 # Iris
@@ -16,10 +21,9 @@ physical:
 ## Overview
 Iris was a nano-rover developed by students at CMU. It launched on the Peregrine Mission 1.
 
-## Key Features
-*   **Bottle Cap Wheels:** distinctive lightweight wheels.
-*   **First:** Aimed to be the first American university rover on the Moon.
-*   **Fate:** Burned up in Earth atmosphere with Peregrine lander (Jan 2024).
+## Communication Systems
+*   **Transit Comms:** Successfully communicated with Earth via the **Peregrine** lander's S-Band relay during its 10-day cislunar journey.
+*   **Operational Success:** Although the landing failed, Iris was the first American university rover to be powered on and transmit data from space.
 
 ## Resources
 *   [Iris Mission Website](https://irislunarrover.space/)
