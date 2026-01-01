@@ -6,8 +6,8 @@ description: Specialized skill for analyzing lunar rover technical specification
 # Lunar Rovers Expert Skill
 
 ## Domain Knowledge
-- **File**: `LUNAR_ROVERS.MD`
-- **Metadata Format**: YAML blocks with fields: `id`, `developer`, `type`, `mass_kg`, `power_w`, `locomotion`, `comms`.
+- **Directory**: `rovers/` (contains individual `*.MD` files for each rover)
+- **Metadata Format**: YAML frontmatter at the top of each file with fields: `id`, `name`, `developer`, `class`, `status`, `physical` (mass, dimensions), `power`, `comms`.
 
 ## Instructions
 1. **Mobility Data Collection**: Collect and catalog specifications for all mobile systems, including conventional rovers, micro-swarms (Colmena), and deployable cameras (EagleCam).
