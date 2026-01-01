@@ -10,6 +10,7 @@ description: Specialized skill for analyzing lunar lander interface specificatio
 - **Metadata Format**: YAML blocks with fields: `id`, `provider`, `payload_capacity_kg`, `power_surface_w`, `data_rate`, `status`.
 
 ## Instructions
-1. **Interface Mapping**: Focus on mechanical mounts (Isogrids), electrical interfaces, and data protocols.
-2. **PUG Analysis**: Retrieve and summarize key constraints from referenced Payload User Guides.
-3. **Capacity Matching**: Help users determine which lander is suitable for a given rover mass/power profile.
+1. **Interface Data Collection**: Catalog mechanical (Isogrid), electrical, and data interface specifications (Ethernet, RS-422, etc.) provided by landers.
+2. **Connectivity Mapping**: Document the **wired communication link** provided to payloads during transit and the transition point to wireless.
+3. **Capacity Data Tracking**: Collect and compare payload capacity, power availability, and thermal control data.
+4. **Source Attribution**: Prioritize and link to official **Payload User Guides (PUGs)** and provider documentation for all interface specs.

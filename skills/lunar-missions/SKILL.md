@@ -10,6 +10,7 @@ description: Specialized skill for tracking lunar mission timelines, manifests, 
 - **Metadata Format**: YAML blocks with fields: `mission_id`, `lander_id`, `payload_ids`, `launch_date`, `status`, `target_site`.
 
 ## Instructions
-1. **Manifest Tracking**: Link specific rovers and landers to their respective missions.
-2. **Timeline Analysis**: Provide a coherent view of upcoming lunar surface activity by year (2025-2028+).
-3. **Status Monitoring**: Differentiate between "Success", "Anomaly", "Planned", and "In-Transit".
+1. **Manifest Data Collection**: Create detailed mappings of payload IDs to lander IDs and mission IDs, capturing all items delivered to the surface.
+2. **Timeline Data Tracking**: Maintain an accurate log of launch dates, target landing sites, and actual landing coordinates.
+3. **Outcome Documentation**: Collect and document mission success metrics and status transitions.
+4. **Source Attribution**: Link entries to official mission reports, NASA CLPS updates, or provider press releases to verify status change and manifest items.
