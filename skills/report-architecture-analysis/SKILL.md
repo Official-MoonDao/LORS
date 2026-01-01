@@ -44,5 +44,6 @@ description: Specialized skill for conducting detailed architectural analysis of
    - Pinpoint successful patterns that could serve as a basis for LORS, using `STANDARDS_AND_DOCS.MD` as a baseline.
 
 5. **Analysis Output**:
+   - **Target Output File**: `reports/ARCHITECTURE_ANALYSIS.MD`
    - Generate detailed technical comparison tables and architectural diagrams (descriptions).
    - This analysis supports the "detailed architectural analysis" requirement of Objective #1.

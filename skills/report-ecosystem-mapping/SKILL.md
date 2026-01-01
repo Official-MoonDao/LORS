@@ -32,10 +32,11 @@ description: Expert skill for generating the LORS Ecosystem Mapping Document, pr
    - Analyze their capabilities, payload capacity, and compatibility with rovers.
    - Cross-reference with `LUNAR_LANDERS.MD`, `SPACE_ENTITIES.MD` and `LUNAR_MISSIONS.MD`.
 
-4. **Architecture & Approach Documentation**:
-   - Describe the general architecture and design approach for each profiled project.
+4. **High-Level System Approach**:
+   - Describe the general approach for each profiled project.
    - Identify common trends (e.g., cube rovers, swarm architectures) and divergent strategies.
 
-5. **Report Structure**:
+5. **Report Structure & Output**:
+   - **Target Output File**: `reports/ECOSYSTEM_MAPPING.MD`
    - The output should support the creation of the "Ecosystem Mapping Document" (target length: 8-10 pages).
    - Expected sections: Executive Summary, Rover Project Profiles, Delivery Provider Assessment, Ecosystem Trends.
