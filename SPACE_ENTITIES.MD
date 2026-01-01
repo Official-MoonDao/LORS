@@ -108,6 +108,20 @@ type: Commercial
 specialization: Delivery
 ```
 
+### SpaceX
+- **Country:** USA
+- **Type:** Commercial
+- **Specialization:** Delivery (Starship HLS/Cargo), Infrastructure
+- **Status:** Active (Artemis HLS Prime Partner)
+
+```yaml
+entity_id: spacex
+name: SpaceX
+country: USA
+type: Commercial
+specialization: Delivery, Infrastructure
+```
+
 ## Institutional & Hybrid Partners
 
 ### JAXA (Japan Aerospace Exploration Agency)

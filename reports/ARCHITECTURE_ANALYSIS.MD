@@ -16,6 +16,7 @@ The following table compares the primary "Gatekeeper" interfaces that any LORS-c
 | **ispace (HAKUTO-R)** | X-Band (ESA/ESA) | RS-422 (Micro-D) | X-Band Relay | Standard |
 | **Firefly (Blue Ghost)** | X-Band / S-Band (SSC) | Standard Elec/Data | 802.11 Wi-Fi | High Bandwidth |
 | **ESA (Argonaut)** | X-Band / S-Band | CPE Standard (Modular) | Gateway Relay | Infrastructure-Grade |
+| **SpaceX (Starship)** | **Optical / Ka-Band** | **Heavy ISO / High Voltage** | **5.8 GHz Wi-Fi (ac)** | Mission Critical |
 
 ### **Key Architectural Disparities:**
 *   **Protocol Conflict**: The industry is split between legacy **RS-422/Serial** (ispace, Astrobotic) and modern **Ethernet/LTE** architectures (Intuitive Machines).
@@ -30,6 +31,7 @@ Deconstructing the 19 profiled rovers identifies clear "Classes" based on techni
 *   **Comms**: Direct-to-Earth (DTE) steerable High-Gain Antennas.
 *   **Mobility**: Active suspension, "inch-worming," or hyper-deformable wheels.
 *   **Interface**: Heavy/Modular cargo bays (ISO-style containers).
+*   **Infrastructure Lead**: **Starship HLS/Cargo** introduces the need for standardizing **high-voltage (120V+)** industrial interfaces and dedicated pressurized elevator footprints.
 
 ### **Class B: Micro-Prospectors (e.g., MAPP, CubeRover, Tenacious)**
 *   **Power**: Limited solar (5-10W), battery-centric operations.
@@ -54,4 +56,4 @@ Based on the analysis, the LORS project should prioritize the following standard
 The current architecture is highly capable but siloed. LORS-compliant hardware must be **electrically flexible** (handling voltage ripples) and **data-agnostic** (capable of Ethernet or Serial tunneling) to thrive in the 2026-2030 lunar commercial landscape.
 
 ---
-*This report was generated using the `report-architecture-analysis` skill based on refined technical metrics of 12 landers and 19 rovers.*
+*This report was generated using the `report-architecture-analysis` skill based on refined technical metrics of 15 landers and 19 rovers.*

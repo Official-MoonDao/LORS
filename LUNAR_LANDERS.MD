@@ -20,6 +20,9 @@ The lunar lander market is rapidly shifting towards commercial providers (CLPS) 
     *   [Griffin (Astrobotic)](landers/GRIFFIN.MD) - Medium-class lander for large rovers.
     *   [APEX 1.0 (ispace US)](landers/APEX_1.MD) - Far-side capable lander.
     *   [Blue Moon MK1 (Blue Origin)](landers/BLUE_MOON_MK1.MD) - Heavy cargo lander.
+    *   [ispace Series 3](landers/ISPACE_SERIES_3.MD) - Enhanced utility lander (500kg capacity).
+    *   [Starship HLS (SpaceX)](landers/STARSHIP_HLS.MD) - Largest human-rated lander (Artemis III/IV).
+    *   [Starship Cargo (SpaceX)](landers/STARSHIP_CARGO.MD) - Unprecedented 100-ton heavy logistics platform.
 
 ### Agency & Institutional Landers
 *   [Chang'e 7 (CNSA)](landers/CHANGE_7.MD) - Complex South Pole mission (Orbiter/Lander/Rover/Hopper).

@@ -46,17 +46,22 @@ A detailed look at the 5 primary "Bus" providers in the commercial lunar landsca
 *   **Strategy**: "The Farside Specialist." Using the Elytra orbital vehicle to enable complex Farside communications.
 
 ### **Blue Origin (USA)**
-*   **Capacity**: 3,000kg (Blue Moon MK1).
+*   **Capacity**: 3,000kg (MK1) to Heavy HLS (MK2).
 *   **Standard**: LH2/LOX High Power (1kW - 100kW).
 *   **Strategy**: "Infrastructure Class." Targeting ISRU and pre-habitation logistics for Artemis.
 
+### **SpaceX (USA)**
+*   **Capacity**: **100 Metric Tons** (Starship Cargo/HLS).
+*   **Standard**: **5.8 GHz Wi-Fi / Starlink Optical.**
+*   **Strategy**: "The Game Changer." Providing unprecedented mass-to-surface capability, effectively shifting the lunar economy from scientific samples to industrial-scale habitation.
+
 ## 4. Ecosystem Trends
-1.  **Nano-Rover Proliferation**: Successful missions by Sora-Q and heartbeats from IRIS/COLMENA prove that $2-k$ class nano-rovers are viable "ride-along" payloads.
-2.  **LTE Emergence**: The IM-2/Nokia demo is shifting the ecosystem away from specialized space-radio toward standardized cellular networking.
-3.  **Relay Dependence**: Farside missions (Blue Ghost 2, APEX 1.0) are driving the development of dedicated lunar orbital relay constellations (Pathfinder, Alpine/Lupine).
+1.  **Nano-Rover Proliferation**: Successful missions by Sora-Q and heartbeats from IRIS/COLMENA prove that 2kg-class nano-rovers are viable "ride-along" payloads.
+2.  **LTE & Wi-Fi Dominance**: The shift toward **4G/LTE** (Intuitive Machines) and **802.11ac Wi-Fi** (SpaceX) is outpacing proprietary radio standards.
+3.  **Mass Abundance**: The arrival of **Starship** (100t) and **Blue Moon** (3t) allows for the deployment of rovers with massive shielding and high-power industrial tools, moving away from "extreme mass optimization."
 
 ## 5. Conclusion
 The ecosystem is currently in a "Standardization War" between legacy aerospace protocols and modern commercial standards. LORS must facilitate the transition by providing bridges between these two worlds.
 
 ---
-*This report was generated using the `report-ecosystem-mapping` skill, synthesizing data from 31 distinct lunar projects and entities.*
+*This report was generated using the `report-ecosystem-mapping` skill, synthesizing data from 40 distinct lunar projects and entities.*
