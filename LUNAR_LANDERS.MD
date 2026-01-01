@@ -1,6 +1,6 @@
 # Lunar Landers and Payload Specifications
 
-This document catalogs upcoming lunar landers from commercial providers (CLPS) and international space agencies, focusing on their payload capacities and interface specifications.
+This document catalogs upcoming lunar landers, focusing on their payload capacities and interface specifications.
 
 ## Summary Table
 
@@ -13,6 +13,9 @@ This document catalogs upcoming lunar landers from commercial providers (CLPS) a
 | **APEX 1.0** | ispace US / Draper | 2026 (Series-2) | 300 - 500 kg | TBD | Far side mission (Schrödinger Basin). |
 | **Argonaut** | ESA | ~2030 | ~1,500 kg | TBD | European logistics lander. |
 | **LUPEX** | ISRO / JAXA | ~2025/26 | ~350 kg | TBD | Polar exploration focus. |
+| **Chang'e 7** | CNSA | ~2026 | ~10 kg | TBD | South Pole survey. |
+| **Chang'e 8** | CNSA | ~2028 | ~200 kg | 50 W | ILRS Testbed. |
+
 
 ---
 
@@ -134,10 +137,10 @@ status: "~2025"
 
 ---
 
-## Agency / Institutional Landers
+## Agency & Institutional Landers
 
 ### Argonaut (EL3)
-- **Agency:** ESA
+- **Provider:** ESA
 - **Key Features:** Logistics lander. Uses **Cargo Platform Element (CPE)** and MANUS robotic arm for deployment.
 
 ```yaml
@@ -150,7 +153,7 @@ status: "~2030"
 ```
 
 ### LUPEX Lander
-- **Agency:** ISRO (with JAXA)
+- **Provider:** ISRO (with JAXA)
 - **Key Features:** **Polar Exploration.** Carries JAXA/ISRO rover (~350kg). Investigating water ice.
 
 ```yaml
@@ -163,7 +166,7 @@ status: "~2025/26"
 ```
 
 ### Chang'e 7
-- **Agency:** CNSA
+- **Provider:** CNSA
 - **Key Features:** **South Pole Survey.** Orbiter, Lander, Rover, Hopper. International payloads (≤10kg lander, ≤15kg orbiter).
 
 ```yaml
@@ -176,7 +179,7 @@ status: "~2026"
 ```
 
 ### Chang'e 8
-- **Agency:** CNSA
+- **Provider:** CNSA
 - **Key Features:** **ILRS Testbed.** In-situ resource utilization. International payload modules up to 100kg/50W.
 
 ```yaml
