@@ -31,6 +31,10 @@
 - [Space Entities](SPACE_ENTITIES.MD)
 - [Skills](skills/) - AI research instructions
 
+**Reports:**
+- [Architecture Analysis](reports/ARCHITECTURE_ANALYSIS.MD) - Interface standardization & technical architecture analysis
+- [Ecosystem Mapping](reports/ECOSYSTEM_MAPPING.MD) - Project profiles & delivery provider assessment
+
 ## Overview
 
 The **Lunar Open-source Rover Standard (LORS)** aims to create a shared framework for designing, building, and operating lunar rovers, similar to how CubeSat standards unified satellite development. 
