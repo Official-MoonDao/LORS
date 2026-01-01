@@ -22,7 +22,7 @@ specialization: Delivery
 - **Country:** USA
 - **Type:** Commercial
 - **Specialization:** Delivery (Nova-C), Mobility (Moon RACER)
-- **Status:** Successful Mission Heritage (IM-1)
+- **Status:** Successful Mission Heritage (IM-1 Odysseus, 2024)
 
 ```yaml
 entity_id: intuitive-machines
@@ -78,7 +78,7 @@ specialization: Mobility
 - **Country:** Japan / USA / Europe
 - **Type:** Commercial
 - **Specialization:** Delivery (HAKUTO-R, APEX), Mobility (TENACIOUS)
-- **Status:** Mission Heritage
+- **Status:** Mission Heritage (M1 2023, M2 2025)
 
 ```yaml
 entity_id: ispace
@@ -86,4 +86,18 @@ name: ispace
 country: Japan
 type: Commercial
 specialization: Delivery, Mobility
+```
+
+### SpaceIL
+- **Country:** Israel
+- **Type:** Private Non-Profit
+- **Specialization:** Delivery (Beresheet)
+- **Status:** Mission Heritage (Beresheet 1, 2019)
+
+```yaml
+entity_id: spaceil
+name: SpaceIL
+country: Israel
+type: Private Non-Profit
+specialization: Delivery
 ```

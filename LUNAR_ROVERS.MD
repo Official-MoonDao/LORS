@@ -108,6 +108,20 @@ locomotion: 2-wheel
 comms: null
 ```
 
+### EagleCam
+- **Developer:** Embry-Riddle Aeronautical University
+- **Description:** CubeSat-sized payload launched on IM-1. Designed to capture third-person landing images and test electrostatic dust removal.
+
+```yaml
+id: eaglecam
+developer: ERAU
+type: Micro
+mass_kg: 1.5
+power_w: null
+locomotion: null
+comms: Wi-Fi (to lander)
+```
+
 ### CADRE
 - **Developer:** JPL
 - **Description:** **Distributed Autonomy**. Trio of shoebox-sized rovers with mesh networking. Key reference for autonomous swarm coordination.

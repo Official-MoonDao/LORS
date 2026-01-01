@@ -2,7 +2,51 @@
 
 This document tracks active and upcoming lunar missions, providing timeline context for LORS standardization efforts.
 
-## Mission Timeline (2025-2028)
+## Mission Timeline (2019-2028)
+
+### Pre-2025 Commercial Missions
+| Mission | Lander | Payloads | Status | Details |
+| :--- | :--- | :--- | :--- | :--- |
+| **Beresheet 1** | [Beresheet](./LUNAR_LANDERS.MD#beresheet) | Magnetometer | Crashed (Apr 2019) | First private attempt. Reached lunar orbit. |
+| **HAKUTO-R M1** | [HAKUTO-R](./LUNAR_LANDERS.MD#hakuto-r) | Solid-state battery | Crashed (Apr 2023) | First commercial lander in lunar orbit. |
+| **Peregrine M1** | [Peregrine](./LUNAR_LANDERS.MD#peregrine) | [Iris](./LUNAR_ROVERS.MD#iris), [Colmena](./LUNAR_ROVERS.MD#colmena) | Failed (Jan 2024) | First CLPS mission; propellant leak prevented landing. |
+| **IM-1 (Odysseus)** | [Nova-C](./LUNAR_LANDERS.MD#nova-c) | [EagleCam](./LUNAR_ROVERS.MD#eaglecam) | Success (Feb 2024) | First successful commercial soft landing. |
+
+```yaml
+mission_id: beresheet-1
+lander_id: beresheet
+payload_ids: []
+launch_date: 2019-02
+status: Crash
+target_site: Mare Serenitatis
+```
+
+```yaml
+mission_id: hakuto-r-m1
+lander_id: hakuto-r
+payload_ids: []
+launch_date: 2022-12
+status: Crash
+target_site: Atlas Crater
+```
+
+```yaml
+mission_id: peregrine-m1
+lander_id: peregrine
+payload_ids: [iris, colmena]
+launch_date: 2024-01
+status: Failure
+target_site: Gruithuisen Domes (Planned)
+```
+
+```yaml
+mission_id: im-1-odysseus
+lander_id: nova-c
+payload_ids: [eaglecam]
+launch_date: 2024-02
+status: Success
+target_site: Malapert A
+```
 
 ### 2025 missions
 | Mission | Lander | Payloads | Status | Details |
@@ -72,15 +116,12 @@ status: Planned
 target_site: Far Side
 ```
 
-### 2027 Missions
+### 2027-2028 Missions
 | Mission | Lander | Payloads | Status | Details |
 | :--- | :--- | :--- | :--- | :--- |
 | **Blue Moon MK1** | [Blue Moon MK1](./LUNAR_LANDERS.MD#blue-moon-mk1) | [VIPER](./LUNAR_ROVERS.MD#viper) | Planned (Late 2027) | Major volatiles prospecting mission. |
 | **APEX 1.0 (ispace M3)** | [APEX 1.0](./LUNAR_LANDERS.MD#apex-1-0) | TBD | Planned | Commercial far-side operations. |
-
-### 2028 Missions
-| Mission | Lander | Payloads | Status | Details |
-| :--- | :--- | :--- | :--- | :--- |
+| **LUPEX** | [LUPEX Lander](./LUNAR_LANDERS.MD#lupex-lander) | [LUPEX Rover](./LUNAR_ROVERS.MD#lupex-rover) | Planned (2027) | Polar water ice investigation. |
 | **Artemis IV** | Starship (HLS) | [LTV](./LUNAR_ROVERS.MD#ltv) | Planned (Late 2028) | Astronaut transport (Lunar Terrain Vehicle). |
 | **Chang'e 8** | [Chang'e 8](./LUNAR_LANDERS.MD#change-8) | Chang'e 8 Rover | Planned | ILRS Testbed. |
 
@@ -93,6 +134,14 @@ status: Planned
 target_site: South Pole
 ```
 
+```yaml
+mission_id: lupex-mission
+lander_id: lupex-lander
+payload_ids: [lupex-rover]
+launch_date: 2027
+status: Planned
+target_site: South Pole
+```
 
 ```yaml
 mission_id: artemis-iv
@@ -121,14 +170,15 @@ target_site: South Pole
 | **[MAPP](https://www.lunaroutpost.com/mapp)** | Lunar Outpost | IM-2 (Athena) | Landed (Mar 2025) | Demonstrates commercial 4G/LTE. |
 | **[TENACIOUS](https://ispace-inc.com/wp-content/uploads/2024/07/EN_20240725_Rover-Completion.pdf)** | ispace-EUROPE | HAKUTO-R M2 | Landed (Jan 2025) | Micro-rover reference design. |
 | **[Yaoki](https://dymon.co.jp/en/)** | Dymon | IM-2 (Athena) | Landed (Mar 2025) | Extreme miniaturization. |
+| **[EagleCam](https://erau.edu/eaglecam)** | ERAU | IM-1 (Odysseus) | Flown (Feb 2024) | Vision-based deployment demo. |
 | **[CADRE](https://d2pn8kiwq2w21t.cloudfront.net/documents/CADRE-Fact-Sheet.pdf)** | JPL | IM-3 (Nova-C) | Planned (2026) | Distributed Autonomy standards. |
 | **[Lunar Vertex](https://www.jhuapl.edu/destinations/missions/lunar-vertex)** | JHU APL / IM | IM-3 (Nova-C) | Planned (2026) | Science-focused integration. |
 | **CubeRover** | Astrobotic | Griffin M1 | Planned (Jul 2026) | CubeSat-style modular design. |
 | **FLIP** | Astrolab | Griffin M1 | Planned (Jul 2026) | Modular cargo interface. |
+| **Iris** | CMU | Peregrine M1 | Flown (Jan 2024) | University-led micro-rover. |
+| **Colmena** | UNAM | Peregrine M1 | Flown (Jan 2024) | Swarm robotics reference. |
 | **Chang'e 7 Rover** | CNSA | Chang'e 7 | Planned (2026) | Multi-modal locomotion. |
 | **Rashid 2** | MBRSC | Blue Ghost 2 | Planned (2026) | International collaboration model. |
 | **VIPER** | NASA | Blue Moon MK1 | Planned (Late 2027) | Thermal/drill subsystem reference. |
 | **LUPEX Rover** | JAXA / ISRO | H3 Launch | Planned (2027) | Drilling/sample handling standards. |
 | **LTV** | Multiple | Artemis IV | Planned (2028) | Human-machine interface reference. |
-
-

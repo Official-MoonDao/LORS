@@ -6,6 +6,8 @@ This document catalogs upcoming lunar landers, focusing on their payload capacit
 
 | Lander | Provider | Launch / Status | Payload Capacity | Power (Surface) | Key Features |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Beresheet** | SpaceIL | 2019 (Crashed) | ~150 kg | null | First private lunar lander. |
+| **HAKUTO-R** | ispace | Active (M1, M2) | 30 kg | null | Series-1 lander. M1 reached orbit. |
 | **Blue Ghost** | Firefly Aerospace | 2025 (Mission 1) | ~150 kg | ~300 W | 2m height x 3.5m width. 14-day survival. |
 | **Nova-C** | Intuitive Machines | Active (IM-1) | 100 - 130 kg | Provided | 14-day surface life. |
 | **Griffin** | Astrobotic | 2025 (Mission 1) | ~625 kg | 150 W | Medium-class lander. Designed for rovers. |
@@ -15,7 +17,6 @@ This document catalogs upcoming lunar landers, focusing on their payload capacit
 | **LUPEX** | ISRO / JAXA | ~2025/26 | ~350 kg | TBD | Polar exploration focus. |
 | **Chang'e 7** | CNSA | ~2026 | ~10 kg | TBD | South Pole survey. |
 | **Chang'e 8** | CNSA | ~2028 | ~200 kg | 50 W | ILRS Testbed. |
-
 
 ---
 
@@ -122,9 +123,23 @@ data_rate: null
 status: "Mission 2 (2025) / Mission 3 (2026)"
 ```
 
+### Beresheet (1.0)
+- **Provider:** SpaceIL
+- **Key Features:** First private attempt at a soft landing. Reached lunar orbit.
+- **Source:** [SpaceIL Mission](https://www.spaceil.com/)
+
+```yaml
+id: beresheet
+provider: SpaceIL
+payload_capacity_kg: 150
+power_surface_w: null
+data_rate: null
+status: Flown (2019 - Crash)
+```
+
 ### Beresheet 2
 - **Provider:** SpaceIL (Israel)
-- **Key Features:** Dual lander configuration + Orbiter.
+- **Key Features:** Dual lander configuration + Orbiter. Planned for global collaboration.
 
 ```yaml
 id: beresheet-2
