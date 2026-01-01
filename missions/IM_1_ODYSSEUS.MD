@@ -36,7 +36,7 @@ First successful commercial soft landing. The mission delivered six NASA CLPS pa
         *   **LN-1** (Lunar Node 1 Navigation Demonstrator) - NASA MSFC
         *   **RFMG** (Radio Frequency Mass Gauge) - NASA GRC
     *   **Commercial/Other:**
-        *   **EagleCam** (CubeSat camera system) - Embry-Riddle Aeronautical Univ.
+        *   **EagleCam** (CubeSat camera system) - [Embry-Riddle Aeronautical Univ.](../rovers/EAGLECAM.MD)
         *   **ILO-X** (International Lunar Observatory) - ILOA
         *   **Omni-Heat Infinity** (Thermal coating test) - Columbia Sportswear
         *   **Lunaprise** (Digital Archive) - Galactic Legacy Labs

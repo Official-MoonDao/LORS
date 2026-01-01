@@ -32,13 +32,13 @@ First CLPS mission; propellant leak prevented landing, but many payloads operate
         *   **NSS** (Neutron Spectrometer System) - NASA ARC
         *   **PITMS** (Peregrine Ion-Trap Mass Spectrometer) - NASA GSFC/ESA
     *   **Rovers:**
-        *   **Iris** (Nano-rover) - CMU
-        *   **Colmena** (5 Micro-rovers) - UNAM (Mexico)
+        *   **[Iris](../rovers/IRIS.MD)** (Nano-rover) - CMU
+        *   **[Colmena](../rovers/COLMENA.MD)** (5 Micro-rovers) - UNAM (Mexico)
     *   **Commercial/International:**
         *   **M-42** (Radiation Detector) - DLR (Germany)
         *   **TRN** (Terrain Relative Navigation) - Astrobotic
         *   **Lunar Dream Capsule** - Astroscale
         *   **DHL MoonBox** - DHL
-        *   **Spacebit** - UK (spider leg test)
+        *   **[Spacebit](../rovers/ASAGUMO.MD)** - UK (spider leg test)
         *   **Puli Space** - Hungary (plaque)
 *   **Status:** Failed (Jan 2024). Re-entered Earth atmosphere over Pacific.
