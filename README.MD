@@ -1,5 +1,14 @@
 # Lunar Open-source Rover Standard (LORS)
 
+> **🚀 Building a Lunar Rover? Start Here!**
+> 
+> This repository contains helpful materials for lunar rover builders, researchers, and space enthusiasts.
+> 
+> **New to the project? Ask your AI assistant:**
+> ```
+> Explain in ELI5 https://github.com/Official-MoonDao/LORS
+> ```
+
 ## Table of Contents
 
 - [Overview](#overview)
