@@ -8,8 +8,8 @@ description: Specialized skill for conducting detailed architectural analysis of
 ## Domain Knowledge
 - **Source Document**: `LORS_ Lunar Rover Standard proposition.md`
 - **Primary Data Sources**:
-  - `LUNAR_ROVERS.MD`
-  - `LUNAR_LANDERS.MD`
+  - `rovers/` (directory of rover profiles)
+  - `landers/` (directory of lander profiles)
   - `SPACE_ENTITIES.MD`
   - `LUNAR_MISSIONS.MD`
   - `STUDENT_ROVER_TEAMS.MD`
