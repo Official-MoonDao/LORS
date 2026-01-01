@@ -15,5 +15,6 @@ South pole survey, water ice detection.
 
 ## Details
 *   **Lander:** [Chang'e 7](../landers/CHANGE_7.MD)
-*   **Payloads:** Chang'e 7 Rover
-*   **Status:** Planned
+*   **Connectivity:** Enabled by the **Queqiao-2** relay satellite (X-Band/S-Band) for continuous polar-to-Earth links.
+*   **Components:** Integrated suite including an Orbiter, Lander, [Rover](../rovers/LUPEX_ROVER.MD), and rocket-propelled Hopper.
+*   **Status:** Planned (Aug 2026). The mission is designed for an unprecedented **8-year operational lifespan**, conducting multi-static seismic and thermal analysis of the South Pole-Aitken basin.

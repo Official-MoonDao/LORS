@@ -15,5 +15,8 @@ ILRS Testbed.
 
 ## Details
 *   **Lander:** [Chang'e 8](../landers/CHANGE_8.MD)
-*   **Payloads:** Chang'e 8 Rover
-*   **Status:** Planned
+*   **Mission Goal:** Establish the basic model of the **International Lunar Research Station (ILRS)** in collaboration with Chang'e 7. 
+*   **Key Experiments:** Testing in-situ resource utilization (ISRU) for **3D-printing** lunar bricks and validating basic infrastructure for long-duration human presence.
+*   **Connectivity:** High-bandwidth networking via the **Queqiao-2** relay, enabling communication for a diverse fleet of independent robots and rovers.
+*   **Payloads:** Includes a CNSA rover and provides **200 kg** of piggyback capacity for international partners (e.g., Pakistan, Egypt).
+*   **Status:** Planned (Target 2028).

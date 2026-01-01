@@ -94,10 +94,74 @@ specialization: Delivery, Mobility
 - **Specialization:** Delivery (Beresheet)
 - **Status:** Mission Heritage (Beresheet 1, 2019)
 
+### Blue Origin
+- **Country:** USA
+- **Type:** Commercial
+- **Specialization:** Delivery (Blue Moon MK1/MK2)
+- **Status:** Active (Artemis HLS Partner)
+
 ```yaml
-entity_id: spaceil
-name: SpaceIL
-country: Israel
-type: Private Non-Profit
+entity_id: blue-origin
+name: Blue Origin
+country: USA
+type: Commercial
 specialization: Delivery
+```
+
+## Institutional & Hybrid Partners
+
+### JAXA (Japan Aerospace Exploration Agency)
+- **Country:** Japan
+- **Type:** Government Agency
+- **Specialization:** Science, Mobility (Sora-Q, LUPEX)
+- **Status:** Successful Mission Heritage (SLIM 2024)
+
+```yaml
+entity_id: jaxa
+name: JAXA
+country: Japan
+type: Government Agency
+specialization: Science, Mobility
+```
+
+### ISRO (Indian Space Research Organisation)
+- **Country:** India
+- **Type:** Government Agency
+- **Specialization:** Delivery (LUPEX Lander), Science
+- **Status:** Successful Mission Heritage (Chandrayaan-3 2023)
+
+```yaml
+entity_id: isro
+name: ISRO
+country: India
+type: Government Agency
+specialization: Delivery
+```
+
+### CNSA (China National Space Administration)
+- **Country:** China
+- **Type:** Government Agency
+- **Specialization:** Delivery (Chang'e), Mobility (Yutu)
+- **Status:** Successful Mission Heritage (Chang'e 1-6)
+
+```yaml
+entity_id: cnsa
+name: CNSA
+country: China
+type: Government Agency
+specialization: Delivery, Mobility
+```
+
+### Carnegie Mellon University (CMU)
+- **Country:** USA
+- **Type:** Academic / Research
+- **Specialization:** Mobility (Iris, MoonRanger)
+- **Status:** Active / Mission Heritage
+
+```yaml
+entity_id: cmu
+name: CMU
+country: USA
+type: Academic / Research
+specialization: Mobility
 ```
