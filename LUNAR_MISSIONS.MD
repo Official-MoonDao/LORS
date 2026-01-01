@@ -51,8 +51,18 @@ target_site: Malapert A
 ### 2025 missions
 | Mission | Lander | Payloads | Status | Details |
 | :--- | :--- | :--- | :--- | :--- |
+| **Blue Ghost M1** | [Blue Ghost](./LUNAR_LANDERS.MD#blue-ghost) | 10 NASA CLPS Payloads | Landed (Mar 2025) | First fully successful commercial soft landing. |
 | **IM-2 (Athena)** | [Nova-C](./LUNAR_LANDERS.MD#nova-c) | [MAPP](./LUNAR_ROVERS.MD#mapp), [Yaoki](./LUNAR_ROVERS.MD#yaoki) | Landed (Mar 2025) | First commercial rover at south pole. |
 | **HAKUTO-R M2** | [HAKUTO-R](./LUNAR_LANDERS.MD#hakuto-r) | [TENACIOUS](./LUNAR_ROVERS.MD#tenacious) | Landed/Deployed (Jan 2025) | Micro-rover regolith extraction demo. |
+
+```yaml
+mission_id: blue-ghost-m1
+lander_id: blue-ghost
+payload_ids: []
+launch_date: 2025-01
+status: Success
+target_site: Mare Crisium
+```
 
 ```yaml
 mission_id: im-2-athena

@@ -1,207 +1,28 @@
-# Lunar Landers and Payload Specifications
+# Lunar Landers Registry
 
-This document catalogs upcoming lunar landers, focusing on their payload capacities and interface specifications.
+## TL;DR
+The lunar lander market is rapidly shifting towards commercial providers (CLPS) offering regular "delivery services" to the lunar surface. The registry tracks these vehicles, focusing on payload capacity and power availability.
+*   **Commercial (Light):** Vehicles like Nova-C and Blue Ghost carrying ~100-150kg.
+*   **Commercial (Medium/Heavy):** Heavier lift vehicles like Griffin and Blue Moon.
+*   **Institutional:** National agency landers like Chang'e and Argonaut.
 
-## Summary Table
+## Lander Index
 
-| Lander | Provider | Launch / Status | Payload Capacity | Power (Surface) | Key Features |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Beresheet** | SpaceIL | 2019 (Crashed) | ~150 kg | null | First private lunar lander. |
-| **HAKUTO-R** | ispace | Active (M1, M2) | 30 kg | null | Series-1 lander. M1 reached orbit. |
-| **Blue Ghost** | Firefly Aerospace | 2025 (Mission 1) | ~150 kg | ~300 W | 2m height x 3.5m width. 14-day survival. |
-| **Nova-C** | Intuitive Machines | Active (IM-1) | 100 - 130 kg | Provided | 14-day surface life. |
-| **Griffin** | Astrobotic | 2025 (Mission 1) | ~625 kg | 150 W | Medium-class lander. Designed for rovers. |
-| **Blue Moon MK1** | Blue Origin | ~2025 | ~3,000 kg | High | Cargo variant. New Glenn 7m fairing. |
-| **APEX 1.0** | ispace US / Draper | 2026 (Series-2) | 300 - 500 kg | TBD | Far side mission (Schrödinger Basin). |
-| **Argonaut** | ESA | ~2030 | ~1,500 kg | TBD | European logistics lander. |
-| **LUPEX** | ISRO / JAXA | ~2025/26 | ~350 kg | TBD | Polar exploration focus. |
-| **Chang'e 7** | CNSA | ~2026 | ~10 kg | TBD | South Pole survey. |
-| **Chang'e 8** | CNSA | ~2028 | ~200 kg | 50 W | ILRS Testbed. |
+### Commercial Landers (US & International)
+*   **Active / Flight-Ready**
+    *   [Blue Ghost (Firefly)](landers/BLUE_GHOST.MD) - Active class, first fully successful commercial landing (Mission 1).
+    *   [Nova-C (Intuitive Machines)](landers/NOVA_C.MD) - Active class, first successful commercial landing (IM-1).
+    *   [HAKUTO-R (ispace)](landers/HAKUTO_R.MD) - Commercial lander from Japan.
+    *   [Peregrine (Astrobotic)](landers/PEREGRINE.MD) - First CLPS attempt (Legacy/Lost).
+    *   [Beresheet (SpaceIL)](landers/BERESHEET.MD) - The pioneer private mission.
 
----
+*   **Planned / In Development**
+    *   [Griffin (Astrobotic)](landers/GRIFFIN.MD) - Medium-class lander for large rovers.
+    *   [APEX 1.0 (ispace US)](landers/APEX_1.MD) - Far-side capable lander.
+    *   [Blue Moon MK1 (Blue Origin)](landers/BLUE_MOON_MK1.MD) - Heavy cargo lander.
 
-## Commercial Lunar Payload Services (CLPS) & US Commercial
-
-### Blue Ghost
-- **Provider:** Firefly Aerospace
-- **Key Features:** 2m height x 3.5m width. 14 Earth day survival (Mission 1). Mission 2 targets Far Side (LuSEE-Night).
-- **Source:** [Blue Ghost Page](https://fireflyspace.com/blue-ghost/)
-
-```yaml
-id: blue-ghost
-provider: Firefly Aerospace
-payload_capacity_kg: 150
-power_surface_w: 300
-data_rate: "> 10 Mbps"
-status: 2025 (Mission 1) / 2026 (Mission 2)
-```
-
-### Nova-C
-- **Provider:** Intuitive Machines
-- **Key Features:** 14-day surface life. IM-3 targets Reiner Gamma.
-- **Source:** [Lunar Access Services](https://www.intuitivemachines.com/)
-
-```yaml
-id: nova-c
-provider: Intuitive Machines
-payload_capacity_kg: 130
-power_surface_w: null
-data_rate: "Varying"
-status: Active (IM-1 Success), IM-2/IM-3 (2025-26)
-```
-
-### Griffin
-- **Provider:** Astrobotic
-- **Key Features:** Medium-class lander. Designed for rovers (originally VIPER). High-precision landing (100m).
-- **Source:** [Griffin Page](https://www.astrobotic.com/griffin/)
-
-```yaml
-id: griffin
-provider: Astrobotic
-payload_capacity_kg: 625
-power_surface_w: 150
-data_rate: "200 kbps"
-status: 2025 (Mission 1)
-```
-
-### Peregrine
-- **Provider:** Astrobotic
-- **Key Features:** First mission suffered anomaly. Architecture informs Griffin.
-- **Source:** [Peregrine PUG](https://www.astrobotic.com/wp-content/uploads/2021/01/Peregrine-Payload-Users-Guide.pdf)
-
-```yaml
-id: peregrine
-provider: Astrobotic
-payload_capacity_kg: 100
-power_surface_w: null
-data_rate: null
-status: Flown (2024 - Loss)
-```
-
-### Blue Moon MK1
-- **Provider:** Blue Origin
-- **Key Features:** Cargo variant. Uses New Glenn 7m fairing. Precision landing.
-- **Source:** [Payload Page](https://www.blueorigin.com/blue-moon)
-
-```yaml
-id: blue-moon-mk1
-provider: Blue Origin
-payload_capacity_kg: 3000
-power_surface_w: null
-data_rate: "Direct-to-Earth"
-status: "~2025 (Pathfinder)"
-```
-
-### APEX 1.0
-- **Provider:** ispace US / Draper
-- **Key Features:** 3.1m tall. Far side mission (Schrödinger Basin). Relay satellite support.
-- **Source:** [APEX Page](https://ispace-us.com/apex/)
-
-```yaml
-id: apex-1-0
-provider: ispace US / Draper
-payload_capacity_kg: 300
-power_surface_w: null
-data_rate: "TBD"
-status: "2026 (Series-2)"
-```
-
----
-
-## International Commercial
-
-### HAKUTO-R
-- **Provider:** ispace (Japan)
-- **Key Features:** Series 1 lander. Mission 2 ("Resilience") includes micro-rover. Mission 3 (2026).
-
-```yaml
-id: hakuto-r
-provider: ispace
-payload_capacity_kg: 30
-power_surface_w: null
-data_rate: null
-status: "Mission 2 (2025) / Mission 3 (2026)"
-```
-
-### Beresheet (1.0)
-- **Provider:** SpaceIL
-- **Key Features:** First private attempt at a soft landing. Reached lunar orbit.
-- **Source:** [SpaceIL Mission](https://www.spaceil.com/)
-
-```yaml
-id: beresheet
-provider: SpaceIL
-payload_capacity_kg: 150
-power_surface_w: null
-data_rate: null
-status: Flown (2019 - Crash)
-```
-
-### Beresheet 2
-- **Provider:** SpaceIL (Israel)
-- **Key Features:** Dual lander configuration + Orbiter. Planned for global collaboration.
-
-```yaml
-id: beresheet-2
-provider: SpaceIL
-payload_capacity_kg: null
-power_surface_w: null
-data_rate: null
-status: "~2025"
-```
-
----
-
-## Agency & Institutional Landers
-
-### Argonaut (EL3)
-- **Provider:** ESA
-- **Key Features:** Logistics lander. Uses **Cargo Platform Element (CPE)** and MANUS robotic arm for deployment.
-
-```yaml
-id: argonaut
-provider: ESA
-payload_capacity_kg: 2100
-power_surface_w: null
-data_rate: null
-status: "~2030"
-```
-
-### LUPEX Lander
-- **Provider:** ISRO (with JAXA)
-- **Key Features:** **Polar Exploration.** Carries JAXA/ISRO rover (~350kg). Investigating water ice.
-
-```yaml
-id: lupex-lander
-provider: ISRO
-payload_capacity_kg: 350
-power_surface_w: null
-data_rate: null
-status: "~2025/26"
-```
-
-### Chang'e 7
-- **Provider:** CNSA
-- **Key Features:** **South Pole Survey.** Orbiter, Lander, Rover, Hopper. International payloads (≤10kg lander, ≤15kg orbiter).
-
-```yaml
-id: change-7
-provider: CNSA
-payload_capacity_kg: 10
-power_surface_w: null
-data_rate: null
-status: "~2026"
-```
-
-### Chang'e 8
-- **Provider:** CNSA
-- **Key Features:** **ILRS Testbed.** In-situ resource utilization. International payload modules up to 100kg/50W.
-
-```yaml
-id: change-8
-provider: CNSA
-payload_capacity_kg: 200
-power_surface_w: 50
-data_rate: null
-status: "~2028"
-```
+### Agency & Institutional Landers
+*   [Chang'e 7 (CNSA)](landers/CHANGE_7.MD) - Complex South Pole mission (Orbiter/Lander/Rover/Hopper).
+*   [Chang'e 8 (CNSA)](landers/CHANGE_8.MD) - ILRS testbed and resource utilization.
+*   [LUPEX Lander (ISRO/JAXA)](landers/LUPEX_LANDER.MD) - Joint polar exploration lander.
+*   [Argonaut (ESA)](landers/ARGONAUT.MD) - European heavy logistics lander.
