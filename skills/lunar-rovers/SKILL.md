@@ -14,3 +14,4 @@ description: Specialized skill for analyzing lunar rover technical specification
 2. **Communication Protocol Tracking**: Document all reported communication methods, including **LTE/4G**, **WiFi**, and traditional **S-band/X-band**.
 3. **Deployment State Analysis**: Track how communication and power interfaces transition from **wired (lander-attached)** to **wireless (deployed/surface)**.
 4. **Source Attribution**: Always include links to official developer pages, technical papers, or GitHub repositories for each rover profile.
+5. **Entity Context**: Cross-reference the `developer` field with `SPACE_ENTITIES.MD`. Ensure the developer name in the body is linked to its entry in the entities index.

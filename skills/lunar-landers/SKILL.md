@@ -14,3 +14,4 @@ description: Specialized skill for analyzing lunar lander interface specificatio
 2. **Connectivity Mapping**: Document the **wired communication link** provided to payloads during transit and the transition point to wireless.
 3. **Capacity Data Tracking**: Collect and compare payload capacity, power availability, and thermal control data.
 4. **Source Attribution**: Prioritize and link to official **Payload User Guides (PUGs)** and provider documentation for all interface specs.
+5. **Entity Context**: Cross-reference the `provider` field with `SPACE_ENTITIES.MD`. Ensure the provider name in the body is linked to its entry in the entities index.

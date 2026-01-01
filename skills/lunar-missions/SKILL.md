@@ -18,3 +18,4 @@ description: Specialized skill for tracking lunar mission timelines, manifests, 
 2. **Timeline Data Tracking**: Maintain an accurate log of launch dates, target landing sites, and actual landing coordinates.
 3. **Outcome Documentation**: Collect and document mission success metrics and status transitions.
 4. **Source Attribution**: Link entries to official mission reports, NASA CLPS updates, or provider press releases to verify status change and manifest items.
+5. **Cross-Referential Integrity**: Always verify if `lander_id` or `payload_ids` have corresponding files in `landers/` or `rovers/`. If so, ensure the Markdown body contains relative links (e.g., `[Lander Name](../landers/FILE.MD)`) to those files.
