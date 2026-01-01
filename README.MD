@@ -11,17 +11,25 @@
 
 ## Table of Contents
 
+**Getting Started:**
+- [Getting Involved](#getting-involved) - Ways to contribute
+- [How We Work](AI_WORKFLOW.MD) - Understanding our workflow
+- [Contributing Guide](CONTRIBUTING.MD) - Technical setup and instructions
+
+**Project Information:**
 - [Overview](#overview)
 - [Problem](#problem)
 - [Benefits](#benefits)
-- [Getting Involved](#getting-involved)
-- [How We Work](AI_WORKFLOW.MD) - Understanding our workflow
-- [Contributing Guide](CONTRIBUTING.MD) - Technical setup and instructions
+
+**Documentation:**
 - [Standards and Documents](STANDARDS_AND_DOCS.MD)
 - [Rover Software Proposal](ROVER_SOFTWARE_PROPOSAL.MD)
 - [Rover Commands](ROVER_COMMANDS.MD)
 - [Lunar Rovers](LUNAR_ROVERS.MD)
 - [Lunar Landers](LUNAR_LANDERS.MD)
+- [Lunar Missions](LUNAR_MISSIONS.MD)
+- [Space Entities](SPACE_ENTITIES.MD)
+- [Skills](skills/) - AI research instructions
 
 ## Overview
 
