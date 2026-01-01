@@ -63,3 +63,8 @@ The standard profile for a HAKUTO-R "Long Trajectory" mission:
 ## LORS Relevance
 *   **Micro-Rover Integration:** HAKUTO-R M2 includes a specific deployment bay/garage for the **Tenacious** rover.
 *   **Interface Standardization:** The use of Micro-D and RS-422 provides a baseline for lightweight lunar payloads.
+
+## Resources
+*   [ispace HAKUTO-R Program](https://ispace-inc.com/hakuto-r/)
+*   [ispace Mission 2 'Resilience'](https://ispace-inc.com/m2)
+*   [ispace Mission 3 Overview](https://ispace-inc.com/m3)

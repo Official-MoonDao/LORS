@@ -23,18 +23,22 @@ First commercial rover at the lunar south pole and first pursuit of lunar water 
 
 ## Details
 *   **Lander:** [Nova-C](../landers/NOVA_C.MD)
+*   **Transfer Trajectory:** Direct-to-Moon (~7-day transit).
+*   **Connectivity:** 
+    *   **Direct-to-Earth:** S-Band link (AES-256 encrypted).
+    *   **Surface Relay:** Demonstrated the first **4G/LTE network** on the Moon, enabling high-speed data transmission between the lander and the μNova hopper.
 *   **Payloads:**
     *   **NASA CLPS:**
         *   **PRIME-1** (Ice Mining Experiment) - NASA
         *   **TRIDENT** (Subsurface Drill) - Honeybee Robotics/NASA
         *   **MSolo** (Mass Spectrometer) - NASA
         *   **LRA** (Laser Retroreflector) - NASA
-        *   **μNova (Grace)** (Hopper Drone) - Intuitive Machines
-        *   **Nokia 4G LTE** (Comm Demo) - Nokia Bell Labs
+        *   **μNova (Grace)** (Hopper Drone) - Intuitive Machines (Communicated via 4G/LTE)
+        *   **Nokia 4G LTE** (Comm Demo) - Nokia Bell Labs (Established first lunar cellular network)
     *   **Rovers:**
         *   **[MAPP](../rovers/MAPP.MD)** (Prospecting Platform) - Lunar Outpost
         *   **[Yaoki](../rovers/YAOKI.MD)** (Micro Rover) - Dymon (Japan)
     *   **Commercial:**
         *   **MiniPIX TPX3 SPACE** - ADVACAM (Czech Republic)
         *   **Columbia Sportswear** (Thermal blankets)
-*   **Status:** Success (Mar 2025). Landed at South Pole; technical difficulties with drill deployment noted.
+*   **Status:** Success (Mar 2025). Landed at the lunar South Pole. Successfully demonstrated 4G/LTE surface connectivity, although the PRIME-1 drill faced mechanical deployment challenges.

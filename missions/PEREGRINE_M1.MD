@@ -24,21 +24,26 @@ First CLPS mission; propellant leak prevented landing, but many payloads operate
 
 ## Details
 *   **Lander:** [Peregrine](../landers/PEREGRINE.MD)
+*   **Transfer Trajectory:** Direct-to-Moon (Launch Jan 8, 2024).
+*   **Mission Duration:** 10 days in cislunar space before re-entry.
+*   **Connectivity:** 
+    *   **Direct-to-Earth:** Stable X-Band link maintained throughout the 10-day emergency operation.
+    *   **Payload Activation:** Successfully powered and received data from several payloads (IRIS rover, Colmena, LETS, etc.) while in transit.
 *   **Payloads:**
     *   **NASA CLPS:**
         *   **LRA** (Laser Retroreflector Array) - NASA GSFC
         *   **LETS** (Linear Energy Transfer Spectrometer) - NASA JSC
         *   **NIRVSS** (Near-Infrared Volatile Spectrometer System) - NASA ARC
         *   **NSS** (Neutron Spectrometer System) - NASA ARC
-        *   **PITMS** (Peregrine Ion-Trap Mass Spectrometer) - NASA GSFC/ESA
+        *   **PITMS** (Peregrine Ion-Trap Mass Spectrometer) - NASA GSFC/ESA (Operated successfully in space)
     *   **Rovers:**
-        *   **[Iris](../rovers/IRIS.MD)** (Nano-rover) - CMU
-        *   **[Colmena](../rovers/COLMENA.MD)** (5 Micro-rovers) - UNAM (Mexico)
+        *   **[Iris](../rovers/IRIS.MD)** (Nano-rover) - CMU (Activated and transmitted data)
+        *   **[Colmena](../rovers/COLMENA.MD)** (5 Micro-rovers) - UNAM (Mexico) (Activated successfully)
     *   **Commercial/International:**
         *   **M-42** (Radiation Detector) - DLR (Germany)
-        *   **TRN** (Terrain Relative Navigation) - Astrobotic
+        *   **TRN** (Terrain Relative Navigation) - Astrobotic (Tested successfully)
         *   **Lunar Dream Capsule** - Astroscale
         *   **DHL MoonBox** - DHL
         *   **[Spacebit](../rovers/ASAGUMO.MD)** - UK (spider leg test)
         *   **Puli Space** - Hungary (plaque)
-*   **Status:** Failed (Jan 2024). Re-entered Earth atmosphere over Pacific.
+*   **Status:** Failed landing (Jan 2024). Controlled re-entry into Earth atmosphere over South Pacific on Jan 18.

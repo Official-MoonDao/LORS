@@ -22,12 +22,16 @@ Micro-rover regolith extraction demo and technology demonstration mission ("Resi
 
 ## Details
 *   **Lander:** [HAKUTO-R](../landers/HAKUTO_R.MD)
+*   **Transfer Trajectory:** Low-energy (~135-day cruise).
+*   **Connectivity:** 
+    *   **Direct-to-Earth:** X-Band via ESA Estrack.
+    *   **Surface Relay:** Established stable X-Band link to the **TENACIOUS** micro-rover.
 *   **Payloads:**
-    *   **[TENACIOUS](../rovers/TENACIOUS.MD)** (Micro Rover) - ispace Europe
-    *   **Water Electrolyzer** (H2/O2 Production) - Takasago Thermal Engineering
+    *   **[TENACIOUS](../rovers/TENACIOUS.MD)** (Micro Rover) - ispace Europe (Successfully deployed; performed regolith collection).
+    *   **Water Electrolyzer** (H2/O2 Production) - Takasago Thermal Engineering (Demo success).
     *   **Food Production** (Algae experiment) - Euglena Co.
-    *   **DSRP** (Deep Space Radiation Probe) - NCU Taiwan
+    *   **DSRP** (Deep Space Radiation Probe) - NCU Taiwan (Verified RS-422 baud rates and Micro-D interface).
     *   **Gundam Alloy Plate** - Bandai Namco
     *   **UNESCO Memory Disk** (Linguistic preservation)
     *   **Moonhouse** (Art Project) - Mikael Genberg
-*   **Status:** Success (Jan 2025). Landed at Mare Frigoris and deployed rover.
+*   **Status:** Success (Jan 2025). Successfully landed at Mare Frigoris, marking the first successful lunar landing for ispace. Deployed the **Tenacious** rover and confirmed surface-to-lander connectivity.
