@@ -11,7 +11,8 @@ description: Specialized skill for conducting detailed architectural analysis of
   - `rovers/` (directory of rover profiles)
   - `landers/` (directory of lander profiles)
   - `SPACE_ENTITIES.MD`
-  - `LUNAR_MISSIONS.MD`
+  - `missions/`
+  - `LUNAR_MISSIONS.MD` (Index)
   - `STUDENT_ROVER_TEAMS.MD`
   - `ROVER_COMMANDS.MD`
   - `ROVER_SOFTWARE_PROPOSAL.MD`
