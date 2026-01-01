@@ -7,6 +7,9 @@ description: Specialized skill for tracking lunar mission timelines, manifests, 
 
 ## Domain Knowledge
 - **File**: `LUNAR_MISSIONS.MD`
+- **Secondary Data Sources**:
+  - `rovers/` (rover details)
+  - `landers/` (lander details)
 - **Metadata Format**: YAML blocks with fields: `mission_id`, `lander_id`, `payload_ids`, `launch_date`, `status`, `target_site`.
 
 ## Instructions

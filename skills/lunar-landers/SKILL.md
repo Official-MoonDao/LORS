@@ -6,8 +6,8 @@ description: Specialized skill for analyzing lunar lander interface specificatio
 # Lunar Landers Expert Skill
 
 ## Domain Knowledge
-- **File**: `LUNAR_LANDERS.MD`
-- **Metadata Format**: YAML blocks with fields: `id`, `provider`, `payload_capacity_kg`, `power_surface_w`, `data_rate`, `status`.
+- **Directory**: `landers/` (contains individual `*.MD` files for each lander)
+- **Metadata Format**: YAML frontmatter at the top of each file with fields: `id`, `name`, `provider`, `class`, `status`, `physical` (payload_capacity, dimensions), `power`, `comms`.
 
 ## Instructions
 1. **Interface Data Collection**: Catalog mechanical (Isogrid), electrical, and data interface specifications (Ethernet, RS-422, etc.) provided by landers.
