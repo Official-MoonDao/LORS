@@ -6,6 +6,8 @@
 - [Problem](#problem)
 - [Benefits](#benefits)
 - [Getting Involved](#getting-involved)
+- [How We Work](AI_WORKFLOW.MD) - Understanding our workflow
+- [Contributing Guide](CONTRIBUTING.MD) - Technical setup and instructions
 - [Standards and Documents](STANDARDS_AND_DOCS.MD)
 - [Rover Software Proposal](ROVER_SOFTWARE_PROPOSAL.MD)
 - [Rover Commands](ROVER_COMMANDS.MD)
@@ -50,18 +52,17 @@ Join [MoonDAO Discord](https://discord.com/invite/moondao)
 
 ### How to Contribute
 
-If you want to contribute, we suggest following this workflow. We've defined the tools and steps to help everyone work together effectively.
+We welcome contributions from everyone! Whether you're a researcher, engineer, student, or space enthusiast, there are many ways to help.
 
-> [!IMPORTANT]
-> **DO NOT COMMIT PURE AI-GENERATED TEXT!**
-> It is easy to generate meaningless pages of text with AI that are hard to read. Please ensure your contributions are valuable, concise, and reviewed by a human.
+📚 **Start here:**
+- [How We Work](AI_WORKFLOW.MD) - Understand our workflow and how we organize information
+- [Contributing Guide](CONTRIBUTING.MD) - Technical setup and step-by-step instructions
 
-1.  **Work in an AI-Native Way**: Ensure all documentation is accessible to AI tools. This means keeping data structured and using scripts to download information, so AI assistants can help us build faster.
-2.  **Install Git**: Install `git` on your computer. This is the standard tool we use to track changes and collaborate on files.
-3.  **Setup Secure Access (SSH)**: Configure git to securely connect to remote repositories (GitHub) using an SSH key. This acts like a secure digital key for your computer.
-4.  **Use AI-Assisted Editors (Optional)**: We recommend using modern text editors that support AI features to speed up your work. Examples include VSCode (with plugins like Cline or Copilot), Cursor, or Antigravity.
-5.  **Visualize Changes (Optional)**: Use tools like the [Git Graph Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph). This helps you "see" the history of changes and how different versions relate to each other.
-6.  **Create Your Copy (Fork)**: "Fork" this repository on GitHub. This creates your own personal copy of the project where you can freely make changes without affecting the main project immediately.
-7.  **Download to Your Computer (Clone)**: "Clone" your forked copy to your local machine. This downloads the files so you can edit them directly on your computer.
-8.  **Save and Upload Changes (Commit & Push)**: "Commit" your edits (save a snapshot of your changes) and "Push" them (upload) back to your online copy (your fork).
-9.  **Propose Your Changes (Pull Request)**: Create a "Pull Request" from your forked repository to this original one. This allows us to review your work and merge it into the official project.
+**Quick ways to contribute:**
+- Review and provide feedback on research reports
+- Add or update information about rovers, landers, or missions
+- Connect us with lunar rover teams or delivery providers
+- Share technical expertise on rover standards
+- Help spread awareness of LORS
+
+Join [MoonDAO Discord](https://discord.com/invite/moondao) to get started!
