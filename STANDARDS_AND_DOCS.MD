@@ -94,7 +94,7 @@ Technical specifications for landing systems, payload mounting, power, and data 
 #### Commercial (CLPS & International)
 *   **[Astrobotic Peregrine & Griffin PUGs](https://www.astrobotic.com/lunar-delivery/landers/):** Detailed manuals for small (Peregrine) and medium (Griffin) class landers. Standard 28V power and transponder-based data relay.
 *   **[Intuitive Machines Nova-C](https://www.intuitivemachines.com/lunar-services):** (CLPS) 130-150kg capacity. Supports 28V, 12V, or 5V power and 8Mbps data transfer.
-*   **[Firefly Blue Ghost](https://fireflyspace.com/missions/blue-ghost-mission-1/):** Support for up to 155kg. Full technical PUG available to customers under NDA.
+*   **[Firefly Blue Ghost](https://fireflyspace.com/missions/blue-ghost-mission-1/):** Support for up to 155kg. Full technical PUG available [here](https://www.scribd.com/document/907250112/Blue-Ghost-PUG).
 *   **[ispace / Draper APEX 1.0](https://ispace-inc.com/news-release/20230928/):** Based on ispace Series 2. Modular design with 500kg surface delivery capacity. Full PUG available upon request.
 
 #### Institutional & International

@@ -62,5 +62,6 @@ Blue Ghost utilizes a standard ballistic or direct transfer profile:
 *   **Mission 2 (Blue Ghost 2):** Planned for 2026. Will deliver payloads to the lunar **Far Side**, utilizing ESA's Lunar Pathfinder for communication relay.
 
 ## Resources
-*   [Blue Ghost Page](https://fireflyspace.com/blue-ghost/)
+*   [Firefly Blue Ghost Page](https://fireflyspace.com/missions/blue-ghost-mission-1/)
+*   [Blue Ghost Payload User Guide (PUG)](https://www.scribd.com/document/907250112/Blue-Ghost-PUG)
 *   [Firefly Aerospace Website](https://fireflyspace.com/)
