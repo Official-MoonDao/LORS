@@ -35,14 +35,27 @@ description: Specialized skill for analyzing institutional and commercial space 
    - Pinpoint "Standardization Deserts": Where are there no current standards (e.g., standard deployment mechanisms for micro-rovers)?
    - Propose "LORS Bridging Solutions": How can LORS-compliant rovers bridge these gaps through abstraction or universal gateways?
 
-4. **Report Writing Standards**:
+4. **Adoption Status and Benchmarking**:
+   - For each major standard, explicitly state its **Adoption Status**:
+     - **Governmental**: Primary owners (e.g., NASA, ESA, CNSA) and their enforcement level.
+     - **Commercial**: Level of adoption by private entities (e.g., SpaceX, Intuitive Machines). Note where commercial entities "tailor" or simplify institutional standards.
+   - Use a specific categorization: *De Facto Standard*, *Institutional Requirement*, or *Emerging Commercial Practice*.
+
+5. **Missing Information & Research TBDs**:
+   - Critically evaluate the current dataset.
+   - Identify specific technical areas where information is missing (e.g., restricted PUGs, lack of deployment standards).
+   - Label these clearly as **[TBD]** or **[RESEARCH REQUIRED]** within the report to guide future data collection.
+
+6. **Report Writing Standards**:
    - **Academic/Scientific Rigor**: Use formal technical terminology. Ensure evidence-based conclusions.
    - **Clarity & Conciseness**: Avoid fluff. Use tables for comparative analysis.
    - **References**: Cite specific sections of `STANDARDS_AND_DOCS.MD` and internal lander/rover files.
 
-5. **Analysis Output**:
+7. **Analysis Output**:
    - **Target Output File**: `reports/STANDARDS_ANALYSIS.MD`
    - Structure the report to include:
-     - Detailed matrix comparing commercial provider interfaces.
-     - Summary of institutional compliance requirements.
-     - A prioritized list of standardization opportunities for the LORS project.
+     - **Executive Summary**.
+     - **Standards Adoption Matrix**: Comparing Government vs. Commercial usage.
+     - **Technical Integration Gaps**.
+     - **Missing Information (TBDs)**: A dedicated section for research gaps.
+     - **LORS Strategic Recommendations**.
