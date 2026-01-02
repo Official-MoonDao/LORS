@@ -44,7 +44,18 @@ description: Specialized skill for conducting detailed architectural analysis of
    - Highlight specific areas where lack of standardization hinders interoperability.
    - Pinpoint successful patterns that could serve as a basis for LORS, using `STANDARDS_AND_DOCS.MD` as a baseline.
 
-5. **Analysis Output**:
+5. **Report Writing Standards**:
+   - **Academic/Scientific Rigor**: Reports should be analytical and evidence-based, using technical terminology appropriately.
+   - **Simplicity & Accessibility**: Write clearly and concisely. Avoid unnecessary jargon. Explain complex concepts in straightforward language.
+   - **References**: Include citations for all factual claims, technical specifications, and data points. Reference format:
+     - Direct links to source documents (PDFs, websites, technical specs)
+     - File references for internal data (e.g., `rovers/HEMIUNU_01.MD`)
+     - Company/organization sources when applicable
+   - **Structure**: Use clear headings, bullet points, and tables to enhance readability.
+   - **Evidence-Based**: Every conclusion should be supported by data from the primary sources.
+
+6. **Analysis Output**:
    - **Target Output File**: `reports/ARCHITECTURE_ANALYSIS.MD`
    - Generate detailed technical comparison tables and architectural diagrams (descriptions).
+   - Include a references section listing all sources consulted.
    - This analysis supports the "detailed architectural analysis" requirement of Objective #1.

@@ -140,10 +140,17 @@ Use these when you want to:
 
 ### When Generating Reports
 
+Reports should be **academic/scientific in nature** while remaining **simple and accessible**:
+
 1. **Request a specific report** (ecosystem mapping, architecture analysis)
 2. **The AI gathers data** from all relevant files
-3. **The AI analyzes patterns** and creates insights
-4. **The report is saved** in the `reports/` folder
+3. **The AI analyzes patterns** and creates insights following these standards:
+   - **Academic rigor**: Evidence-based analysis with proper technical terminology
+   - **Simplicity**: Clear, concise writing without unnecessary complexity
+   - **References**: Citations for all factual claims and data points
+   - **Structure**: Clear headings, tables, and bullet points for readability
+4. **The report is saved** in the `reports/` folder with a references section
+
 
 ### When Updating Skills with New Information
 

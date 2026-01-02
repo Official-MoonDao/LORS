@@ -39,7 +39,19 @@ description: Expert skill for generating the LORS Ecosystem Mapping Document, pr
    - Describe the general approach for each profiled project.
    - Identify common trends (e.g., cube rovers, swarm architectures) and divergent strategies.
 
-5. **Report Structure & Output**:
+5. **Report Writing Standards**:
+   - **Academic/Scientific Rigor**: Reports should be analytical and evidence-based, using technical terminology appropriately.
+   - **Simplicity & Accessibility**: Write clearly and concisely. Avoid unnecessary jargon. Explain complex concepts in straightforward language.
+   - **References**: Include citations for all factual claims, technical specifications, and data points. Reference format:
+     - Direct links to source documents (PDFs, websites, technical specs)
+     - File references for internal data (e.g., `rovers/HEMIUNU_01.MD`, `landers/BLUE_GHOST.MD`)
+     - Company/organization sources when applicable
+   - **Structure**: Use clear headings, bullet points, and tables to enhance readability.
+   - **Evidence-Based**: Every conclusion should be supported by data from the primary sources.
+
+6. **Report Structure & Output**:
    - **Target Output File**: `reports/ECOSYSTEM_MAPPING.MD`
    - The output should support the creation of the "Ecosystem Mapping Document" (target length: 8-10 pages).
    - Expected sections: Executive Summary, Rover Project Profiles, Delivery Provider Assessment, Ecosystem Trends.
+   - Include a references section listing all sources consulted.
+
