@@ -34,6 +34,7 @@
 **Reports:**
 - [Architecture Analysis](reports/ARCHITECTURE_ANALYSIS.MD) - Interface standardization & technical architecture analysis
 - [Ecosystem Mapping](reports/ECOSYSTEM_MAPPING.MD) - Project profiles & delivery provider assessment
+- [Standards Analysis](reports/STANDARDS_ANALYSIS.MD) - Evaluation of institutional and commercial space standards
 
 ## Overview
 
