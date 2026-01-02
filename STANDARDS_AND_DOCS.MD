@@ -1,5 +1,11 @@
-This documents will contain list of relevant standards and documents
+# Space Industry Standards and Reference Documentation
 
+This document serves as a comprehensive repository of industry standards, technical specifications, and reference manuals critical for the design, development, and interoperability of lunar hardware within the **Lunar Open-source Rover Standard (LORS)** initiative.
+
+By adhering to these established protocols, we ensure that lunar rovers, landers, and infrastructure can effectively communicate, interface, and survive the extreme lunar environment.
+
+## General Space Standards
+These foundational standards define the physical, software, and operational baselines for modern spacecraft and interoperability in deep space.
 
 1. [CubeSat](https://www.cubesat.org/cubesatinfo)
 2. [Standards for international docking system for space stations](https://www.internationaldockingstandard.com/download/IDSS_IDD_Revision_F.pdf)
@@ -17,15 +23,21 @@ This documents will contain list of relevant standards and documents
 6. [DiskSat](https://www.nasa.gov/smallspacecraft/disksat/) - A plate-shaped spacecraft design that maintains CubeSat containerization while offering more surface area for power and instruments.
 
 ## Lunar Interoperability Standards
+Specific protocols designed to enable seamless communication and navigation across the lunar surface and between cislunar assets.
+
 *   **[LunaNet Interoperability Specification (LNIS)](https://www.nasa.gov/wp-content/uploads/2025/02/lunanet-interoperability-specification-v5-baseline.pdf?emrc=606f95):** Core framework for lunar communications, navigation, and timing services (v5 Baseline). Relies on **Bundle Protocol (DTN v7)** for guaranteed delivery.
 *   **[LunaNet Signal-In-Space Recommended Standard - Augmented Forward Signal](https://www.nasa.gov/wp-content/uploads/2025/02/lunanet-signal-in-space-recommended-standard-augmented-forward-signal-vol-a.pdf?emrc=0f6993)**
 *   **[ESA Moonlight](https://www.esa.int/Applications/Connectivity_and_Secure_Communications/Moonlight):** Satellite constellation initiative fully adopting LNIS standards.
 *   **Lunar Surface Connectivity:** Usage of **4G/LTE** for proximity communications (Nokia/Lunar Outpost/Intuitive Machines).
 
 ## Environmental & Testing Standards
+Standards for testing hardware against the harsh conditions of the lunar environment, including simulants for soil interaction.
+
 *   **ISO 10788:** Lunar Simulants (standard lunar soil analogues for mobility testing).
 
 ## Outgassing & Materials Standards
+Guidelines for material selection and processing to minimize outgassing and ensure structural integrity in vacuum environments.
+
 *   **[ASTM E595](https://www.astm.org/e0595-15.html):** Standard Test Method for Total Mass Loss (TML) and Collected Volatile Condensable Materials (CVCM) from Outgassing in a Vacuum Environment.
     *   **Acceptance Criteria:** TML < 1.0%, CVCM < 0.1%.
 *   **[NASA-STD-6016](https://standards.nasa.gov/standard/nasa/nasa-std-6016):** Standard Materials and Processes Requirements for Spacecraft. References **NASA-STD-6001B Test 7** for offgassing.
@@ -33,9 +45,10 @@ This documents will contain list of relevant standards and documents
 *   **ISO 14624-3:** Determination of offgassed products from materials and assembled articles for manned, pressurized spacecraft.
 
 ## EMI/EMC (Electromagnetic Interference & Compatibility)
-Payload User Guides (PUGs) specify EMI/EMC standards to ensure that electronic equipment behaves correctly in the integrated spacecraft environment.
+Payload User Guides (PUGs) specify EMI/EMC standards to ensure that electronic equipment behaves correctly and does not interfere with other systems in the integrated spacecraft environment.
 
 ### Primary Standards
+Widely recognized standards that provide the foundation for EMI/EMC testing and certification across global space agencies and commercial providers.
 *   **[MIL-STD-461](https://quicksearch.dla.mil/qsDocDetails.aspx?ident_number=35634):** Requirements for the Control of Electromagnetic Interference Characteristics of Subsystems and Equipment. The most common standard for US and international missions.
     *   **MIL-STD-461G:** Current version often used for CLPS missions.
 *   **[ECSS-E-ST-20-07C](https://ecss.nl/standard/ecss-e-st-20-07c-rev-1-electromagnetic-compatibility/):** ESA's detailed system requirements for electromagnetic compatibility.
@@ -44,6 +57,7 @@ Payload User Guides (PUGs) specify EMI/EMC standards to ensure that electronic e
 *   **ISRO EMI/EMC Standard:** ISRO's internal standard (updated 2021), historically derived from MIL-STD-461C.
 
 ### EMI Standards per Lander/PUG
+Specific EMI/EMC requirements as defined by lunar lander providers. Payloads must comply with these to ensure safe integration and operation on the host platform.
 
 | Provider / Lander | Primary Standard | Key Tests / Notes |
 | :--- | :--- | :--- |
@@ -58,6 +72,7 @@ Payload User Guides (PUGs) specify EMI/EMC standards to ensure that electronic e
 
 ### Outgassing Material Databases
 Searchable databases providing outgassing properties (TML, CVCM, RML) for thousands of aerospace materials.
+
 *   **[NASA Outgassing Database (GSFC)](https://outgassing.nasa.gov/):** Public database from Goddard Space Flight Center containing data obtained per ASTM E595.
 *   **[NASA MAPTIS](https://maptis.nasa.gov/):** NASA's primary database for materials and processes (registration required for full access).
 *   **[ESA MODESA](https://modesa.esa.int/):** ESA's outgassing database featuring micro-VCM test results per ECSS-Q-ST-70-02C.
@@ -70,8 +85,7 @@ Detailed technical manuals providing specifications for payload integration, env
 > **Note:** Payload User Guides are updated periodically. Always verify you have the latest version from the provider's official website before mission planning.
 
 ### Launch Vehicles
-
-Most overloads happen during launch, so understanding the launch vehicle's environment is critical for payload design.
+Most mechanical and environmental loads occur during launch. Understanding the launch vehicle's environment is critical for ensuring the payload's structural and operational integrity.
 
 | Vehicle | Provider | Latest Version | Official Link | Notes |
 | :--- | :--- | :--- | :--- | :--- |
@@ -89,7 +103,7 @@ Most overloads happen during launch, so understanding the launch vehicle's envir
 > **Caution:** Detailed PUGs for Russian **Angara**, Chinese **Long March 5**, and some other vehicles are often restricted or proprietary. Public information is usually limited to general performance specifications found in institutional brochures.
 
 ### Lunar Landers
-Technical specifications for landing systems, payload mounting, power, and data interfaces on the lunar surface.
+Technical specifications for landing systems, including payload mounting, power distribution, thermal management, and data interfaces on the lunar surface.
 
 #### Commercial (CLPS & International)
 *   **[Astrobotic Peregrine & Griffin PUGs](https://www.astrobotic.com/lunar-delivery/landers/):** Detailed manuals for small (Peregrine) and medium (Griffin) class landers. Standard 28V power and transponder-based data relay.
