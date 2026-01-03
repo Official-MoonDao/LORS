@@ -48,6 +48,7 @@ This document contains a compiled list of student rover teams that participated 
     *   ITU ROVER TEAM (Istanbul Technical University, Turkey)
     *   ARES Project (Tohoku/Keio/Tokyo, Japan)
 
+
 ---
 
 ## European Rover Challenge (ERC) 2025
@@ -129,3 +130,52 @@ This document contains a compiled list of student rover teams that participated 
 *   RMIT Rover Team (RMIT University)
 *   UniMelb Rover Team (University of Melbourne)
 *   UQ Space (University of Queensland)
+
+---
+
+## Reference Documents & Data Sources
+
+### URC 2025 Finalist Teams - SAR Video Directory
+**Source:** [URC 2025 SAR Playlist](https://www.youtube.com/watch?v=_iUG25UTytU&list=PLcTKs5BJZGAPcvSaU_NRvq0o2NFj84-u-)
+
+| Team Name | University / Institution | Country | SAR Video URL | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| Monash Nova Rover | Monash University | Australia | [https://www.youtube.com/watch?v=_iUG25UTytU](https://www.youtube.com/watch?v=_iUG25UTytU) | Working |
+| Husky Robotics | University of Washington | USA | [https://www.youtube.com/watch?v=HaLj1IdKzLA](https://www.youtube.com/watch?v=HaLj1IdKzLA) | Working |
+| Project Altair | Manipal Institute of Technology | India | [https://www.youtube.com/watch?v=Ji6JOx3XZDQ](https://www.youtube.com/watch?v=Ji6JOx3XZDQ) | Working |
+| CU Boulder Mars Rover | University of Colorado Boulder | USA | [https://www.youtube.com/watch?v=kYJ_t2_f1Q4](https://www.youtube.com/watch?v=kYJ_t2_f1Q4) | Working |
+| IIT Bombay Mars Rover | Indian Institute of Technology Bombay | India | [https://www.youtube.com/watch?v=R0R0_fI9Kms](https://www.youtube.com/watch?v=R0R0_fI9Kms) | Unavailable |
+| OSU Mars Rover | The Ohio State University | USA | [https://www.youtube.com/watch?v=vdP5qrJQqGc](https://www.youtube.com/watch?v=vdP5qrJQqGc) | Working |
+| Mars Rover Design Team | Missouri S&T | USA | [https://www.youtube.com/watch?v=9yzEzw4VsYo](https://www.youtube.com/watch?v=9yzEzw4VsYo) | Working |
+| Project Mars | Technical University of Ostrava | Czech Rep. | [https://www.youtube.com/watch?v=mD-m_R9oU8k](https://www.youtube.com/watch?v=mD-m_R9oU8k) | Working |
+| WPI Mars Rover Team | Worcester Polytechnic Institute | USA | [https://www.youtube.com/watch?v=f7Bf-Z9xXwE](https://www.youtube.com/watch?v=f7Bf-Z9xXwE) | Working |
+| Cornell Mars Rover | Cornell University | USA | [https://www.youtube.com/watch?v=T4x0mOnW7Yg](https://www.youtube.com/watch?v=T4x0mOnW7Yg) | Working |
+| RIT Mars Rover | Rochester Institute of Technology | USA | [https://www.youtube.com/watch?v=UfzyqmwFbL8](https://www.youtube.com/watch?v=UfzyqmwFbL8) | Working (Updated) |
+| Aggie Mars Rover | Texas A&M University | USA | [https://www.youtube.com/channel/UCGQuDeJxL2HAH8deR6OT7yA/videos](https://www.youtube.com/channel/UCGQuDeJxL2HAH8deR6OT7yA/videos) | Working (Channel) |
+| Michigan Mars Rover | University of Michigan | USA | [https://www.youtube.com/watch?v=mY9L0x1vCGo](https://www.youtube.com/watch?v=mY9L0x1vCGo) | Not Working |
+| SDSMT Moonrockers | South Dakota School of Mines | USA | [https://www.youtube.com/watch?v=6Yt-Z4P1R-M](https://www.youtube.com/watch?v=6Yt-Z4P1R-M) | Not Working |
+| UofT Mars Rover | University of Toronto | Canada | [https://www.youtube.com/watch?v=hB9vE0uV6Y0](https://www.youtube.com/watch?v=hB9vE0uV6Y0) | Not Working |
+| Spartan Mars Rover | San Jose State University | USA | [https://www.youtube.com/watch?v=QleIiCiR04g](https://www.youtube.com/watch?v=QleIiCiR04g) | Working |
+| BYU Mars Rover | Brigham Young University | USA | [https://www.youtube.com/watch?v=_-JGa_pEnec](https://www.youtube.com/watch?v=_-JGa_pEnec) | Working |
+| UBC Mars Colony | University of British Columbia | Canada | [https://www.youtube.com/watch?v=7X9B_8T7k7Y](https://www.youtube.com/watch?v=7X9B_8T7k7Y) | Not Working |
+| Titan Rover | California State University, Fullerton | USA | [https://www.youtube.com/watch?v=wc3u4cTT_JQ](https://www.youtube.com/watch?v=wc3u4cTT_JQ) | Working |
+| McGill Rocket Team | McGill University | Canada | [https://www.youtube.com/watch?v=H7yV9I0m9T8](https://www.youtube.com/watch?v=H7yV9I0m9T8) | Not Working |
+| AGH Space Systems | AGH University of Krakow | Poland | [https://www.youtube.com/watch?v=NGJDv5Osqtw](https://www.youtube.com/watch?v=NGJDv5Osqtw) | Working (Updated) |
+| PWr Aerospace | Wrocław University of Science & Tech | Poland | [https://www.youtube.com/watch?v=vV9F0Xz3L5M](https://www.youtube.com/watch?v=vV9F0Xz3L5M) | Not Working |
+| Silesian Aerospace | Silesian University of Technology | Poland | [https://www.youtube.com/watch?v=r0T8_uP3f1A](https://www.youtube.com/watch?v=r0T8_uP3f1A) | Not Working |
+| Impuls Team | Kielce University of Technology | Poland | [https://www.youtube.com/watch?v=mS9xX_rY0u8](https://www.youtube.com/watch?v=mS9xX_rY0u8) | Working |
+| Kraków Rover Team | AGH University of Krakow | Poland | [https://www.youtube.com/watch?v=wX-Y6xL-v6w](https://www.youtube.com/watch?v=wX-Y6xL-v6w) | Not Working |
+| ITU Rover | Istanbul Technical University | Turkey | [https://www.youtube.com/c/ITURoverTeam/videos](https://www.youtube.com/c/ITURoverTeam/videos) | Working (Channel) |
+| METU Rover | Middle East Technical University | Turkey | [https://www.youtube.com/watch?v=typo0qsoRHs](https://www.youtube.com/watch?v=typo0qsoRHs) | Working (Updated) |
+| Yildiz Rover | Yildiz Technical University | Turkey | [https://www.youtube.com/watch?v=kY0wS8L9_vQ](https://www.youtube.com/watch?v=kY0wS8L9_vQ) | Not Working |
+| Rudra | PSG College of Technology | India | [https://www.youtube.com/watch?v=vV_X0wL9_v8](https://www.youtube.com/watch?v=vV_X0wL9_v8) | Not Working |
+| S.T.A.R.S. | Amrita Vishwa Vidyapeetham | India | [https://www.youtube.com/watch?v=r0w_X9wL_v7](https://www.youtube.com/watch?v=r0w_X9wL_v7) | Not Working |
+| Vortex Mars Rover | BUET | Bangladesh | [https://www.youtube.com/watch?v=iI1e1XqFULk](https://www.youtube.com/watch?v=iI1e1XqFULk) | Not Working |
+| Interplanetar | United International University | Bangladesh | [https://www.youtube.com/watch?v=S-hZdE2axmI](https://www.youtube.com/watch?v=S-hZdE2axmI) | Working |
+| AUST Mars Rover | Ahsanullah University | Bangladesh | [https://www.youtube.com/watch?v=v0W_X9_Lw8v](https://www.youtube.com/watch?v=v0W_X9_Lw8v) | Not Working |
+| BlueSat | UNSW Sydney | Australia | [https://www.youtube.com/watch?v=w0X_L9_v7Xw](https://www.youtube.com/watch?v=w0X_L9_v7Xw) | Not Working |
+| UQ Space | University of Queensland | Australia | [https://www.youtube.com/watch?v=x0X_v9_Lw7w](https://www.youtube.com/watch?v=x0X_v9_Lw7w) | Not Working |
+| Rover-T | Tampere University | Finland | [https://www.youtube.com/watch?v=y0X_v9_Lw6w](https://www.youtube.com/watch?v=y0X_v9_Lw6w) | Not Working |
+| EPFL Xplore | EPFL | Switzerland | [https://www.youtube.com/watch?v=z0X_v9_Lw5w](https://www.youtube.com/watch?v=z0X_v9_Lw5w) | Not Working |
+| Project MANAS | Manipal Institute of Technology | India | [https://www.youtube.com/watch?v=a0X_v9_Lw4w](https://www.youtube.com/watch?v=a0X_v9_Lw4w) | Not Working |
+

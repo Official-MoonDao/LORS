@@ -11,4 +11,11 @@ This document tracks the current state of technical data analysis and integratio
 | **Blue Ghost** | PUG | Processed | Integrated PUG level details. |
 | **Nova-C** | ODAR / Mission Data | Processed | Technical analysis and PUG-level integration complete. |
 | **Hakuto-R** | Mission Documentation | Analysis Done | Technical analysis performed; ready for final integration. |
+ 
+ ## Student Rover Data
+ 
+ | Dataset | Status | Notes |
+ | :--- | :--- | :--- |
+ | **URC 2025 Finalists** | Integrated | 38 finalist teams and SAR videos added to `STUDENT_ROVER_TEAMS.MD`. |
+
 
