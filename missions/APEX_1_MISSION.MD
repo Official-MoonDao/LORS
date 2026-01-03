@@ -1,44 +1,50 @@
 ---
 mission_id: apex-1-mission
-name: APEX 1.0 (ispace M3)
-lander_id: apex-1
+name: APEX 1.0 (ispace Mission 3)
+lander_id: apex_1
 payload_ids:
   - fss
   - litms
   - lusee-lite
-  - ispace-micro-rover
+  - lara2
   - alpine
   - lupine
-  - lara2
+  - ispace-europe-rover
 launch_date: 2026
 status: Planned
-target_site: Schrödinger Basin
+target_site: Schrödinger Basin (Far Side)
 ---
 
-# APEX 1.0 (ispace M3)
+# APEX 1.0 (ispace Mission 3)
 
-## Overview
-Commercial far-side operations and first U.S. mission to target the lunar far side (Draper/ispace-U.S.).
+Mission 3 is a milestone for both **ispace-U.S.** and the **NASA CLPS** program, representing the first commercial delivery to the lunar far side. Led by Draper as the prime contractor for the CP-12 task order, the mission utilizes the heavy-logistic **APEX 1.0** lander.
 
-## Details
-*   **Lander:** [APEX 1.0](../landers/APEX_1.MD) (300kg capacity).
-*   **Transfer Trajectory:** Low-energy "Long Trajectory" (~135+ day cruise).
-*   **Connectivity (Far Side):**
-    *   **Relay Satellites:** Deploys two dedicated relay satellites, **Alpine** and **Lupine**, into lunar orbit prior to landing.
-    *   **Link:** Continuous X-Band relay between Schrödinger Basin and Earth stations.
-*   **Payloads:**
-    *   **NASA CLPS (Task Order CP-12):**
-        *   **Farside Seismic Suite (FSS)** - NASA JPL
-        *   **LITMS** (Interior Temp & Materials) - NASA/SwRI
-        *   **LuSEE-Lite** (Electromagnetics) - NASA/UC Berkeley
-    *   **Rovers:**
-        *   **ispace-EUROPE Micro Rover** (Deployable from lander bay)
-    *   **Commercial/Other:**
-        *   **Alpine & Lupine** (Relay Satellites) - ispace-U.S.
-        *   **LaRA2** (Laser Retroreflector) - ASI (Italy)
-        *   **CDS** (Data Systems) - Control Data Systems
-*   **Status:** Planned. Targeting Schrödinger Basin.
+## Mission Details
+*   **Lander:** [APEX 1.0](../landers/APEX_1.MD)
+*   **Prime Contractor:** Draper
+*   **Target Landing Site:** Schrödinger Basin (Far Side).
+*   **Trajectory:** Low-energy "Long Trajectory" (~135+ day cruise).
+
+## Connectivity (Far Side Relay)
+Because the landing site is on the far side, the mission includes a dedicated communication infrastructure:
+*   **Relay Satellites:** Deploys two satellites, **Alpine** and **Lupine**, into lunar orbit prior to the lander's descent.
+*   **Data Link:** Established via the relay constellation to Earth-based stations (DSN).
+
+## Payloads
+### NASA CLPS (CP-12) Science
+*   **Farside Seismic Suite (FSS):** Two seismometers (VBB and SP) to collect the first seismic data from the lunar far side.
+*   **LITMS (Lunar Interior Temperature and Materials Suite):** A pneumatic drill and electrodes to measure heat flow and conductivity.
+*   **LuSEE-Lite (Lunar Surface Electromagnetics Experiment):** Characterizing the lunar ionospheric and electromagnetic environment.
+
+### International & Commercial
+*   **ispace-EUROPE Micro Rover:** A 5kg-class rover for regolith sampling and technology demonstration.
+*   **LaRA2:** Laser Retroreflector Array from the Italian Space Agency (ASI).
+*   **Relay Constellation:** Alpine & Lupine smallsats.
+
+## Status
+Planned for **2026** launch. Engineering review cycles are incorporating lessons learned from HAKUTO-R Mission 1 and Mission 2.
 
 ## Resources
-*   [ispace US APEX 1.0 Page](https://ispace-us.com/apex/)
-*   [NASA CLPS Overview](https://www.nasa.gov/clps)
+*   [ispace-U.S. Mission 3 Overview](https://ispace-us.com/m3)
+*   [Draper CLPS CP-12 Mission](https://www.draper.com/commercial-lunar-payload-services-clps)
+*   [NASA CP-12 Payload Selection](https://www.nasa.gov/press-release/nasa-selects-draper-to-fly-science-to-far-side-of-moon)

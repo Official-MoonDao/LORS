@@ -10,32 +10,30 @@ payload_ids:
   - gundam-alloy-plate
   - unesco-disk
   - moonhouse
-launch_date: 2025-01
-status: Success
+launch_date: 2025-01-15
+status: Hard Landing
 target_site: Mare Frigoris
 ---
 
 # HAKUTO-R M2
 
 ## Overview
-Micro-rover regolith extraction demo and technology demonstration mission ("Resilience").
+Technology demonstration mission ("Resilience") aimed at verifying improved landing software and deploying a micro-rover.
 
 ## Details
-*   **Lander:** [HAKUTO-R](../landers/HAKUTO_R.MD)
-*   **Transfer Trajectory:** Low-energy (~135-day cruise).
+*   **Lander:** [HAKUTO-R (Series 1)](../landers/HAKUTO_R.MD)
+*   **Launch:** January 15, 2025, via SpaceX Falcon 9.
 *   **Connectivity:** 
-    *   **Direct-to-Earth:** X-Band via ESA Estrack.
-    *   **Surface Relay:** Established stable X-Band link to the **TENACIOUS** micro-rover.
+    *   **Direct-to-Earth:** X-Band via ESA Estrack (Demonstrated during cruise).
+    *   **Surface Relay:** Planned X-Band link to the **TENACIOUS** micro-rover (Not utilized due to landing failure).
 *   **Payloads:**
-    *   **[TENACIOUS](../rovers/TENACIOUS.MD)** (Micro Rover) - ispace Europe (Successfully deployed; performed regolith collection).
-    *   **Water Electrolyzer** (H2/O2 Production) - Takasago Thermal Engineering (Demo success).
-    *   **Food Production** (Algae experiment) - Euglena Co.
-    *   **DSRP** (Deep Space Radiation Probe) - NCU Taiwan (Verified RS-422 baud rates and Micro-D interface).
-    *   **Gundam Alloy Plate** - Bandai Namco
-    *   **UNESCO Memory Disk** (Linguistic preservation)
-    *   **Moonhouse** (Art Project) - Mikael Genberg
-*   **Status:** Success (Jan 2025). Successfully landed at Mare Frigoris, marking the first successful lunar landing for ispace. Deployed the **Tenacious** rover and confirmed surface-to-lander connectivity.
+    *   **[TENACIOUS](../rovers/TENACIOUS.MD)** (Micro Rover) - ispace Europe.
+    *   **Water Electrolyzer** - Takasago Thermal Engineering.
+    *   **Food Production** - Euglena Co.
+    *   **DSRP** (Deep Space Radiation Probe) - NCU Taiwan.
+    *   **Gundam Alloy Plate** - Bandai Namco.
+*   **Status:** **Hard Landing (June 5, 2025)**. The lander successfully entered lunar orbit but lost communication approximately 90 seconds before touchdown. Technical analysis identified an anomaly in the **Laser Range Finder (LRF)**, which failed to provide timely altitude data, preventing the necessary deceleration for a soft landing. Both the lander and the Tenacious rover were lost upon impact.
 
 ## Resources
-*   [ispace Mission 2 'Resilience'](https://ispace-inc.com/m2)
+*   [ispace Mission 2 Anomaly Report](https://ispace-inc.com/news/?p=4654)
 *   [ispace HAKUTO-R Program](https://ispace-inc.com/hakuto-r/)
