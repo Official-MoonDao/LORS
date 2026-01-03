@@ -7,6 +7,9 @@ This document contains a compiled list of student rover teams that participated 
 **Dates:** May 28-31, 2025
 **Participants:** 114 teams from 15 countries (38 finalists)
 
+**Video Resources:**
+*   [URC 2025 System Acceptance Review (SAR) Playlist](https://www.youtube.com/watch?v=_iUG25UTytU&list=PLcTKs5BJZGAPcvSaU_NRvq0o2NFj84-u-&pp=gAQB) - If you want to see what URC teams have done, there are a lot of videos on YouTube. This playlist includes System Acceptance Review videos from the top 38 teams in 2025.
+
 **Top Teams:**
 *   **1st Place:** Missouri S&T Mars Rover Design Team (Missouri University of Science and Technology, USA)
 *   **2nd Place:** Team Mountaineers (West Virginia University, USA)
