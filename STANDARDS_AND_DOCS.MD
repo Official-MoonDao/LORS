@@ -44,6 +44,13 @@ Guidelines for material selection and processing to minimize outgassing and ensu
 *   **[ECSS-Q-ST-70-02C](https://ecss.nl/standard/ecss-q-st-70-02c-thermal-vacuum-outgassing-test-for-the-screening-of-space-materials/):** ESA's Thermal vacuum outgassing test for the screening of space materials.
 *   **ISO 14624-3:** Determination of offgassed products from materials and assembled articles for manned, pressurized spacecraft.
 
+## Connector Standards
+Specifications for electrical and mechanical connections to ensure hardware interoperability.
+
+*   **[NASA EEE-INST-002](https://nepp.nasa.gov/docuploads/FFB52B88-36AE-4378-A05B2C084B5EE2CC/EEE-INST-002_add1.pdf):** Standard for EEE parts selection and screening.
+    *   **Why it matters:** It is the standard specified for "NewSpace" class landers (Tier 2/3 robotics). Using **Glenair Series 80 "Mighty Mouse"** (Series 801 or 805) connectors per these instructions ensures ICD acceptance for lunar missions.
+    *   **Reference:** [Glenair Series 80 Space Grade Specs](https://www.glenair.com/mighty-mouse-connectors/index.htm)
+
 ## EMI/EMC (Electromagnetic Interference & Compatibility)
 Payload User Guides (PUGs) specify EMI/EMC standards to ensure that electronic equipment behaves correctly and does not interfere with other systems in the integrated spacecraft environment.
 
