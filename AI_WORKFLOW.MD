@@ -197,7 +197,7 @@ Skills are **step-by-step instructions** stored in the `skills/` folder. Each sk
 
 ### Example 1: Adding a New Rover
 
-**You say:** "I found a new rover called 'Moonlight' made by Astrolab"
+**You say:** "Research and add the new 'Moonlight' rover from Astrolab"
 
 **What happens:**
 1. AI checks if `rovers/MOONLIGHT.MD` exists (it doesn't)
@@ -209,7 +209,7 @@ Skills are **step-by-step instructions** stored in the `skills/` folder. Each sk
 
 ### Example 2: Updating Mission Information
 
-**You say:** "The IM-2 mission launch date changed to March 2026"
+**You say:** "Update the IM-2 mission launch date to March 2026"
 
 **What happens:**
 1. AI opens `missions/IM2.MD`
