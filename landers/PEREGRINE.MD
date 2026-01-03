@@ -49,7 +49,7 @@ Astrobotic recognizes four standard payload types:
 ## Technical Systems
 
 ### 1. Propulsion System
-*   **Main Engines:** 5 pulsed hypergolic engines, each producing **667 N** of thrust.
+*   **Main Engines:** 5 pulsed hypergolic engines, each producing **667 N** of thrust. Maximum burn duration is **20 minutes** for maneuvers (excluding Powered Descent, which lasts ~2 hours).
 *   **ACS Thrusters:** 12 thrusters in clusters of three, each producing **45 N** of thrust (enabling 6-DOF control).
 *   **Propellants:** Mono-Methyl-Hydrazine (MMH) fuel and 25% Mixed Oxides of Nitrogen (MON-25) oxidizer.
 *   **Pressurant:** Helium (held in a central tank).
@@ -62,7 +62,12 @@ Astrobotic recognizes four standard payload types:
 ### 3. Avionics & Command Handling
 *   **Flight Computer:** 32-bit dual-core **LEON3 FT** microprocessor (rad-hard, fault-tolerant).
 *   **Payload Computer:** Pair of radiation-tolerant **FPGAs** housed in the Integrated Avionics Unit (IAU). Manages monitoring, contractual services, and networking.
-*   **Power Rail:** 28 Vdc (unregulated and regulated distribution).
+*   **Power Circuits:** Payloads are allocated **two distinct circuits**:
+    1.  **Operations/Heater Circuit**: For nominal tasks and thermal survival.
+    2.  **Actuation/Deployment Circuit**: Dedicated for mechanical release events.
+*   **Power Rail:** 28 ± 5% Vdc (unregulated and regulated distribution; **current-regulated, current-monitored, and over-voltage protected**).
+*   **Grounding:** Single-point ground architecture; payloads must bond all conductive elements to the lander chassis at the **Vehicle Point of Contact (VPC)**.
+*   **Timing:** "Time at the Tone" UTC synchronization service (Note: **Requires Regular SEC** interface).
 *   **Telemetry Verification:** Payload data is transmitted transparently via a VPN tunnel without lander-side modification (supports end-to-end encryption).
 
 ### 4. Structural Composition
@@ -71,6 +76,10 @@ Astrobotic recognizes four standard payload types:
 *   **Adapter Cone:** Aluminum launch vehicle adapter cone housing the main engines.
 *   **Shear Panels:** Isogrid panels supporting fuel tanks, decks, and solar arrays.
 *   **Enclosures:** Aluminum honeycomb structures providing thermal protection for avionics.
+
+### 5. Thermal Control Architecture
+*   **Passive Systems:** Utilizes **Passive Heat Pipes** to direct excess heat to radiators and **Multi-Layer Insulation (MLI)** blankets to mitigate solar flux during cruise.
+*   **Active Systems:** Supports autonomous and customer-commanded **Heaters** for sensitive components; payloads may utilize the secondary 28V power circuit for dedicated heater power.
 
 ## Landing & Surface Environment
 *   **Landing Accuracy:** Improved from 24 km x 6 km to **100 m x 100 m** (with OPAL).
@@ -89,13 +98,22 @@ Astrobotic recognizes four standard payload types:
 | **Pressure Drop** | < -5.0 kPa/s | Max drop during transonic flight |
 | **Operating Pressure**| 101.25 kPa to 3.2×10⁻⁵ kPa | Sea level to deep space vacuum |
 | **Humidity** | 50% ± 15% | Pre-launch (cleanroom environment) |
+| **Outgassing (TML)** | < 1.0% | Total Mass Loss limit |
+| **Outgassing (CVCM)**| < 0.1% | Collected Volatile Condensable Material |
+| **Purging** | N2 Purge Support | Available during ground segment operations |
 | **Radiation (near-Earth)** | 20 rads/day | Trapped radiation (Van Allen belts) |
 | **Radiation (interplan.)**| 1 rad/day | Interplanetary dosage (outside Earth's field) |
-| **Total Ionizing Dose** | < 1 krad | Design life for ~8 months |
-| **EMI/EMC** | MIL-STD-461G | CE102, CS101/114/115/116, RE102, RS103 |
+| **Thermal (Launch)** | 10°C to 30°C | Ground and ascent environment |
+| **Thermal (Cruise)** | -20°C to 50°C | Maintains via "Thermal Roll" maneuver |
 | **Thermal (Orbit)** | -120°C to 100°C | Extremes during eclipse cycles |
 | **Thermal (Surface)** | -30°C to 80°C | Shadowed vs Sun-lit extremes |
 | **Cleanroom** | ISO Class 8 (100k) | Required for assembly/integration |
+
+## Ground Segment & Operations
+*   **Mission Control (AMCC):** The **Astrobotic Mission Control Center** in Pittsburgh serves as the central data hub.
+*   **Payload Control (PMCC):** Customers operate their own **Payload Mission Control Centers**, accessing the lander network via a secure **Virtual Private Network (VPN)**.
+*   **On-site Presence:** Each payload mission requires an **on-site representative** at AMCC during flight operations for rapid response to off-nominal conditions.
+*   **Ground Support:** Astrobotic provides standardized networking, ensuring telecommands and telemetry are delivered without modification (supporting customer-side encryption).
 
 ## Service Mode Matrix
 
@@ -139,20 +157,22 @@ Peregrine provides three distinct data layers:
 ## Mechanical Mounting
 *   **Primary Decks**: Two open isogrid aluminum decks (~0.5 m² area per side).
 *   **Bolt Pattern**: M5 bolts with locking helicoil inserts; **75 mm** center-to-center spacing.
+*   **Adapter Plates**: Recommended to decouple payload design from lander drilling. **Note: Adapter plate mass is considered part of the payload's mass allocation.**
 *   **Payload Envelope**: 
     *   **Above Deck**: 0.57 m max height.
     *   **Below Deck**: 0.38 m max height.
 *   **Ground Clearance**: 0.40 m to 0.80 m (nominal upon landing).
 *   **Conductance Requirement**: Payloads must be thermally isolated (**< 0.1 W/K**).
-*   **Grounding**: Single-point ground architecture.
+*   **Grounding**: Single-point ground architecture; payloads must bond all conductive elements to the lander chassis at the **Vehicle Point of Contact (VPC)**.
 
 ## Deployment & Egress
 *   **Egress Modes**: Supports Safe, Arm, and Fire (release signal) sequences.
     *   **Safe**: Internally disconnected and unpowered.
     *   **Arm**: Customer command to ready internal payload power distribution.
     *   **Fire**: Power signal from lander triggers actuation.
-*   **Orbital Egress**: Payload must provide at least **0.04 m/s** separation velocity to ensure keep-out zone compliance (1 km radius).
-*   **Mechanism Standards**: Non-pyrotechnic recommended for surface deployments; proven designs required for orbital release.
+*   **Orbital Egress**: Payload must provide at least **0.04 m/s** separation velocity.
+*   **Keep-out Zone**: Orbital dynamics (loop-backs) must occur outside a **1 km radius** keep-out zone relative to the lander.
+*   **Mechanism Standards**: Non-pyrotechnic recommended for surface deployments; must impart < 300 g shocks; proven designs required for orbital release.
 *   **Separation Confirmation**:
     1.  Provision of release signal to SEC interface.
     2.  **Visual Confirmation** via lander status cameras.
@@ -165,19 +185,32 @@ Peregrine typically utilizes three distinct lunar orbits before landing:
 
 ## Descent Profile
 The autonomous descent sequence following LO3 consists of four primary stages:
-1.  **Unpowered Descent**: Braking maneuver followed by coast (100 km down to 15 km).
-2.  **Powered Descent**: Continuous main engine firing, guided by OPAL and LiDAR (15 km down to 300 m).
-3.  **Terminal Descent**: Targeted guidance to landing site (300 m down to 30 m).
-4.  **Terminal Descent Nadir**: Constant vertical velocity until touchdown (30 m to surface).
+1.  **Unpowered Descent**: Braking maneuver followed by coast (**100 km down to 15 km**).
+2.  **Powered Descent**: Continuous main engine firing slow-down (**15 km down to 1 km**).
+3.  **Terminal Descent**: Targeted guidance to landing site using OPAL/LiDAR (**1 km down to 300 m**).
+4.  **Terminal Descent Nadir**: Horizontal velocity reduction and final vertical descent (**300 m to surface**; constant vertical velocity maintained from **30 m** to touchdown).
 
 ## Integration & Milestones
-*   **Payload Acceptance Review (PAR)**: L-Minus 9 Months (occurs in Pittsburgh, PA). Flight models must be delivered for verification.
+
+### 1. Mission Review Milestones
+Astrobotic supports/leads the following industry-standard reviews:
+*   **PDR/CDR**: Preliminary and Critical Design Reviews (Payload-led, Astrobotic-supported).
+*   **PAR (Payload Acceptance Review)**: L-Minus 9 Months (occurs in Pittsburgh, PA). Flight models delivered for final verification.
+*   **SIR (System Integration Review)**: Determination of readiness for assembly.
+*   **TRR (Test Readiness Review)**: Readiness for integrated environmental testing.
+*   **LRR/FRR/ORR**: Launch, Flight, and Operational Readiness Reviews.
+
+### 2. Documentation Suite
+Payload missions are governed by the following contractual and technical documents:
+*   **PSA**: Payload Services Agreement (Overarching contract).
+*   **SOW**: Statement of Work (Specific responsibilities).
+*   **IDD**: Interface Definition Document (Lander standards).
+*   **ICD**: Interface Control Document (Payload-specific technical interface).
+*   **PIP**: Payload Integration Plan (Schedules/V&V).
+*   **POP**: Payload Operations Plan (Handling and surface procedures).
+
+### 3. Integration Window
 *   **Integration Window**: L-Minus 9 to L-Minus 5 Months.
-*   **Documentation Suite**: Payload missions are governed by:
-    *   **IDD**: Interface Definition Document (Standards).
-    *   **ICD**: Interface Control Document (Payload-specific).
-    *   **PIP**: Payload Integration Plan (Schedules/V&V).
-    *   **POP**: Payload Operations Plan (Handling).
 
 ## Mission Phases & Timeline
 | Phase | Duration | Key Activities |

@@ -8,6 +8,8 @@ description: Specialized skill for analyzing lunar lander interface specificatio
 ## Domain Knowledge
 - **Directory**: `landers/` (contains individual `*.MD` files for each lander)
 - **Metadata Format**: YAML frontmatter at the top of each file with fields: `id`, `name`, `provider`, `class`, `status`, `physical` (capacity), `power`, `comms`.
+- **Unit Standards**: **Metric System Only**. Convert all imperial units (lbf, lbs, inches) to SI/Metric (N, kg, m, km, kPa, °C) during extraction.
+- **Common Bus Logic**: Many providers (e.g., Astrobotic) use a "Common Spacecraft Bus." Specifications valid for one lander in a family (e.g., Peregrine) are often inherited by larger variants (e.g., Griffin) unless specified otherwise. **Note: Specific subsystems (Propulsion mix, Antenna gain, Power generation) are often upgraded for larger variants.**
 - **Primary Source**: **Payload User's Guide (PUG)** is the gold standard for technical ground-truth.
 
 ## Instructions
@@ -39,6 +41,39 @@ description: Specialized skill for analyzing lunar lander interface specificatio
     - Standard pricing per kg (Orbit/Surface/Rover).
     - Auxiliary services (e.g., DHL MoonBox) and small payload (<1kg) surcharges.
 
-7. **Source & Entity Context**:
+7. **Avionics & Software Architecture**:
+    - **Computing**: Extract flight processor types (e.g., LEON3 FT 32-bit), and identify if a separate **Payload Computer** (e.g., FPGA-based) manages customer interfaces.
+    - **Telemetry Path**: Document how data is handled (e.g., "Transparent VPN Tunneling" vs. "Command Processing"). Note support for end-to-end encryption.
+    - **Power Rail**: Capture the standard voltage (e.g., 28 Vdc) and whether it is regulated or unregulated.
+
+8. **Integration & Documentation Suite**:
+    - **Milestones**: Catalog the full mission review sequence in "L-Minus Months":
+        - **PDR/CDR**: Design phase reviews.
+        - **PAR**: Payload Acceptance Review (L-9).
+        - **SIR/TRR/ORR**: Readiness reviews for integration, testing, and operations.
+    - **Required Documents**: Check for the full standard suite:
+        - **PSA/SOW**: Overarching contract and scope.
+        - **IDD/ICD**: Interface standards and payload-specific controls.
+        - **PIP/POP**: Integration schedules and handling procedures.
+
+9. **Mechanical Mounting & Mass Accounting**:
+    - **Adapter Plates**: Note if adapter plates are required and if their mass counts against the payload allocation.
+    - **Physical Interfaces**: Capture bolt patterns (e.g., M5 / 75mm) and grounding requirements (e.g., VPC bonding).
+
+10. **Planetary Protection & Cleanliness**:
+    - **Outgassing**: Capture TML (%) and CVCM (%) limits (e.g., NASA standard 1.0%/0.1%).
+    - **Ground Purging**: Note if N2 or other purging is supported during integration/pre-launch.
+    - **Cleanroom**: Document the ISO classification (e.g., ISO Class 8).
+
+11. **Ground Segment & Operations**:
+    - **Mission Control**: Identify the central control hub (e.g., AMCC).
+    - **Customer Access**: Document how customers interface (e.g., Remote VPN vs On-site PMCC).
+    - **Staffing**: Note any requirements for on-site personnel during the mission.
+
+12. **Landing Site Constraints**:
+    - **Solar Timing**: Look for "Hours after sunrise" landing constraints (critical for thermal/battery).
+    - **Hazard Limits**: Catalog specific rock height (m) and slope (°) limits.
+
+13. **Source & Entity Context**:
     - Cite PUG versions. Link `provider` to `SPACE_ENTITIES.MD`.
 
