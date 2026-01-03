@@ -29,6 +29,7 @@
 - [Lunar Landers](LUNAR_LANDERS.MD)
 - [Lunar Missions](LUNAR_MISSIONS.MD)
 - [Space Entities](SPACE_ENTITIES.MD)
+- [Analysis State](ANALYSIS_STATE.MD)
 - [Skills](skills/) - AI research instructions
 
 **Reports:**
