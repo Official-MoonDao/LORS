@@ -28,3 +28,7 @@ Artemis III is the historic mission to return humans to the lunar surface for th
 
 ## Status
 Targeting September 2026 (NET).
+
+## Resources
+*   [NASA Artemis III Page](https://www.nasa.gov/specials/artemis-iii/)
+*   [SpaceX Starship HLS](https://www.spacex.com/vehicles/starship/)

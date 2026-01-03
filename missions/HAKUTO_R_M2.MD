@@ -35,3 +35,7 @@ Micro-rover regolith extraction demo and technology demonstration mission ("Resi
     *   **UNESCO Memory Disk** (Linguistic preservation)
     *   **Moonhouse** (Art Project) - Mikael Genberg
 *   **Status:** Success (Jan 2025). Successfully landed at Mare Frigoris, marking the first successful lunar landing for ispace. Deployed the **Tenacious** rover and confirmed surface-to-lander connectivity.
+
+## Resources
+*   [ispace Mission 2 'Resilience'](https://ispace-inc.com/m2)
+*   [ispace HAKUTO-R Program](https://ispace-inc.com/hakuto-r/)

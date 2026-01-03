@@ -56,6 +56,9 @@ APEX 1.0 is specifically hybridized for lunar Far Side operations:
 *   **Target:** Schrödinger Basin (Far Side).
 *   **Design:** Significantly larger than the Japanese HAKUTO-R Series 1, optimized for payload density and power.
 
+## Missions
+*   **APEX 1.0 (Draper CP-12):** Scheduled for 2026, targeting Schrödinger Basin. NASA CLPS Task Order CP-12.
+
 ## Resources
 *   [APEX 1.0 Page](https://ispace-us.com/apex/)
 *   [ispace US Website](https://ispace-us.com/)

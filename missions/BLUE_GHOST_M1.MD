@@ -21,7 +21,7 @@ target_site: Mare Crisium
 # Blue Ghost M1
 
 ## Overview
-First fully successful commercial soft landing.
+First fully successful commercial soft landing. Detailed mission profile based on NASA CLPS Press Kit (NP-2025-01-001-JSC).
 
 ## Details
 *   **Lander:** [Blue Ghost](../landers/BLUE_GHOST.MD)
@@ -41,3 +41,7 @@ First fully successful commercial soft landing.
     9.  **LMS** (Lunar Magnetotelluric Sounder) - SwRI/NASA
     10. **LuGRE** (Lunar GNSS Receiver Experiment) - NASA
 *   **Status:** Success (Mar 16, 2025). Landed in Mare Crisium near Mons Latreille. Operated for a full lunar day (plus 5 hours into the lunar night). Confirmed as the first commercial company to achieve a fully successful, upright soft landing without major anomalies.
+
+## Resources
+*   [NASA CLPS Firefly Mission 1 Press Kit](https://www.nasa.gov/wp-content/uploads/2025/01/np-2025-01-001-jsc-clps-firefly-press-kit-screen-508-1-10-25-final.pdf)
+*   [Firefly Blue Ghost Page](https://fireflyspace.com/missions/blue-ghost-mission-1/)

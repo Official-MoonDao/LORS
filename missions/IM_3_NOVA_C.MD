@@ -16,7 +16,7 @@ target_site: Reiner Gamma
 # IM-3 (Nova-C)
 
 ## Overview
-Distributed autonomy/swarm coordination and magnetic field investigation at Reiner Gamma.
+Distributed autonomy/swarm coordination and magnetic field investigation at Reiner Gamma (Task Order CP-11).
 
 ## Details
 *   **Lander:** [Nova-C](../landers/NOVA_C.MD)
@@ -35,3 +35,7 @@ Distributed autonomy/swarm coordination and magnetic field investigation at Rein
     *   **LUSEM** (Lunar Space Environment Monitor) - KASI (Korea)
     *   **Khon2** (Data Relay Satellite) - Intuitive Machines
 *   **Status:** Planned. Targeting Reiner Gamma (lunar swirl).
+
+## Resources
+*   [Intuitive Machines Lunar Access](https://www.intuitivemachines.com/lunaraccess)
+*   [NASA CLPS Overview](https://www.nasa.gov/clps)

@@ -47,3 +47,7 @@ First successful commercial soft landing. The mission delivered six NASA CLPS pa
         *   **Independence** (Data Center test) - Lonestar Data Holdings
         *   **Moon Phases** (Art Installation) - Jeff Koons
 *   **Status:** Success / Partial Function (Feb 22, 2024). First commercial soft landing. Landed at Malapert A; the lander tripped on a rock upon touchdown and came to rest on its side, but remained functional for ~7 days until lunar sunset.
+
+## Resources
+*   [Intuitive Machines IM-1 Mission Dashboard](https://www.intuitivemachines.com/im-1)
+*   [NASA CLPS Overview](https://www.nasa.gov/clps)

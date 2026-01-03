@@ -24,3 +24,7 @@ Pathfinder mission for Blue Origin's MK1 cargo lander. Partially funded by NASA 
 *   **Payloads:**
     *   **SCALPSS** (Stereo Cameras for Lunar Plume-Surface Studies) - NASA (Funded under CT-3)
 *   **Status:** Planned (Early 2026). Pathfinder mission for the MK1 cargo platform.
+
+## Resources
+*   [Blue Origin Blue Moon Page](https://www.blueorigin.com/blue-moon)
+*   [NASA CLPS Overview](https://www.nasa.gov/clps)

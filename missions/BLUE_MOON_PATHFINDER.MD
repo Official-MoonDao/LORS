@@ -3,7 +3,7 @@ mission_id: blue-moon-pathfinder
 name: Blue Moon Pathfinder (MK1-SN001)
 lander_id: blue_moon_mk1
 payload_ids: [scalpss-1]
-launch_date: "2026 Q1"
+launch_date: 2027
 status: Planned
 target_site: South Pole
 ---
@@ -16,6 +16,7 @@ The Blue Moon Pathfinder mission (MK1-SN001) is the first full-scale flight test
 ## Mission Details
 *   **Lander:** [Blue Moon MK1](../landers/BLUE_MOON_MK1.MD)
 *   **Carrier:** New Glenn Launch Vehicle.
+*   **Task Order:** CT-3.
 *   **Precision Landing:** Targeting accuracy within 100 meters using advanced lidar and vision-based navigation.
 *   **Scientific Objectives:** Primarily focused on plume-surface interaction (PSI) studies.
 
@@ -26,4 +27,8 @@ The Blue Moon Pathfinder mission (MK1-SN001) is the first full-scale flight test
 *   **Relay Node:** Establishes the "Pathfinder" communication node, proving continuous X-Band downlink capability for future Mark 1/2 commercial customers.
 
 ## Status
-*   Scheduled for launch in early 2026 from Cape Canaveral Space Force Station.
+*   Scheduled for launch in 2027 from Cape Canaveral Space Force Station.
+
+## Resources
+*   [Blue Origin Blue Moon Page](https://www.blueorigin.com/blue-moon)
+*   [NASA CLPS Overview](https://www.nasa.gov/clps)

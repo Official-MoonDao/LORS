@@ -42,3 +42,7 @@ First commercial rover at the lunar south pole and first pursuit of lunar water 
         *   **MiniPIX TPX3 SPACE** - ADVACAM (Czech Republic)
         *   **Columbia Sportswear** (Thermal blankets)
 *   **Status:** Success (Mar 2025). Landed at the lunar South Pole. Successfully demonstrated 4G/LTE surface connectivity, although the PRIME-1 drill faced mechanical deployment challenges.
+
+## Resources
+*   [Intuitive Machines Lunar Access](https://www.intuitivemachines.com/lunaraccess)
+*   [NASA CLPS Overview](https://www.nasa.gov/clps)

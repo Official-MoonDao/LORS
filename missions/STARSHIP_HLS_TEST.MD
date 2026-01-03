@@ -25,3 +25,7 @@ A critical milestone for the Artemis program, this uncrewed demonstration missio
 
 ## Status
 Planned for late 2025 or early 2026, depending on Starship orbital flight test (OFT) cadence.
+
+## Resources
+*   [SpaceX Starship Page](https://www.spacex.com/vehicles/starship/)
+*   [NASA HLS Program](https://www.nasa.gov/hls)

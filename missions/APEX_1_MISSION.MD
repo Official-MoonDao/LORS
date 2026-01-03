@@ -27,7 +27,7 @@ Commercial far-side operations and first U.S. mission to target the lunar far si
     *   **Relay Satellites:** Deploys two dedicated relay satellites, **Alpine** and **Lupine**, into lunar orbit prior to landing.
     *   **Link:** Continuous X-Band relay between Schrödinger Basin and Earth stations.
 *   **Payloads:**
-    *   **NASA CLPS (CP-12):**
+    *   **NASA CLPS (Task Order CP-12):**
         *   **Farside Seismic Suite (FSS)** - NASA JPL
         *   **LITMS** (Interior Temp & Materials) - NASA/SwRI
         *   **LuSEE-Lite** (Electromagnetics) - NASA/UC Berkeley
@@ -38,3 +38,7 @@ Commercial far-side operations and first U.S. mission to target the lunar far si
         *   **LaRA2** (Laser Retroreflector) - ASI (Italy)
         *   **CDS** (Data Systems) - Control Data Systems
 *   **Status:** Planned. Targeting Schrödinger Basin.
+
+## Resources
+*   [ispace US APEX 1.0 Page](https://ispace-us.com/apex/)
+*   [NASA CLPS Overview](https://www.nasa.gov/clps)

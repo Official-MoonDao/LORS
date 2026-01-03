@@ -12,7 +12,7 @@ physical:
     - option_1: "Small/Internal (10 kg max, 38x13x23 cm) - Rad-hard/Archives"
     - option_2: "External Top/Side (30 kg max, 115x31x35 cm) - Spectrometers/Cameras"
     - option_3: "Bottom Deck Deployment (30 kg max, 69x45x50 cm) - Rovers/Drills"
-    - option_4: "Heavy Deployment (50 kg max, 69x45x65 cm) - Large Rovers/Escavators"
+    - option_4: "Heavy Deployment (50 kg max, 69x45x65 cm) - Large Rovers/Excavators"
 power:
   surface_power_w: "450 W Nominal / 650 W Peak (Total Allocation)"
   payload_allocation_w: "300 W (Avg. Commercial Allocation)"
@@ -104,7 +104,7 @@ Blue Ghost Mission 1 carried 10 NASA-sponsored science and technology investigat
 *   **Soft Landing:** Reaction Control System (RCS) thrusters pulse for controlled deceleration and upright touchdown.
 
 ## Environmental Specifications
-*Note: Values derived from Condensed PUG; mission-specific values may vary.*
+*Note: Values derived from Condensed PUG and NASA CLPS Press Kit (NP-2025-01-001-JSC); mission-specific values may vary.*
 
 | Factor | Specification / Requirement |
 | :--- | :--- |
@@ -143,12 +143,12 @@ Blue Ghost is uniquely configured for extreme lunar environments:
 *   **Space Utility Vehicle (SUV):** A solar-electric space tug used for orbital relay and far-side communications, increasing total mass capacity to the surface.
 
 ## Missions
-*   **Mission 1 (Blue Ghost 1):** Launched Jan 15, 2025 (SpaceX Falcon 9). Successfully landed near **Mons Latreille** in Mare Crisium (March 2, 2025). Achievement: The first fully successful, upright commercial soft landing.
-*   **Mission 2 (Blue Ghost 2):** Planned for 2026. Targeting the lunar **Far Side** and Orbit. Includes a communications/data relay satellite (ESA partnership) and LuSEE-night calibration.
-*   **Mission 3 (Blue Ghost 3):** Planned for 2028. Targeting the **Gruithuisen Domes** on the lunar near side.
+*   **Mission 1 (Blue Ghost 1):** Launched Jan 15, 2025 (SpaceX Falcon 9). Successfully landed near **Mons Latreille** in Mare Crisium (March 2, 2025). Task Order 19D. Achievement: The first fully successful, upright commercial soft landing.
+*   **Mission 2 (Blue Ghost 2):** Planned for 2026. Targeting the lunar **Far Side** and Orbit. Includes a communications/data relay satellite (ESA partnership) and LuSEE-night calibration. Task Orders CS-3 and CS-4.
+*   **Mission 3 (Blue Ghost 3):** Planned for 2028. Targeting the **Gruithuisen Domes** on the lunar near side. Task Order CP-21.
 
 ## Resources
 *   [Firefly Blue Ghost Page](https://fireflyspace.com/missions/blue-ghost-mission-1/)
 *   [Blue Ghost Payload User Guide (PUG)](https://www.scribd.com/document/907250112/Blue-Ghost-PUG)
-*   [Blue Ghost Press Kit](https://www.nasa.gov/wp-content/uploads/2025/01/np-2025-01-001-jsc-clps-firefly-press-kit-screen-508-1-10-25-final.pdf)
+*   [NASA CLPS Firefly Mission 1 Press Kit](https://www.nasa.gov/wp-content/uploads/2025/01/np-2025-01-001-jsc-clps-firefly-press-kit-screen-508-1-10-25-final.pdf)
 *   [Blue Ghost Datasheet](https://satcatalog.s3.amazonaws.com/components/1105/SatCatalog_-_Firefly_Aerospace_-_Blue_Ghost_-_Datasheet.pdf)

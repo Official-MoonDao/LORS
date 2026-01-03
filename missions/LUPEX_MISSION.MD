@@ -21,3 +21,6 @@ Polar water ice investigation.
     *   **Surface Relay:** Inter-vehicle link (Wi-Fi/S-Band) between the lander and the LUPEX rover.
 *   **Payloads:** [LUPEX Rover](../rovers/LUPEX_ROVER.MD)
 *   **Status:** Planned (Targeting NET 2028). Mission duration on the surface is expected to be **3.5 months** (well over 100 days), investigating permanently shadowed regions for water ice.
+
+## Resources
+*   [ISRO LUPEX Mission](https://www.isro.gov.in/LUPEX.html)

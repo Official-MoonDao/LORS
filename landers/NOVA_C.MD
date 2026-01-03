@@ -67,9 +67,10 @@ The Nova-C mission profile is optimized for direct, fast-transit trajectories:
 *   **Precision:** Targeted landing accuracy improved via Navigation Doppler Lidar (NDL).
 
 ## Missions
-*   **IM-1 (Odysseus):** Successfully landed in Feb 2024 (Malapert A).
-*   **IM-2 (Athena):** Targeted for South Pole.
-*   **IM-3:** Targeted for Reiner Gamma.
+*   **IM-1 (Odysseus):** Successfully landed in Feb 2024 (Malapert A). Task Order 2-IM.
+*   **IM-2 (Athena):** Landed Mar 2025 at the lunar South Pole. Task Order PRIME-1.
+*   **IM-3:** Targeted for Reiner Gamma in 2026. Task Order CP-11.
+*   **IM-4:** Targeted for Mons Mouton in 2027. Task Order CP-22.
 
 ## Resources
 *   [Intuitive Machines Nova-C Product Page](https://www.intuitivemachines.com/lightcargo)

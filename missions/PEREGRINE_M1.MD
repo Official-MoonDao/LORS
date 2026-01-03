@@ -47,3 +47,7 @@ First CLPS mission; propellant leak prevented landing, but many payloads operate
         *   **[Spacebit](../rovers/ASAGUMO.MD)** - UK (spider leg test)
         *   **Puli Space** - Hungary (plaque)
 *   **Status:** Failed landing (Jan 2024). Controlled re-entry into Earth atmosphere over South Pacific on Jan 18.
+
+## Resources
+*   [Astrobotic Peregrine Page](https://www.astrobotic.com/peregrine)
+*   [NASA CLPS Overview](https://www.nasa.gov/clps)

@@ -56,6 +56,9 @@ Blue Moon MK1 serves as a high-bandwidth node for lunar surface infrastructure:
 *   **Propulsion:** BE-7 engines (LOX/Hydrogen), providing high specific impulse and deep throttling for precision landing.
 *   **Role:** Heavy logistics for the Artemis program, pre-positioning infrastructure for crewed Mark 2 (HLS) missions.
 
+## Missions
+*   **Blue Moon Pathfinder (MK1-SN001):** Technical demonstration mission scheduled for 2027. NASA CLPS Task Order CT-3.
+
 ## Resources
 *   [Blue Moon Payload Page](https://www.blueorigin.com/blue-moon)
 *   [Blue Origin Website](https://www.blueorigin.com/)

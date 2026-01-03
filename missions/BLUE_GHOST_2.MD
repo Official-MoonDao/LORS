@@ -15,7 +15,7 @@ target_site: Far Side
 # Blue Ghost 2
 
 ## Overview
-Far side mission using Firefly's Elytra Dark orbital vehicle and Blue Ghost lander. Primary focus on lunar communications and radio astronomy.
+Far side mission using Firefly's Elytra Dark orbital vehicle and Blue Ghost lander (Task Orders CS-3 and CS-4). Primary focus on lunar communications and radio astronomy.
 
 ## Details
 *   **Lander:** [Blue Ghost](../landers/BLUE_GHOST.MD)
@@ -30,3 +30,7 @@ Far side mission using Firefly's Elytra Dark orbital vehicle and Blue Ghost land
     *   **User Terminal (UT)** (Comm System) - NASA
     *   **Lunar Pathfinder** (Relay Satellite) - ESA (Primary relay for mission success)
 *   **Status:** Planned. First commercial mission to the lunar Far Side.
+
+## Resources
+*   [Firefly Blue Ghost Page](https://fireflyspace.com/missions/blue-ghost-mission-1/)
+*   [NASA CLPS Overview](https://www.nasa.gov/clps)

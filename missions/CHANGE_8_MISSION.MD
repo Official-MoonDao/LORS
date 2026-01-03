@@ -20,3 +20,6 @@ ILRS Testbed.
 *   **Connectivity:** High-bandwidth networking via the **Queqiao-2** relay, enabling communication for a diverse fleet of independent robots and rovers.
 *   **Payloads:** Includes a CNSA rover and provides **200 kg** of piggyback capacity for international partners (e.g., Pakistan, Egypt).
 *   **Status:** Planned (Target 2028).
+
+## Resources
+*   [CNSA Lunar Exploration Program](http://www.cnsa.gov.cn/)

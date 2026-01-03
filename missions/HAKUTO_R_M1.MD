@@ -35,3 +35,7 @@ First commercial lander in lunar orbit. Attempted landing but crashed due to alt
     *   **Crater Navigation System** - NGC Aerospace (Canada)
     *   **Music Disc** ("SORATO") - Sakanaction
 *   **Status:** Crashed (Apr 25, 2023). Onboard computer miscalculated altitude after passing over a crater rim, leading to premature propellant exhaustion.
+
+## Resources
+*   [ispace HAKUTO-R Program](https://ispace-inc.com/hakuto-r/)
+*   [ispace Mission 1 Dashboard](https://ispace-inc.com/m1)
