@@ -34,7 +34,7 @@ First commercial lander in lunar orbit. Attempted landing but crashed due to alt
     *   **AI Flight Computer** - Mission Control Space Services (Canada)
     *   **Crater Navigation System** - NGC Aerospace (Canada)
     *   **Music Disc** ("SORATO") - Sakanaction
-*   **Status:** Crashed (Apr 25, 2023). Onboard computer miscalculated altitude after passing over a crater rim, leading to premature propellant exhaustion.
+*   **Status:** **Crashed (Apr 25, 2023)**. During the final approach to Atlas Crater, the lander passed over a crater rim. The sudden terrain drop caused a "cliff" in sensor measurement, which the flight software flagged as anomalous. Following its safety logic, the computer ignored subsequent valid altitude readings, leading the lander to believe it was still at high altitude. It exhausted its propellant while hovering ~5km above the surface and free-fell to the crater floor.
 
 ## Resources
 *   [ispace HAKUTO-R Program](https://ispace-inc.com/hakuto-r/)

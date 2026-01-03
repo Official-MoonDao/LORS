@@ -1,65 +1,65 @@
 ---
 id: apex_1
-name: APEX 1.0
-provider: ispace-U.S. / Draper
+name: APEX 1.0 / Series 3
+provider: ispace (ispace-U.S. / ispace Japan)
 class: Medium Logistic
-status: Planned
+status: In-Development / Planned
 physical:
-  payload_capacity_kg: 300
-  height_m: 4.0
-  width_m: 4.5
-  wet_mass_kg: 5390
-  dry_mass_kg: 1730
+  payload_capacity_kg: 300 - 500
+  height_m: 3.1 - 4.0
+  width_m: 3.3 - 4.5
+  wet_mass_kg: 5390 (APEX baseline)
+  dry_mass_kg: 1000 - 1730
 power:
   generation: "Solar Arrays & Li-ion Battery"
-  night_survival: "Zeno Power Radioisotope Systems (partnership for future missions)"
-  allocation: "Standard CLPS high-power envelopes for lunar ops"
+  night_survival: 
+    us_variant: "Zeno Power Radioisotope Systems (RPS)"
+    jp_variant: "Advanced Thermal Insulation & Active Heaters (non-RPS)"
 comms:
   earth_to_moon:
-    band: "X-Band (via Relay)"
-    network: "Deep Space Network (DSN)"
+    band: ["X-Band", "S-Band", "Ka-Band"]
+    network: "Deep Space Network (DSN) / ESA ESTRACK"
     relay: ["Alpine", "Lupine"]
-  wired:
-    interfaces: ["RS-422", "Ethernet (SpaceWire optional)"]
-  wireless:
-    type: "Lander-to-Rover Relay (X-Band)"
 ---
 
-# APEX 1.0
+# APEX 1.0 / Series 3
 
-APEX 1.0 is the next-generation lander developed by **ispace-U.S.** (Headquartered in Denver) in collaboration with **Draper** for the NASA Commercial Lunar Payload Services (CLPS) program. It is specifically designed for high-capability delivery to the lunar far side and polar regions.
+The **APEX 1.0** (U.S. designation) and **Series 3** (Japan designation) represent ispace’s common medium-class lunar logistic platform. This architecture is designed for high-capability delivery to complex lunar environments, including the far side and polar regions.
+
+## Variants & Missions
+
+*   **APEX 1.0 (ispace-U.S.):** Lead vehicle for **Mission 3** (NASA CLPS CP-12). Optimized for far-side operations at Schrödinger Basin using orbital relay satellites.
+*   **Series 3 (ispace Japan):** Successor architecture for **Mission 4** (Japan-led). Features enhanced payload volume and thermal designs for 14-day night survival without nuclear power.
 
 ## Technical Specifications
 
-### 1. Enhanced Architecture
-Compared to the HAKUTO-R Series 1, APEX 1.0 features:
-*   **Structural Integrity:** Increased durability for larger payloads and complex landing environments.
-*   **Vibration Isolation:** Advanced dampened mounting systems for sensitive scientific instruments.
-*   **Satellite Bays:** Two dedicated deployment bays for relay satellites, essential for non-line-of-sight communications.
+### 1. Structural & Environmental
+*   **Stiffness & Durability:** Engineered for high-mass payloads (up to 500kg). Successfully completed structural verification at **JAXA Tsukuba Space Center** (Oct 2025), passing vibration, acoustic, and thermal vacuum (TVAC) testing.
+*   **Vibration Isolation:** Incorporates an advanced dampened mounting system to protect sensitive NASA and commercial scientific instruments.
+*   **Satellite Bays:** Two dedicated bays for the deployment of **Alpine** and **Lupine** relay satellites, essential for non-line-of-sight communications.
 
-### 2. Night Survival (Future)
-ispace-U.S. has announced a partnership with **Zeno Power** to integrate radioisotope power systems (RPS) into the APEX 1.0 platform. This will enable the lander and its payloads to survive and operate during the 14-day lunar night, a critical requirement for long-term seismic and environmental monitoring.
+### 2. Communication Relay
+To support far-side missions, the platform deploys a dedicated microsatellite constellation:
+*   **Alpine & Lupine:** Based on the **Blue Canyon Venus-100** bus, these satellites provide high-speed X/Ka-band data relay from the lunar surface to Earth.
+*   **Orbit:** Naturally circularize into high polar orbits, providing >70% visibility for future South Pole missions.
 
-### 3. Communication Relay
-To support the **NASA CP-12** mission at Schrödinger Basin (Far Side), APEX 1.0 deploys two satellites:
-*   **Alpine & Lupine:** These transit into high polar orbits, providing continuous data relay for the lander and future surface assets.
+### 3. Night Survival Strategies
+*   **US Missions (RPS):** Utilizing **Zeno Power** radioisotope systems for multi-month operations during the lunar night.
+*   **Japanese Missions (Passive/Active):** Utilizing enhanced multi-layer insulation (MLI) and optimized heater cycles verified during JAXA TVAC testing (+130°C to -140°C).
 
-## Payloads (Mission 3 / CP-12)
-APEX 1.0 is the primary vehicle for the CP-12 task order, carrying:
-*   **Farside Seismic Suite (FSS):** World-class seismometers for lunar interior study.
-*   **LITMS:** Thermal and electrical conductivity measurements.
-*   **LuSEE-Lite:** Electromagnetic field characterization.
-*   **ispace-EUROPE Micro Rover:** Commercial tech-demo rover.
+## Integration & Milestones
+*   **PDR/CDR:** The platform has successfully completed all Preliminary Design Reviews (PDR). The Critical Design Review (CDR) for Mission 3 was completed in early 2024.
+*   **Testing Heritage:** Built upon lessons learned from HAKUTO-R (Series 1) sensor anomalies, featuring more robust navigation and ranging (LRF) hardware.
 
-## Mission Phases
+## Mission Roadmap
 
-| Phase | Duration | Details |
-| :--- | :--- | :--- |
-| **Cruise / Transfer** | ~135+ Days | Low-energy trajectory to maximize mass-to-surface. |
-| **Relay Deployment** | Pre-Landing | Deployment of Alpine/Lupine to establish the communication bridge. |
-| **Surface Ops** | ~12 Days+ | Baseline mission is 1 lunar day; RPS upgrades enable multi-month ops. |
+| Mission | Provider | Lander | Date | Target Site |
+| :--- | :--- | :--- | :--- | :--- |
+| **Mission 3 (CP-12)** | ispace-U.S. | APEX 1.0 | 2026 | Schrödinger Basin (Far Side) |
+| **Mission 4** | ispace Japan | Series 3 | 2028 | TBD (Polar or Far Side) |
 
 ## Resources
 *   [ispace-U.S. APEX 1.0 Overview](https://ispace-us.com/apex-1-0)
+*   [ispace Series 3 Testing Milestone (JAXA)](https://ispace-inc.com/news/?p=4821)
 *   [Zeno Power Partnership](https://ispace-us.com/ispace-u-s-and-zeno-power-to-collaborate-on-lunar-night-survival/)
-*   [Draper CP-12 Mission](https://www.draper.com/commercial-lunar-payload-services-clps)
+*   [Draper CLPS CD-12 Mission](https://www.draper.com/commercial-lunar-payload-services-clps)

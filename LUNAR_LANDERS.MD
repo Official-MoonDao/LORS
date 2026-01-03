@@ -24,9 +24,8 @@ The Commercial Lunar Payload Services (CLPS) initiative is the primary driver of
 
 *   **Planned / In Development**
     *   [Griffin (Astrobotic)](landers/GRIFFIN.MD) - Medium-class lander for large rovers.
-    *   [APEX 1.0 (ispace US)](landers/APEX_1.MD) - Far-side capable lander.
+    *   [APEX 1.0 / Series 3 (ispace)](landers/APEX_1.MD) - Medium logistic platform for far-side and polar missions.
     *   [Blue Moon MK1 (Blue Origin)](landers/BLUE_MOON_MK1.MD) - Heavy cargo lander.
-    *   [ispace Series 3](landers/ISPACE_SERIES_3.MD) - Enhanced utility lander (500kg capacity).
     *   [Nova-D (Intuitive Machines)](landers/NOVA_D.MD) - Heavy infrastructure lander (2.5-ton capacity).
     *   [Ceres-1 / B5 (Ceres Robotics)](landers/CERES_B5.MD) - 500kg class utility lander.
     *   [MX-1 (Moon Express)](landers/MOON_EXPRESS_MX1.MD) - Micro-class delivery service.

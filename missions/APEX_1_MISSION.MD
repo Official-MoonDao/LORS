@@ -26,9 +26,13 @@ Mission 3 is a milestone for both **ispace-U.S.** and the **NASA CLPS** program,
 *   **Trajectory:** Low-energy "Long Trajectory" (~135+ day cruise).
 
 ## Connectivity (Far Side Relay)
-Because the landing site is on the far side, the mission includes a dedicated communication infrastructure:
-*   **Relay Satellites:** Deploys two satellites, **Alpine** and **Lupine**, into lunar orbit prior to the lander's descent.
-*   **Data Link:** Established via the relay constellation to Earth-based stations (DSN).
+Because the landing site (Schrödinger Basin) is on the far side, the mission includes a dedicated communication infrastructure:
+*   **Relay Satellites:** Deploys two satellites, **Alpine** and **Lupine**, based on the **Blue Canyon Technologies Venus-100** microsatellite bus.
+*   **Data Link Infrastructure:**
+    *   **S-Band:** Bi-directional link between satellites and lander (8-55 kbps).
+    *   **Ka-Band:** High-speed uplink from lander to satellites (up to 1.3 Mbps).
+    *   **X-Band:** High-speed downlink from satellites to Earth (up to 1.3 Mbps).
+*   **Orbit:** Following the primary mission, the satellites will circularize into a **High Circular Polar Orbit (HCPO)**, providing >70% visibility for future South Pole landing sites.
 
 ## Payloads
 ### NASA CLPS (CP-12) Science

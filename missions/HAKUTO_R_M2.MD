@@ -15,24 +15,27 @@ status: Hard Landing
 target_site: Mare Frigoris
 ---
 
-# HAKUTO-R M2
+# HAKUTO-R M2 (SMBC x HAKUTO-R Venture Moon)
 
 ## Overview
-Technology demonstration mission ("Resilience") aimed at verifying improved landing software and deploying a micro-rover.
+Technology demonstration mission using the **RESILIENCE** lander, aimed at verifying improved landing software and deploying the TENACIOUS micro-rover.
 
 ## Details
 *   **Lander:** [HAKUTO-R (Series 1)](../landers/HAKUTO_R.MD)
 *   **Launch:** January 15, 2025, via SpaceX Falcon 9.
 *   **Connectivity:** 
-    *   **Direct-to-Earth:** X-Band via ESA Estrack (Demonstrated during cruise).
-    *   **Surface Relay:** Planned X-Band link to the **TENACIOUS** micro-rover (Not utilized due to landing failure).
+    *   **Direct-to-Earth:** X-Band via ESA Estrack.
+    *   **Surface Relay:** Highly stable X-Band link demonstrated during cruise (intended for rover relay).
 *   **Payloads:**
     *   **[TENACIOUS](../rovers/TENACIOUS.MD)** (Micro Rover) - ispace Europe.
     *   **Water Electrolyzer** - Takasago Thermal Engineering.
     *   **Food Production** - Euglena Co.
-    *   **DSRP** (Deep Space Radiation Probe) - NCU Taiwan.
+    *   **DSRP** (Deep Space Radiation Probe) - NCU Taiwan (Verified nominal telemetry during cruise).
     *   **Gundam Alloy Plate** - Bandai Namco.
-*   **Status:** **Hard Landing (June 5, 2025)**. The lander successfully entered lunar orbit but lost communication approximately 90 seconds before touchdown. Technical analysis identified an anomaly in the **Laser Range Finder (LRF)**, which failed to provide timely altitude data, preventing the necessary deceleration for a soft landing. Both the lander and the Tenacious rover were lost upon impact.
+    *   **Memory Disk** - UNESCO.
+*   **Status:** **Hard Landing (June 6, 2025 JST)**. Analysis identified a hardware anomaly in the **Laser Range Finder (LRF)**. 
+    *   **The Anomaly:** The LRF did not provide valid altitude measurements until the lander was below **900 meters**, far later than the designed operational altitude of **3,000 meters**.
+    *   **Impact:** Due to the sensor delay, the lander attempted final deceleration while traveling at **66 m/s** (planned: **44 m/s**). Telemetry confirmed the lander was still descending at **42 m/s** at an altitude of only **192 meters**, leading to a high-velocity impact on the lunar surface.
 
 ## Resources
 *   [ispace Mission 2 Anomaly Report](https://ispace-inc.com/news/?p=4654)

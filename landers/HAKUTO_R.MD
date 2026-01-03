@@ -15,6 +15,7 @@ power:
   generation: "Solar Arrays & Li-ion Battery"
   night_survival: "None (designed for 1 lunar day)"
   interface_w: "Limited (Standard allocation 900mW for DSRP sensors)"
+  quality: "Bus ripple allocated per interface; redundant isolated buses used."
 comms:
   earth_to_moon:
     band: "X-Band"
@@ -34,31 +35,33 @@ The HAKUTO-R Series 1 is the first generation lunar lander from **ispace**, serv
 
 ### 1. Propulsion System
 Designed and supplied by **ArianeGroup GmbH**:
-*   **Main Engine:** Bi-propellant apogee engine for lunar insertion and descent.
-*   **Reaction Control System (RCS):** Hydrazine thrusters for attitude control.
-*   **Heritage:** Utilizes ArianeGroup high-reliability space-qualified components.
+*   **Main Engine:** Bi-propellant apogee engine (Hydrazine/MON) for lunar insertion and descent.
+*   **Reaction Control System (RCS):** Six assist thrusters for fine attitude control.
+*   **Heritage:** High-reliability space-qualified components including flow control valves and titanium tanks.
 
 ### 2. Thermal Management
-HAKUTO-R employs a balanced thermal architecture:
-*   **Insulation:** High-efficiency **Multi-Layer Insulation (MLI)**.
-*   **Active Control:** Heater circuits maintain avionics within a safe 5°C margin during cruise and lunar morning.
-*   **Validation:** Successfully passed full Thermal Vacuum (TVAC) testing for both Mission 1 and Mission 2.
+*   **Insulation:** High-efficiency **Multi-Layer Insulation (MLI)** used on legs and sensitive bays.
+*   **Active Control:** Heater circuits maintain avionics within a safe 5°C margin.
+*   **Flight Heritage:** Mission 1 reported initial thermal conditions "hotter than anticipated" in cislunar space, managed via orientation adjustments and passive radiators.
 
-## Communication Architecture
+## Technical Fine Print (Developer Specs)
 
-### Wired Interface (Lander-to-Payload)
-*   **Interface:** RS-422 via the **Payload Interface Card (PIF)**.
-*   **Physical:** Micro-D connector (combined power and data).
-*   **Performance:** 921,600 bps verified via the Deep Space Radiation Probe (DSRP).
-*   **Protocol:** UART-to-RS-422 conversion required at the payload level.
+### 1. Environmental Loads
+*   **Launch Environment:** Qualified for SpaceX Falcon 9 vibration envelopes.
+*   **Structural Material:** Extensive use of carbon fiber-reinforced plastics (CFRP) to minimize mass while ensuring stiffness under 14.1 Grms equivalent loads.
+*   **Shock:** Payloads are typically isolated from landing shocks via dampened mounting inserts.
 
-### Wireless Relay
-*   **Operation:** Verified X-Band link used for **TENACIOUS** and **Sora-Q** rover telemetry.
+### 2. Power & Connectivity
+*   **Interfaces:** Payloads interface through a **Payload Interface Card (PIF)**. 
+*   **Regulation:** RS-422 timing and baud rates (up to 921,600 bps) verified via the DSRP mission.
+*   **Ground Segment:** Secure data playback via the ESA ESTRACK network across four continents.
 
-## Roadmap & Evolution
-Starting with **Mission 3**, the program transitions to the **APEX 1.0** (Series 2) lander led by **ispace-U.S.**, featuring 300kg+ capacity and lunar night survival.
+## Mission Failure Analysis (Lessons Learned)
 
-*   See: [APEX 1.0 Documentation](./APEX_1.MD)
+The Series 1 platform underwent significant software and hardware updates between Mission 1 and Mission 2:
+
+*   **Mission 1 (April 2023):** Software misjudgment of altitude. As the lander passed over a crater rim, the sudden change in terrain altitude was flagged as anomalous by the sensors, leading the flight computer to ignore valid readings. The lander ran out of fuel while hovering 5km above the surface and free-fell.
+*   **Mission 2 (June 2025):** Hardware anomaly in the **Laser Range Finder (LRF)**. Despite updated navigation software, an LRF delay prevented timely deceleration for a soft landing at Mare Frigoris.
 
 ## Mission Profiles (Series 1)
 
@@ -70,5 +73,6 @@ Starting with **Mission 3**, the program transitions to the **APEX 1.0** (Series
 
 ## Resources
 *   [ispace HAKUTO-R Program](https://ispace-inc.com/hakuto-r/)
-*   [ispace Mission 2 'Resilience'](https://ispace-inc.com/m2)
+*   [ispace Mission 1 Post-Landing Analysis](https://ispace-inc.com/news/?p=4654)
 *   [ArianeGroup Lunar Propulsion](https://www.ariane.group/en/news/ispace-chooses-arianegroup-for-h-r-missions/)
+*   [ESA ESTRACK Support](https://www.esa.int/Enabling_Support/Operations/Ground_Stations_Network)
