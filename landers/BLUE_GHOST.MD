@@ -33,7 +33,7 @@ comms:
 # Blue Ghost
 
 ## Overview
-Firefly Aerospace's Blue Ghost lander is a high-performance, light-to-medium class lunar vehicle selected for NASA’s Commercial Lunar Payload Services (CLPS) program. Designed with a "simple/soonest" philosophy, it prioritizes reliable, low-cost access to the lunar surface using heritage-derived systems from Firefly’s launch vehicle programs.
+Firefly Aerospace's Blue Ghost lander is a high-performance, light-to-medium class lunar vehicle selected for NASA’s Commercial Lunar Payload Services (CLPS) program. Designed with a "simple/soonest" philosophy, it prioritizes reliable, low-cost access to the lunar surface using heritage-derived systems from Firefly’s launch vehicle programs. All mission operations are conducted from Firefly's Mission Control in **Austin, Texas**.
 
 ## Service Pricing & Awards
 *   **Mission 1 Award:** $93.3 Million (NASA CLPS Task Order 19D).
@@ -143,7 +143,7 @@ Blue Ghost is uniquely configured for extreme lunar environments:
 *   **Space Utility Vehicle (SUV):** A solar-electric space tug used for orbital relay and far-side communications, increasing total mass capacity to the surface.
 
 ## Missions
-*   **Mission 1 (Blue Ghost 1):** Launched Jan 15, 2025 (SpaceX Falcon 9). Successfully landed near **Mons Latreille** in Mare Crisium (March 2, 2025). Task Order 19D. Achievement: The first fully successful, upright commercial soft landing.
+*   **Mission 1 (Blue Ghost 1):** Launched Jan 15, 2025 (SpaceX Falcon 9, LC-39A). Successfully landed near **Mons Latreille** in **Mare Crisium** (March 2, 2025). Mare Crisium is a 550km wide basaltic lava basin in the northeast quadrant of the Near Side. Achievement: The first fully successful, upright commercial soft landing. Task Order 19D.
 *   **Mission 2 (Blue Ghost 2):** Planned for 2026. Targeting the lunar **Far Side** and Orbit. Includes a communications/data relay satellite (ESA partnership) and LuSEE-night calibration. Task Orders CS-3 and CS-4.
 *   **Mission 3 (Blue Ghost 3):** Planned for 2028. Targeting the **Gruithuisen Domes** on the lunar near side. Task Order CP-21.
 

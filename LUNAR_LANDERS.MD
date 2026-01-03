@@ -6,6 +6,12 @@ The lunar lander market is rapidly shifting towards commercial providers (CLPS) 
 *   **Utility/Medium (100kg-500kg):** Nova-C, Blue Ghost, APEX 1.0, ispace Series 3, B5.
 *   **Heavy/Logistics (>500kg):** Griffin, Nova-D, Blue Moon MK1, Argonaut, Starship.
 
+## The CLPS Program
+The Commercial Lunar Payload Services (CLPS) initiative is the primary driver of the commercial lander market. 
+*   **Program Value:** Cumulative maximum contract value of **$2.6 billion** through 2028.
+*   **Eligible Vendors:** Currently **13 U.S. companies** are eligible to bid on delivery task orders (Task Orders / TO).
+*   **Mission Model:** NASA is a "primary customer" but buys services, meaning the vendors remain responsible for payload integration, launch, and landing operations.
+
 ## Lander Index
 
 ### Commercial Landers (US & International)

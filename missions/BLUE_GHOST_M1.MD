@@ -25,21 +25,24 @@ First fully successful commercial soft landing. Detailed mission profile based o
 
 ## Details
 *   **Lander:** [Blue Ghost](../landers/BLUE_GHOST.MD)
-*   **Transfer Trajectory:** 46-day transit (Launch Jan 15, 2025; Landing Mar 2, 2025).
+*   **Transfer Trajectory:** ~45-day "Phased" cruise.
+    *   **Earth Orbit Phase:** 25 days (Payload health checks and transit operations).
+    *   **Lunar Orbit Phase:** 16 days (Pre-descent checkout).
+*   **Mission Control:** Firefly HQ; Austin, Texas.
 *   **Connectivity:**
-    *   **Direct-to-Earth:** X-Band and S-Band links to the SSC network.
+    *   **Direct-to-Earth:** X-Band and S-Band links to the Swedish Space Corporation (SSC) network.
     *   **Data Volume:** Transmitted over **119 GB** of data, including 51 GB of science/tech data.
 *   **Payloads:**
-    1.  **SCALPSS** (Stereo CAmera for Lunar Plume-Surface Studies) - NASA
-    2.  **LISTER** (Lunar Instrumentation for Subsurface Thermal Exploration with Rapidity) - Honeybee Robotics/NASA
-    3.  **LPV** (Lunar PlanetVac) - Honeybee Robotics/NASA
-    4.  **NGLR** (Next Generation Lunar Retroreflector) - Univ of Maryland/NASA
+    1.  **SCALPSS** (Stereo CAmera for Lunar Plume-Surface Studies) - NASA Langley Research Center
+    2.  **LISTER** (Lunar Instrumentation for Subsurface Thermal Exploration with Rapidity) - Texas Tech University / Honeybee Robotics
+    3.  **LPV** (Lunar PlanetVac) - Honeybee Robotics
+    4.  **NGLR** (Next Generation Lunar Retroreflector) - University of Maryland
     5.  **RAC** (Regolith Adherence Characterization) - Aegis Aerospace
-    6.  **RadPC** (Radiation Tolerant Computer) - Montana State Univ
-    7.  **EDS** (Electrodynamic Dust Shield) - NASA KSC
-    8.  **LEXI** (Lunar Environment heliospheric X-ray Imager) - Boston Univ/NASA
-    9.  **LMS** (Lunar Magnetotelluric Sounder) - SwRI/NASA
-    10. **LuGRE** (Lunar GNSS Receiver Experiment) - NASA
+    6.  **RadPC** (Radiation Tolerant Computer) - Montana State University
+    7.  **EDS** (Electrodynamic Dust Shield) - NASA Kennedy Space Center (Active mitigation/self-cleaning demo)
+    8.  **LEXI** (Lunar Environment heliospheric X-ray Imager) - Boston Univ / NASA GSFC / JHU
+    9.  **LMS** (Lunar Magnetotelluric Sounder) - Southwest Research Institute (SwRI)
+    10. **LuGRE** (Lunar GNSS Receiver Experiment) - NASA GSFC / Italian Space Agency (ASI)
 *   **Status:** Success (Mar 16, 2025). Landed in Mare Crisium near Mons Latreille. Operated for a full lunar day (plus 5 hours into the lunar night). Confirmed as the first commercial company to achieve a fully successful, upright soft landing without major anomalies.
 
 ## Resources

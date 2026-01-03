@@ -45,6 +45,19 @@ country: USA
 type: Commercial
 specialization: Delivery, Mobility
 ```
+### Draper
+- **Country:** USA
+- **Type:** Commercial / Research
+- **Specialization:** Guidance & Navigation, Delivery (APEX 1.0)
+- **Status:** Active (CLPS Partner - Lead of "Team Draper")
+
+```yaml
+entity_id: draper
+name: Draper
+country: USA
+type: Commercial
+specialization: GNC, Delivery
+```
 
 ### Lunar Outpost
 - **Country:** USA
@@ -192,4 +205,18 @@ name: CMU
 country: USA
 type: Academic / Research
 specialization: Mobility
+```
+
+### Masten Space Systems (Legacy)
+- **Country:** USA
+- **Type:** Commercial
+- **Specialization:** VTOL Landing, Delivery (XL-1)
+- **Status:** Heritage / Inactive (Acquired by Astrobotic)
+
+```yaml
+entity_id: masten-space-systems
+name: Masten Space Systems
+country: USA
+type: Commercial
+specialization: Delivery
 ```
