@@ -1,278 +1,75 @@
-# How We Work: LORS Project Workflow
+# The LORS AI Workflow Guide
 
-**Last Updated**: January 2, 2026  
-**For**: Team members, contributors, and collaborators
+**For:** Everyone! (From web users to pro developers)
 
----
+We call our project "AI-Native." This just means we organized our folders and files so that AI assistants (like ChatGPT, Claude, Cursor, or Antigravity) can easily understand them.
 
-## What This Document Is About
-
-This guide explains **how we organize our work** on the LORS (Lunar Open-source Rover Standard) project. We use a simple system that helps both humans and AI assistants work together effectively.
+This guide explains how you can use our **"Skills"** to make contributing effortless.
 
 ---
 
-## The Big Idea: Three Simple Principles
-
-### 1. 📁 **One File Per Thing**
-
-Instead of putting everything in one giant document, we create **separate files for each rover, lander, or mission**.
-
-**Why this matters:**
-- You can update information about one rover without accidentally changing something else
-- Multiple people (or AI assistants) can work at the same time on different files
-- It's easier to find what you're looking for
-- We can keep adding details over time without making files messy
-
-**Example:**
-```
-rovers/
-  ├── HEMIUNU_01.MD          ← All info about Hemiunu rover
-  ├── FLEX_ROVER.MD          ← All info about Flex rover
-  └── HELIUM_ROVER.MD        ← All info about Helium rover
-```
-
-### 2. 📚 **Skills = Recipe Books for Research**
-
-We store **instructions on how to research specific topics** in the `skills/` folder. Think of these as recipe books that tell AI assistants (and humans!) exactly what information to look for and how to organize it.
-
-**Why this matters:**
-- Everyone follows the same process, so our data is consistent
-- New team members (or AI assistants) know exactly what to do
-- We don't have to re-explain the same thing every time
-- Quality stays high because we have clear standards
-
-**Example Skills:**
-- `lunar-rovers/` - How to research rover specifications
-- `lunar-landers/` - How to research lander capabilities  
-- `mission-payloads/` - How to find mission payload information
-
-### 3. 🤖 **Designed for AI Collaboration**
-
-We organize everything so AI assistants can help us efficiently. The AI reads our "skills" (instructions) and then researches, documents, and updates information following our standards.
-
-**Why this matters:**
-- AI can do the time-consuming research work
-- We get consistent, well-organized documentation
-- Humans can focus on analysis and decision-making
-- The project grows faster with AI assistance
-
----
-
-## How Our Files Are Organized
-
-```
-LORS/
-├── 📄 README.MD                    ← Start here! Project overview
-├── 📄 AI_WORKFLOW.MD               ← This document
-│
-├── 📁 rovers/                      ← Individual files for each rover
-│   ├── HEMIUNU_01.MD
-│   ├── FLEX_ROVER.MD
-│   └── ...
-│
-├── 📁 landers/                     ← Individual files for each lander
-│   ├── BLUE_GHOST.MD
-│   ├── NOVA_C.MD
-│   └── ...
-│
-├── 📁 missions/                    ← Individual files for each mission
-│   ├── IM1.MD
-│   ├── IM2.MD
-│   └── ...
-│
-├── 📁 skills/                      ← Instructions for research
-│   ├── lunar-rovers/
-│   ├── lunar-landers/
-│   ├── lunar-missions/
-│   └── ...
-│
-├── 📁 reports/                     ← Analysis reports we generate
-│   ├── ECOSYSTEM_MAPPING.MD
-│   └── ARCHITECTURE_ANALYSIS.MD
-│
-└── 📄 Summary files                ← Quick overview documents
-    ├── SPACE_ENTITIES.MD           ← All companies and organizations
-    ├── LUNAR_ROVERS.MD             ← Overview of all rovers
-    ├── LUNAR_LANDERS.MD            ← Overview of all landers
-    └── LUNAR_MISSIONS.MD           ← Timeline of missions
-```
-
----
-
-## Two Types of Files
-
-### **Detailed Files** (in `rovers/`, `landers/`, `missions/`)
-
-These contain **everything we know** about a specific rover, lander, or mission.
-
-Each file has:
-- **Structured data at the top** (technical specs, dates, status)
-- **Detailed descriptions** below (how it works, what makes it special)
-- **Links to sources** (where we got the information)
-
-### **Summary Files** (in the main folder)
+## 🧠 What is a "Skill"?
 
-These are **quick reference guides** that list everything and link to the detailed files.
+Think of a **Skill** as a **Recipe Card** for your AI assistant.
 
-Use these when you want to:
-- See all rovers at a glance
-- Find which companies are involved
-- Get a timeline of missions
+If you just ask an AI to "write about the Viper rover," it might write a poem, or a blog post, or a messy paragraph.
 
----
+But if you give it our **Rover Skill**, you are handing it a recipe that says:
+*   "Look for the mass in kg."
+*   "Find the specific power source."
+*   "Format the top of the file like *this*."
+*   "Don't guess—if you don't know, say TBD."
 
-## How We Work: The Process
+## 📚 The Recipe Book (Skill Directory)
 
-### When Adding New Information
+All our recipes are in the `skills/` folder. Here is when to use them:
 
-1. **Check if a file already exists** for what you're documenting
-2. **If yes**: Add to the existing file
-3. **If no**: Create a new file following our template
-4. **Update the summary file** so others can find it
-5. **Link related things** (e.g., connect a rover to its company)
+| When you want to... | Use this Skill... |
+| :--- | :--- |
+| **Add a new Rover** | `skills/lunar-rovers/SKILL.MD` |
+| **Add a Lander** | `skills/lunar-landers/SKILL.MD` |
+| **Update a Mission** | `skills/lunar-missions/SKILL.MD` |
+| **Analyze Data** | `skills/report-ecosystem-mapping/SKILL.MD` |
 
-### When Working with AI Assistants
+## 🛠️ How to use a Skill
 
-1. **Tell the AI what you need** (e.g., "Research the Helium rover specifications")
-2. **The AI reads the relevant skill** to know what information to find
-3. **The AI researches and creates/updates files** following our standards
-4. **You review the results** and provide feedback
+### Method A: Copy & Paste (For ChatGPT / Claude Web)
+*Perfect for [Option 2 in the Contributing Guide](CONTRIBUTING.MD#option-2-power-up-with-ai-chatbots).*
 
-### When Generating Reports
+1. Open the Skill file on GitHub (e.g., `skills/lunar-rovers/SKILL.MD`).
+2. Copy the text.
+3. Paste it into your AI chat.
+4. Add your request: *"Use these instructions to write a file for the Astrolab FLEX rover."*
+5. Copy the result into a new file on GitHub.
 
-Reports should be **academic/scientific in nature** while remaining **simple and accessible**:
+### Method B: Integrated AI Editors (For Pro Users)
+*Perfect for [Option 3 in the Contributing Guide](CONTRIBUTING.MD#option-3-local-development-environment-the-pro-way).*
 
-1. **Request a specific report** (ecosystem mapping, architecture analysis)
-2. **The AI gathers data** from all relevant files
-3. **The AI analyzes patterns** and creates insights following these standards:
-   - **Academic rigor**: Evidence-based analysis with proper technical terminology
-   - **Simplicity**: Clear, concise writing without unnecessary complexity
-   - **References**: Citations for all factual claims and data points
-   - **Structure**: Clear headings, tables, and bullet points for readability
-4. **The report is saved** in the `reports/` folder with a references section
+If you use an AI-powered editor, you don't need to copy/paste. The AI can read the files directly.
 
+#### 1. Cursor
+*   **Action:** Type `@` in the chat (Cmd+L) or inline edit (Cmd+K).
+*   **Example:** *"@skills/lunar-rovers/SKILL.MD Research the generic specification for a CubeRover."*
 
-### When Updating Skills with New Information
+#### 2. VSCode (with Cline or Copilot)
+*   **Action:** Open the skill file in a tab so the AI can "see" it, or reference it in the chat interface.
+*   **Example:** *"Using the open skill file, generate a new rover file for 'Hemiunu'."*
 
-Our skills evolve as we learn more! This is a common and important part of our workflow:
+#### 3. Antigravity (Google)
+*   **Action:** The agent has access to the file system.
+*   **Example:** *"Read the rover skill file and then find info on the VIPER rover."*
 
-1. **Start research** on a topic (e.g., researching rover specifications)
-2. **Discover new information** during the conversation (e.g., new data formats, additional specs to track)
-3. **Update the relevant skill** to include the new information we found
-4. **Continue using the improved skill** for future research
+## ✨ Why do it this way?
 
-**Example:**
-- You ask AI to research mission payloads
-- During research, you discover missions also list "technology demonstrations"
-- You update the `mission-payloads-researcher` skill to include technology demonstrations
-- Future payload research will now automatically include this information
+1. **Laziness is good!** You don't have to remember if we use "kg" or "pounds." The Skill tells the AI to use "kg."
+2. **Consistency.** Every file looks the same, which makes the whole project easier to read.
+3. **Better Data.** Our Skills remind the AI to look for specific details (like "Comms Bandwidth") that you might forget to ask for.
 
-**Why this matters:**
-- Our skills get smarter over time
-- We capture lessons learned from each research session
-- Future work benefits from past discoveries
-- The quality and completeness of our data continuously improves
+## Try it out!
 
----
+Don't be afraid to experiment.
+1. Pick a rover you like.
+2. Grab the Rover Skill.
+3. Feed it to an AI and see what it builds.
 
-## What Are "Skills"?
-
-Skills are **step-by-step instructions** stored in the `skills/` folder. Each skill teaches how to research a specific topic.
-
-### Current Skills We Have:
-
-| Skill Name | What It Does |
-|------------|--------------|
-| **lunar-rovers-expert** | Research rover specs (size, power, mobility) |
-| **lunar-landers-expert** | Research lander capabilities (payload, landing precision) |
-| **lunar-missions-expert** | Track mission timelines and outcomes |
-| **space-entities-expert** | Document companies and organizations |
-| **mission-payloads-researcher** | Find what scientific instruments missions carry |
-| **report-ecosystem-mapping** | Analyze the market landscape |
-| **report-architecture-analysis** | Analyze technical compatibility |
-
----
-
-## Simple Examples
-
-### Example 1: Adding a New Rover
-
-**You say:** "Research and add the new 'Moonlight' rover from Astrolab"
-
-**What happens:**
-1. AI checks if `rovers/MOONLIGHT.MD` exists (it doesn't)
-2. AI uses the `lunar-rovers-expert` skill to know what info to find
-3. AI researches Moonlight's specs (size, weight, power, etc.)
-4. AI creates `rovers/MOONLIGHT.MD` with all the details
-5. AI adds Moonlight to the summary in `LUNAR_ROVERS.MD`
-6. AI makes sure Astrolab is listed in `SPACE_ENTITIES.MD`
-
-### Example 2: Updating Mission Information
-
-**You say:** "Update the IM-2 mission launch date to March 2026"
-
-**What happens:**
-1. AI opens `missions/IM2.MD`
-2. AI updates the launch date
-3. AI updates the timeline in `LUNAR_MISSIONS.MD`
-4. Done!
-
----
-
-## Why This System Works
-
-✅ **Clear organization** - Everything has its place  
-✅ **Easy to update** - Change one thing without breaking others  
-✅ **Consistent quality** - Everyone follows the same standards  
-✅ **Scalable** - Can grow to hundreds of rovers/landers/missions  
-✅ **AI-friendly** - Assistants can help efficiently  
-✅ **Human-readable** - You don't need to be technical to understand
-
----
-
-## Getting Started
-
-### If You're New to the Project:
-
-1. **Read the README.MD** to understand what LORS is about
-2. **Browse the summary files** (`LUNAR_ROVERS.MD`, `LUNAR_LANDERS.MD`, etc.)
-3. **Open a few detailed files** to see what kind of information we collect
-4. **Ask an AI assistant** to help you find or add information
-
-### If You Want to Contribute:
-
-1. **Identify what you want to add** (a new rover, updated specs, etc.)
-2. **Tell an AI assistant** what you need
-3. **The AI will use our skills** to research and document it
-4. **Review the results** and suggest improvements
-
----
-
-## Questions?
-
-**"Do I need to know how to code?"**  
-No! The AI handles the technical parts. You just need to know what information you want.
-
-**"What if I make a mistake?"**  
-That's okay! We use version control (Git), so we can always go back to previous versions.
-
-**"How do I know what information to include?"**  
-Check the relevant skill in the `skills/` folder - it lists exactly what to look for.
-
-**"Can I edit files directly?"**  
-Yes! But it's often easier to ask an AI assistant to do it, especially for maintaining the proper format.
-
----
-
-## Summary
-
-We organize our work using:
-- **Separate files** for each thing (rovers, landers, missions)
-- **Skills** that teach how to research specific topics
-- **AI assistants** that follow our skills to help us work faster
-
-This keeps everything organized, consistent, and easy to grow over time.
-
----
-
-**Ready to contribute? Start by browsing the summary files or ask an AI assistant for help!**
+If it looks good, submit it! If not, just ask the AI to fix it. *You are the pilot, the AI is just the co-pilot.*
