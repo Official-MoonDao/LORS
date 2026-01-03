@@ -64,4 +64,6 @@ Blue Ghost utilizes a standard ballistic or direct transfer profile:
 ## Resources
 *   [Firefly Blue Ghost Page](https://fireflyspace.com/missions/blue-ghost-mission-1/)
 *   [Blue Ghost Payload User Guide (PUG)](https://www.scribd.com/document/907250112/Blue-Ghost-PUG)
+*   [Blue Ghost Press Kit](https://www.nasa.gov/wp-content/uploads/2025/01/np-2025-01-001-jsc-clps-firefly-press-kit-screen-508-1-10-25-final.pdf)
+*   [Blue Ghost Datasheet](https://satcatalog.s3.amazonaws.com/components/1105/SatCatalog_-_Firefly_Aerospace_-_Blue_Ghost_-_Datasheet.pdf)
 *   [Firefly Aerospace Website](https://fireflyspace.com/)
