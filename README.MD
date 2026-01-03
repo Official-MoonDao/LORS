@@ -13,8 +13,8 @@
 
 **Getting Started:**
 - [Getting Involved](#getting-involved) - Ways to contribute
-- [How We Work](AI_WORKFLOW.MD) - Understanding our workflow
-- [Contributing Guide](CONTRIBUTING.MD) - Technical setup and instructions
+- [Contributing Guide](CONTRIBUTING.MD) - How to join the project (Easy & Pro options)
+- [How We Work](AI_WORKFLOW.MD) - Advanced AI workflow guide
 
 **Project Information:**
 - [Overview](#overview)
@@ -78,8 +78,8 @@ Join [MoonDAO Discord](https://discord.com/invite/moondao)
 We welcome contributions from everyone! Whether you're a researcher, engineer, student, or space enthusiast, there are many ways to help.
 
 📚 **Start here:**
-- [How We Work](AI_WORKFLOW.MD) - Understand our workflow and how we organize information
-- [Contributing Guide](CONTRIBUTING.MD) - Technical setup and step-by-step instructions
+- [Contributing Guide](CONTRIBUTING.MD) - Step-by-step instructions for everyone
+- [How We Work](AI_WORKFLOW.MD) - Understand our AI-native workflow
 
 **Quick ways to contribute:**
 - Review and provide feedback on research reports
