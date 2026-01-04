@@ -147,7 +147,7 @@ The lunar mobility ecosystem has matured from experimental demonstrations to a *
 [^1]: Spacebit ASAGUMO rover specifications, [`rovers/ASAGUMO.MD`](../rovers/ASAGUMO.MD)
 [^2]: GITAI R1 robotic rover technical overview, [`rovers/GITAI_R1.MD`](../rovers/GITAI_R1.MD)
 [^3]: Educational rover platforms analysis, [`rovers/EDUCATIONAL_PLATFORMS.MD`](../rovers/EDUCATIONAL_PLATFORMS.MD)
-[^4]: JAXA SLIM mission results (2024), Sora-Q nano-rover performance data
+[^4]: JAXA SLIM mission results (2024), Sora-Q nano-rover performance data, [`rovers/SORA_Q.MD`](../rovers/SORA_Q.MD)
 [^5]: Ceres Robotics MoonPower Lunar Grid concept, [`landers/CERES_B5.MD`](../landers/CERES_B5.MD)
 
 *This report was generated using the `report-ecosystem-mapping` skill, synthesizing data from **20 rover profiles**, **20 lander profiles**, and **15 entity profiles** in the LORS documentation repository.*

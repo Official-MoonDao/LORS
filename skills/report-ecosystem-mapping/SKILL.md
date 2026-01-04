@@ -42,10 +42,9 @@ description: Expert skill for generating the LORS Ecosystem Mapping Document, pr
 5. **Report Writing Standards**:
    - **Academic/Scientific Rigor**: Reports should be analytical and evidence-based, using technical terminology appropriately.
    - **Simplicity & Accessibility**: Write clearly and concisely. Avoid unnecessary jargon. Explain complex concepts in straightforward language.
-   - **References**: Include citations for all factual claims, technical specifications, and data points. Reference format:
-     - Direct links to source documents (PDFs, websites, technical specs)
-     - File references for internal data (e.g., `rovers/HEMIUNU_01.MD`, `landers/BLUE_GHOST.MD`)
-     - Company/organization sources when applicable
+   - **References**: Use standard Markdown footnotes for all citations.
+     - **Strict Format**: `[^1]: <Description>, [<Filename>](../<path_to_file>)`
+     - **Example**: `[^1]: Astrobotic Griffin PUG, [landers/GRIFFIN.MD](../landers/GRIFFIN.MD)`
    - **Structure**: Use clear headings, bullet points, and tables to enhance readability.
    - **Evidence-Based**: Every conclusion should be supported by data from the primary sources.
 

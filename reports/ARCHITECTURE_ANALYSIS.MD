@@ -289,18 +289,18 @@ The analysis of **20 landers** and **20 rovers** demonstrates that **protocol di
 
 ## References
 
-[^1]: Astrobotic Griffin Payload User's Guide, RS-422/SpaceWire specifications
-[^2]: Intuitive Machines Nova-C LTE/Ethernet architecture, Nokia lunar network partnership
-[^3]: Intuitive Machines Security Architecture, NIST 800-53 compliance documentation
-[^4]: SpaceX Starship HLS power distribution architecture, 120V+ industrial interfaces
+[^1]: Astrobotic Griffin Payload User's Guide, RS-422/SpaceWire specifications, [`landers/GRIFFIN.MD`](../landers/GRIFFIN.MD)
+[^2]: Intuitive Machines Nova-C LTE/Ethernet architecture, Nokia lunar network partnership, [`landers/NOVA_C.MD`](../landers/NOVA_C.MD)
+[^3]: Intuitive Machines Security Architecture, NIST 800-53 compliance documentation, [`landers/NOVA_C.MD`](../landers/NOVA_C.MD)
+[^4]: SpaceX Starship HLS power distribution architecture, 120V+ industrial interfaces, [`landers/STARSHIP_HLS.MD`](../landers/STARSHIP_HLS.MD)
 [^5]: Ceres Robotics MoonPower Lunar Grid concept, [`landers/CERES_B5.MD`](../landers/CERES_B5.MD)
-[^6]: Astrolab FLEX heavy rover specifications, Starship HLS elevator interface requirements
+[^6]: Astrolab FLEX heavy rover specifications, Starship HLS elevator interface requirements, [`rovers/ASTROLAB_FLEX.MD`](../rovers/ASTROLAB_FLEX.MD)
 [^7]: Spacebit ASAGUMO legged rover, LiDAR-based lava tube navigation, [`rovers/ASAGUMO.MD`](../rovers/ASAGUMO.MD)
 [^8]: GITAI R1 robotic rover, infrastructure construction capabilities, [`rovers/GITAI_R1.MD`](../rovers/GITAI_R1.MD)
-[^9]: JAXA SLIM mission results (2024), Sora-Q 0.25kg nano-rover operational data
-[^10]: Lander interface matrix analysis, 28 VDC prevalence across 7 of 10 major platforms
-[^11]: Multi-protocol gateway architecture proposal, RS-422/Ethernet/LTE translation layer
-[^12]: CubeSat standard adoption analysis, USB-C power delivery for commercial electronics
+[^9]: JAXA SLIM mission results (2024), Sora-Q 0.25kg nano-rover operational data, [`rovers/SORA_Q.MD`](../rovers/SORA_Q.MD)
+[^10]: Lander interface matrix analysis, 28 VDC prevalence across 7 of 10 major platforms, [`reports/ARCHITECTURE_ANALYSIS.MD`](../reports/ARCHITECTURE_ANALYSIS.MD)
+[^11]: Multi-protocol gateway architecture proposal, RS-422/Ethernet/LTE translation layer, [`reports/ARCHITECTURE_ANALYSIS.MD`](../reports/ARCHITECTURE_ANALYSIS.MD)
+[^12]: CubeSat standard adoption analysis, USB-C power delivery for commercial electronics, [`rovers/CUBEROVER.MD`](../rovers/CUBEROVER.MD)
 [^13]: LORS rover software proposal, command abstraction layer design, [`ROVER_SOFTWARE_PROPOSAL.MD`](../ROVER_SOFTWARE_PROPOSAL.MD)
 
 *This report was generated using the `report-architecture-analysis` skill based on refined technical metrics of **20 landers** and **20 rovers** documented in the LORS repository.*
