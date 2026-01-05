@@ -2,7 +2,7 @@
 
 ## Methodology
 
-The LORS project employs a qualitative research methodology grounded in customer development principles to identify genuine friction points in lunar rover design. Between December 2025 and January 2026, we conducted deep-dive interviews with stakeholders across the commercial, educational, and systems architecture sectors. Our approach focuses on extracting concrete technical challenges from past projects rather than hypothetical opinions, ensuring the standard addresses verified industry needs. The full question set used for this research is available in the [LORS Interview Questions](../LORS_Interview%20questions.md).
+The LORS project employs a qualitative research methodology grounded in customer development principles to identify genuine friction points in lunar rover design. Between December 2025 and January 2026, we conducted deep-dive interviews with stakeholders across the commercial, educational, and systems architecture sectors. Our approach focuses on extracting concrete technical challenges from past projects rather than hypothetical opinions, ensuring the standard addresses verified industry needs. The full question set used for this research is available in the [LORS Interview Questions](https://github.com/Official-MoonDao/LORS/blob/main/LORS_Interview%20questions.md).
 
 ## Anonymized Stakeholder Findings
 
