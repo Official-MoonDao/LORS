@@ -11,6 +11,7 @@ Below are a list of design concepts or principles we should consider for inclusi
 - Maximize innovation, acceleration from design to flight, and reliability.
 - Minimize cost, design/build/testing time, and barriers to entry.
 - Address the financial and cognitive limitations of designers constructively to remove barriers to entry for students and entry level team members. 
+- **Counter Vendor Lock-in**: Provide an open interoperability standard to counter natural commercial tendencies towards proprietary silos. Individual companies often lack the incentive to ensure plug-and-play compatibility; this standard aims to bridge that gap. 
 
 
 ## CubeSat Standards Integration
@@ -108,6 +109,34 @@ Applies to the standard itself, but extends to subcomponents.
 ### Specifics
 Consider clustering standards in seven blocks of seven rules.
 Where systems exceed this ability to capture the concept, break that system into its own block of 50 parameters and describe it as a complete, self-contained system (a given chip or drive train, for example). This allows generalists to see it from the outside as a single system and specialists to work within that system in detail. Most systems can be broken down into a 7 x 7 x 7 third dimension of organization, or 343 components of organizational structure.  Mentally, one simply flips from the X-Y axis of a single subject or scale to the X-Z or Y-Z grid if the taxonomy is clearly three dimensional. 
+
+## Software & Simulation First
+### Description
+Prioritize software architecture and simulation environments as a primary design driver, often placing them ahead of hardware decisions.
+### Background
+Software architectures are frequently more critical to mission success than hardware architectures but are often overlooked in early design phases.  A robust simulation environment allows for rapid iterator and validation of logic before metal is cut. "Digital Twins" are standard in advanced industry; LORS should democratize this.
+### Principles
+*   **Simulate First**: Development should begin in a high-fidelity simulation environment.
+*   **Hardware Abstraction**: Software should be written to run on the standard, not just the specific hardware instance, allowing portability.
+### Design Levels
+System Architecture.
+### Specifics
+*   Include standard simulation environments (e.g., Gazebo, Unity-based sims) as part of the core LORS release.
+*   Define hardware specifications by their software interfaces (APIs) first.
+
+## Interoperability & Mesh Networks
+### Description
+Extend the concept of modularity from "parts within a rover" to "interoperability between rovers."
+### Background
+In a multi-vendor lunar future, rovers from different organizations should be able to communicate, share data, and potentially aid one another.  Without a standard, vendors will build closed ecosystems (silos).  Passive mesh networking allows rovers to act as relays for one another, extending range and resilience.
+### Principles
+*   **Silo-Breaking**: Explicitly design interfaces that allow Competitor A's rover to talk to Competitor B's lander or rover.
+*   **Mesh Native**: Command and Control (C2) architectures should default to assuming a mesh capability.
+### Design Levels
+Communications and C2 Architecture.
+### Specifics
+*   Standardize protocols for passive mesh networking.
+*   Define common data exchange formats for situational awareness (location, obstacles, battery status) to allow cooperative behavior. 
 
 
 
