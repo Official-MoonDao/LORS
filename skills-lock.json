@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "skills": {
+    "communications-assessment": {
+      "source": "LunCoSim/space-engineering-skills",
+      "sourceType": "github",
+      "computedHash": "6acebf5bb8ea7979ad43e83c061cc5224f8c2e0471fc4bb36fa96bac665d6195"
+    },
+    "lunar-conops-manager": {
+      "source": "LunCoSim/space-engineering-skills",
+      "sourceType": "github",
+      "computedHash": "19cecce060b916b0593348e25d7911589ca7f54e6fef2f2d14bbb0ac0ea06d20"
+    },
+    "payload-assessment": {
+      "source": "LunCoSim/space-engineering-skills",
+      "sourceType": "github",
+      "computedHash": "8b0504c0015ca775ad8615d2fb0e097a427eb79728ced39e4f3765fe64c59d67"
+    },
+    "power-assessment": {
+      "source": "LunCoSim/space-engineering-skills",
+      "sourceType": "github",
+      "computedHash": "11fe1ed0c7418906dccca458de66a188f5fd6a5b2bc5add5026b68b92b6e4608"
+    },
+    "requirements-manager": {
+      "source": "LunCoSim/space-engineering-skills",
+      "sourceType": "github",
+      "computedHash": "3e451d7223bd0e8824b32f46f0d5077d7fd9c82814b6c319f25d1f00bf579ed2"
+    },
+    "structural-assessment": {
+      "source": "LunCoSim/space-engineering-skills",
+      "sourceType": "github",
+      "computedHash": "77bfe0f84acde15f1b4bda735866c996c6a5bbafcb60cd74b6fe92528161f8d9"
+    },
+    "systems-engineering-assessment": {
+      "source": "LunCoSim/space-engineering-skills",
+      "sourceType": "github",
+      "computedHash": "b1998b63ead76027f53387964304cbbf9a63e8ab4d56f2c4e7c045b09356bf96"
+    },
+    "thermal-assessment": {
+      "source": "LunCoSim/space-engineering-skills",
+      "sourceType": "github",
+      "computedHash": "a86965ab35d9a62a838cbba9ab082a463640c962cd04a11d4498aca970f9c361"
+    },
+    "v-and-v-manager": {
+      "source": "LunCoSim/space-engineering-skills",
+      "sourceType": "github",
+      "computedHash": "4d7acb742513d8c6d97adf4aba233ec547fad01a51ae42db7b013b3e85048df2"
+    }
+  }
+}
