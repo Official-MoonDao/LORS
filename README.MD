@@ -32,10 +32,29 @@
 - [Analysis State](ANALYSIS_STATE.MD)
 - [Skills](skills/) - AI research instructions
 
+**System Model (SysML v2):**
+- [Model Overview](model/README.md) - Machine-readable standard definition
+- [System Architecture](model/system/lors_system.sysml) - Rover, lander & subsystem definitions
+- [Requirements](model/requirements/system_requirements.sysml) - 40 formal requirements with traceability
+- [Budget Requirements](model/requirements/budget_requirements.sysml) - Quantitative mass, power, link & thermal constraints
+
 **Reports:**
 - [Architecture Analysis](reports/ARCHITECTURE_ANALYSIS.MD) - Interface standardization & technical architecture analysis
 - [Ecosystem Mapping](reports/ECOSYSTEM_MAPPING.MD) - Project profiles & delivery provider assessment
 - [Standards Analysis](reports/STANDARDS_ANALYSIS.MD) - Evaluation of institutional and commercial space standards
+
+## System Model (SysML v2)
+
+The LORS standard is formally defined as a **SysML v2 textual model** in the [`model/`](model/) directory. This makes the standard machine-readable, version-controlled, and automatically verifiable — treating standards-as-code rather than standards-as-PDFs.
+
+The model covers:
+- **System architecture** — Rover classes (Heavy/Micro/Nano), subsystem decomposition, lander interfaces
+- **40 formal requirements** — "Shall" statements with embedded constraint expressions for automated compliance checking
+- **Standard interfaces** — Port definitions for power (28 VDC baseline), data (Ethernet/RS-422/Wi-Fi), and mechanical (CubeSat 10 cm grid)
+- **Operational behaviors** — State machines, 15 command primitives, mission lifecycle
+- **Applicable standards catalog** — CubeSat, CCSDS, LunaNet, ASTM E595, MIL-STD-461G, and more
+
+All `.sysml` files are plain text and can be opened in any editor. For graphical visualization, use [Eclipse SysON](https://eclipse.dev/syson/) (free, open-source). See the [Model README](model/README.md) for details.
 
 ## Overview
 
