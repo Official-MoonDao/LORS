@@ -98,12 +98,21 @@ All `.sysml` files are plain text — open in any editor. Key patterns:
 
 | Tool | Import Method |
 |------|--------------|
+| [sysand](https://github.com/sensmetry/sysand) | **Primary model manager** (package management, CI/CD, build) |
 | [Eclipse SysON](https://eclipse.dev/syson/) | Open `.sysml` files directly (free, open-source) |
 | [Cameo Systems Modeler](https://www.3ds.com/products/catia/no-magic/cameo-systems-modeler) | Import SysML v2 textual |
 | [Syndeia](https://intercax.com/products/syndeia/) | Federation with PLM/ALM tools |
 | Custom scripts | Parse with [SysML v2 API/Services](https://github.com/Systems-Modeling) |
 
-### 3. Extend the Model
+### 3. Manage with sysand
+
+LORS uses `sysand` to manage the model lifecycle. Key commands:
+
+- **Sync Env**: `sysand sync` (Installs SysML v2 standard libraries)
+- **Check Sources**: `sysand sources` (Verify all files are tracked)
+- **Build Partition**: `sysand build --include-std` (Generates a `.kpar` file for tool interchange)
+
+### 4. Extend the Model
 
 To add a new subsystem or requirement:
 1. Define types in `library/units_and_types.sysml`
@@ -111,7 +120,8 @@ To add a new subsystem or requirement:
 3. Add the `part def` in `system/lors_system.sysml`
 4. Write requirements in `requirements/`
 5. Add budget constraints in `analysis/budgets.sysml`
-6. Link requirements to model elements via `satisfy` relationships
+6. Include new files: `sysand include path/to/file.sysml`
+7. Link requirements to model elements via `satisfy` relationships
 
 ## Roadmap
 

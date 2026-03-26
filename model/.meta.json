@@ -1,0 +1,52 @@
+{
+  "index": {
+    "LORS_AnalysisTemplate": "analysis/budgets.sysml",
+    "LORS_Interfaces": "library/interfaces.sysml",
+    "LORS_StandardsCatalog": "library/standards_catalog.sysml",
+    "LORS_Types": "library/units_and_types.sysml",
+    "LORS_BudgetRequirements": "requirements/budget_requirements.sysml",
+    "LORS_Requirements": "requirements/system_requirements.sysml",
+    "LORS_System": "system/lors_system.sysml",
+    "LORS_Operations": "system/operations.sysml",
+    "LORS_RoverClasses": "system/rover_classes.sysml"
+  },
+  "created": "2026-03-26T12:21:37.899648468Z",
+  "checksum": {
+    "analysis/budgets.sysml": {
+      "value": "",
+      "algorithm": "NONE"
+    },
+    "library/interfaces.sysml": {
+      "value": "",
+      "algorithm": "NONE"
+    },
+    "library/standards_catalog.sysml": {
+      "value": "",
+      "algorithm": "NONE"
+    },
+    "library/units_and_types.sysml": {
+      "value": "",
+      "algorithm": "NONE"
+    },
+    "requirements/budget_requirements.sysml": {
+      "value": "",
+      "algorithm": "NONE"
+    },
+    "requirements/system_requirements.sysml": {
+      "value": "",
+      "algorithm": "NONE"
+    },
+    "system/lors_system.sysml": {
+      "value": "",
+      "algorithm": "NONE"
+    },
+    "system/operations.sysml": {
+      "value": "",
+      "algorithm": "NONE"
+    },
+    "system/rover_classes.sysml": {
+      "value": "",
+      "algorithm": "NONE"
+    }
+  }
+}
